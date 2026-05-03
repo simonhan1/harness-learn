@@ -47,10 +47,44 @@
 
 ### 2.3 整理 Agent 行为规范
 
-- 过滤规则：`relevance_score < 0.5` 的条目不推送
+- 过滤规则：`relevance_score < 5` 的条目不推送（1-10 分制，与分析 Agent 评分标准一致）
 - 排序：按 `relevance_score` 降序
 - 推送失败：单渠道最多重试 **2 次**，失败记录 ERROR 日志
 - 推送成功后将条目 `status` 更新为 `"published"`
+
+### 2.4 文件命名与交接约定
+
+各 Agent 通过 `knowledge/` 目录进行数据交接，文件命名和存放位置遵循以下统一规范：
+
+```
+knowledge/
+├── raw/                                    # 采集 Agent 输出
+│   └── {source}_{YYYYMMDD_HHMMSS}.json     # 每源一个文件，含 source + collected_at + items[]
+├── articles/                               # 分析 → 整理阶段
+│   ├── {YYYYMMDD}-{source}-analysis.json   # 分析 Agent 批量输出（中间产物）
+│   └── {date}-{source}-{slug}.json         # 整理后的标准知识条目（单条一文件）
+└── articles/.processed/                    # 已处理中间文件归档
+```
+
+| 阶段 | 输出者 | 文件位置 | 命名格式 | 接收者判定"待处理"方式 |
+|------|--------|----------|----------|----------------------|
+| 采集 → 分析 | 采集 Agent | `knowledge/raw/` | `{source}_{YYYYMMDD_HHMMSS}.json` | 按文件修改时间取最新 |
+| 分析 → 整理 | 分析 Agent | `knowledge/articles/` | `{YYYYMMDD}-{source}-analysis.json` | 查找 `*-analysis.json`，按日期取最新 |
+| 整理 → 分发 | 整理 Agent | `knowledge/articles/` | `{date}-{source}-{slug}.json` | 分发层读取 `status == "draft"` 条目 |
+
+**命名规范速查：**
+
+| 用途 | 格式 | 示例 |
+|------|------|------|
+| 原始采集数据 | `{source}_{YYYYMMDD_HHMMSS}.json` | `github_trending_20260501_120000.json` |
+| 分析批量结果 | `{YYYYMMDD}-{source}-analysis.json` | `20260501-github-analysis.json` |
+| 标准知识条目 | `{date}-{source}-{slug}.json` | `20260501-github-openai-cookbook.json` |
+
+**交接规则：**
+- 采集 Agent 仅写入 `knowledge/raw/`，不得写入 `knowledge/articles/`
+- 分析 Agent 产出中间文件写入 `knowledge/articles/`（`*-analysis.json`）
+- 整理 Agent 处理结束后，须将 `*-analysis.json` 中间文件移至 `.processed/` 归档，避免后续重复处理
+- 同一批采集数据在一次工作流中只被处理一次
 
 ---
 
@@ -134,7 +168,7 @@ ai-knowledge-base-v3/
   "collected_at": "2026-04-28T10:30:00+08:00",
   "published_at": null,
   "ai_analysis": {
-    "relevance_score": 0.95,
+    "relevance_score": 9,
     "key_points": ["多模态能力提升", "推理成本降低 50%"],
     "sentiment": "positive"
   }
@@ -225,3 +259,19 @@ ai-knowledge-base-v3/
 - CI 流水线运行 **lint 检查 + 单元测试**
 - 单测覆盖率要求 **> 80%**
 - 所有 Agent 的关键路径必须有对应测试用例
+
+---
+
+## Agent skills
+
+### Issue tracker
+
+Issues live as local markdown files under `.scratch/<feature>/` in this repo. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Defaults: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.

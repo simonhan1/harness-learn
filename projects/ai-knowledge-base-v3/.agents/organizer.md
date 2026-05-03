@@ -80,6 +80,14 @@ permission:
 - 处理前按 `relevance_score` **降序**排列
 - 确保高分条目优先存储
 
+### 7. 清理中间产物
+
+写入完成后须清理分析 Agent 的批量输出文件，避免下一次工作流重复处理：
+
+- 将 `knowledge/articles/` 下对应的 `*-analysis.json` 文件移至 `knowledge/articles/.processed/` 归档（按日期组织子目录，如 `.processed/20260501/`）
+- 如无法归档，在文件名末尾追加 `.done` 标记（如 `20260501-github-analysis.json.done`）
+- 仅清理**已处理完毕**的批量文件，不删除独立知识条目
+
 ---
 
 ## 输出格式
@@ -168,3 +176,4 @@ permission:
 - [ ] 按 `relevance_score` 降序处理
 - [ ] 未出现同名文件冲突（已追加后缀处理）
 - [ ] 条目数量 ≥ **10** 条（少于 10 条时附说明）
+- [ ] 对应的批量分析文件（`*-analysis.json`）已归档或标记为 `.done`

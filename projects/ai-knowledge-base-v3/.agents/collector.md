@@ -37,8 +37,10 @@ permission:
 
 | 源 | URL | 说明 |
 |----|-----|------|
-| GitHub Trending | `https://github.com/trending?since=daily` | 抓取当日 Trending 仓库列表 |
+| GitHub Trending | `https://github.com/trending?since=weekly` | 抓取本周 Trending 仓库列表 |
 | Hacker News | `https://news.ycombinator.com/` | 抓取首页热帖 |
+
+> **必须同时采集两个数据源**。经实测，GitHub Trending 单源 AI 相关内容约 10 条，需配合 Hacker News 方可达到 15 条以上的总量要求。每源独立输出一个 raw 文件。
 
 **采集策略：**
 - 从页面内容中提取 AI/LLM/Agent 相关的条目（库、文章、工具、论文）
@@ -53,46 +55,58 @@ permission:
 
 | 字段 | 类型 | 说明 | 必填 |
 |------|------|------|------|
-| `title` | `str` | 项目名称 / 文章标题 | 是 |
+| `name` | `str` | 项目名称（GitHub: `owner/repo` 格式；HN: 帖子原标题） | 是 |
 | `url` | `str` | 原文链接（GitHub 仓库链接 / HN 帖子链接） | 是 |
-| `source` | `str` | 来源标识：`github_trending` 或 `hacker_news` | 是 |
-| `popularity` | `int` | 热度指标（GitHub: stars 数；HN: points 数） | 是 |
-| `summary` | `str` | 1-3 句**中文**摘要，描述该项目/文章的核心内容 | 是 |
+| `description` | `str` | 原始描述文本（GitHub: repo description；HN: 帖子正文首段） | 是 |
+| `stars` | `int` | 热度指标（GitHub: 本周新增 stars 数；HN: points 数） | 是 |
+| `language` | `str\|null` | 编程语言（GitHub 仓库主语言；HN 条目为 `null`） | 否 |
+
+> **注意**：采集阶段**不生成中文摘要**。`description` 保留页面原始文本，摘要和翻译由分析 Agent 在后续阶段生成。
 
 ### 3. 初步筛选
 
 - 剔除与 AI/LLM/Agent 无关的条目
-- 剔除信息不完整的条目（缺少 title 或 url）
+- 剔除信息不完整的条目（缺少 `name` 或 `url`）
 - 保留质量较高的内容（有实质性描述、非纯广告/水帖）
 
 ### 4. 排序输出
 
-- 按 `popularity` **降序**排列
+- 按 `stars` **降序**排列（GitHub weekly stars 与 HN points 混合排序）
 
 ---
 
 ## 输出格式
 
-输出一个 JSON 数组，每条记录结构如下：
+输出写入 `knowledge/raw/`，文件命名格式 `{source}_{YYYYMMDD_HHMMSS}.json`（与 AGENTS.md 第 2.1 节一致）。
 
 ```json
-[
-  {
-    "title": "openai-cookbook",
-    "url": "https://github.com/openai/openai-cookbook",
-    "source": "github_trending",
-    "popularity": 2340,
-    "summary": "OpenAI 官方示例和指南集合，涵盖 GPT-4、ChatGPT、Embeddings 等 API 的最佳实践用法。"
-  },
-  {
-    "title": "Show HN: I built an open-source RAG pipeline for production",
-    "url": "https://news.ycombinator.com/item?id=xxxxx",
-    "source": "hacker_news",
-    "popularity": 452,
-    "summary": "一个面向生产环境的开源 RAG 流水线，支持多文档类型解析、向量检索和 LLM 重排序。"
-  }
-]
+{
+  "source": "github_trending",
+  "collected_at": "2026-04-28T10:30:00+08:00",
+  "items": [
+    {
+      "name": "openai/openai-cookbook",
+      "url": "https://github.com/openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "stars": 2340,
+      "language": "Python"
+    },
+    {
+      "name": "Show HN: I built an open-source RAG pipeline",
+      "url": "https://news.ycombinator.com/item?id=xxxxx",
+      "description": "A production-ready RAG pipeline with multi-document parsing, vector retrieval and LLM reranking",
+      "stars": 452,
+      "language": null
+    }
+  ]
+}
 ```
+
+| 字段 | 说明 |
+|------|------|
+| `source` | 数据源标识：`github_trending` 或 `hacker_news` |
+| `collected_at` | 采集时间（ISO 8601，东八区） |
+| `items` | 条目数组，按 `stars` 降序排列 |
 
 ---
 
@@ -100,11 +114,14 @@ permission:
 
 输出前按以下清单逐项检查：
 
-- [ ] 条目数量 **≥ 15** 条
-- [ ] 每条记录 `title`、`url`、`source`、`popularity`、`summary` 五个字段均非空
-- [ ] `summary` 必须是**中文**撰写，不照搬英文原文
+- [ ] **双源采集** — GitHub Trending 与 Hacker News 均已抓取并输出独立文件
+- [ ] 条目总量 **≥ 15** 条（两源合并非 AI 过滤后的总数；少于 15 条时附说明）
+- [ ] 每条记录 `name`、`url`、`description`、`stars` 四个字段均非空
+- [ ] `language` 字段：GitHub 条目填写真实编程语言，HN 条目设为 `null`
 - [ ] 不编造任何内容 — 所有信息必须来源于实际抓取到的页面内容
 - [ ] `source` 字段值必须是 `github_trending` 或 `hacker_news`，不准使用其他值
-- [ ] `popularity` 必须是真实数值（GitHub 用 stars 数，HN 用 points 数）
-- [ ] GitHub 的 `title` 格式为 `owner/repo`，HN 的 `title` 为帖子原文标题
+- [ ] `stars` 必须是真实数值（GitHub 用每周新增 stars，HN 用 points 数）
+- [ ] GitHub 的 `name` 格式为 `owner/repo`，HN 的 `name` 为帖子原文标题
 - [ ] 所有 URL 必须完整且可直接访问
+- [ ] 文件命名符合 `{source}_{YYYYMMDD_HHMMSS}.json` 格式
+- [ ] `collected_at` 为有效 ISO 8601 时间戳（东八区）
