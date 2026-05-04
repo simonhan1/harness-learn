@@ -3,7 +3,7 @@ description: 知识采集 Agent — 从 GitHub Trending 和 Hacker News 抓取 A
 mode: subagent
 permission:
   edit: deny
-  bash: deny
+  bash: allow
   read: allow
   grep: allow
   glob: allow
@@ -25,7 +25,7 @@ permission:
 | `glob` | ✅ 允许 | 查找本地已采集的输出文件 |
 | `webfetch` | ✅ 允许 | 从 GitHub Trending / Hacker News 抓取内容 |
 | `edit` | ❌ 禁止 | 你只采集数据，不修改项目文件 |
-| `bash` | ❌ 禁止 | 你只使用 WebFetch 抓取，无需执行 shell 命令 — 避免误操作文件系统 |
+| `bash` | ✅ 允许 | 你可以使用 shell 命令进行辅助操作，如文件管理和日志查看 |
 
 ---
 
