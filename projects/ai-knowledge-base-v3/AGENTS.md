@@ -14,8 +14,6 @@
 |------|------|
 | 语言 | Python 3.12 |
 | 编排 | OpenCode + 国产大模型（DeepSeek / Qwen 等） |
-| 工作流 | LangGraph（状态图驱动 Agent 协作） |
-| 抓取 | OpenClaw（声明式采集框架） |
 | 存储 | JSON 文件（本地）+ 后续可扩展数据库 |
 | 分发 | Telegram Bot API / 飞书自定义机器人 |
 
@@ -23,13 +21,13 @@
 
 ## 2. Agent 协作流程（最高优先级）
 
-项目由三个 Agent 通过 LangGraph 编排为有向无环图（DAG），采集完成后自动触发分析，分析完成后自动触发整理。
+项目由三个 Agent 构成采集 → 分析 → 整理的流水线，各 Agent 通过 `knowledge/` 目录中的 JSON 文件进行数据交接。
 
-| Agent | 职责 | 输入 | 输出 | 触发条件 |
+| Agent | 职责 | 输入 | 输出 | 调用方式 |
 |-------|------|------|------|----------|
-| **采集** (`collector`) | 从 GitHub Trending / Hacker News 抓取 AI 相关内容，去噪、过滤非 AI 内容 | 空（定时触发）或手动指定数据源 | `knowledge/raw/*.json` | 定时任务触发 / 手动触发 |
-| **分析** (`analyzer`) | 调用大模型对原始内容去重、分类、摘要、评分 | `knowledge/raw/*.json` | `knowledge/articles/*.json` | 采集完成事件 |
-| **整理** (`curator`) | 过滤低质量条目、排序、触发多渠道分发 | `knowledge/articles/*.json` | 分发消息（Telegram / 飞书） | 分析完成事件 |
+| **采集** (`collector`) | 从 GitHub Trending / Hacker News 抓取 AI 相关内容，去噪、过滤非 AI 内容 | 用户指定数据源或执行全量采集 | `knowledge/raw/*.json` | 用户指令触发 |
+| **分析** (`analyzer`) | 调用大模型对原始内容去重、分类、摘要、评分 | `knowledge/raw/*.json` | `knowledge/articles/*.json` | 用户指令触发 |
+| **整理** (`curator`) | 过滤低质量条目、排序、触发多渠道分发 | `knowledge/articles/*.json` | 分发消息（Telegram / 飞书） | 用户指令触发 |
 
 ### 2.1 采集 Agent 行为规范
 
@@ -134,7 +132,7 @@ def fetch_trending(top_n: int = 30) -> list[dict]:
 ai-knowledge-base-v3/
 ├── AGENTS.md
 ├── pyproject.toml
-├── .agents/                  # Agent 定义（LangGraph 图配置 + Agent 提示词）
+├── .agents/                  # Sub-agent 定义 + Skill 定义
 ├── src/
 │   ├── collector/            # 采集层（GitHub Trending / Hacker News）
 │   ├── analyzer/             # AI 分析层（去重、分类、摘要、评分）
@@ -199,13 +197,23 @@ ai-knowledge-base-v3/
     {
       "name": "owner/repo",
       "url": "https://github.com/owner/repo",
-      "description": "repo description",
+      "description": "repo description（英文原文，不翻译）",
       "stars": 1234,
-      "language": "Python"
+      "language": "Python",
+      "topics": ["ai", "llm", "agent"]
     }
   ]
 }
 ```
+
+| 字段 | 类型 | 必填 | 说明 |
+|------|------|------|------|
+| `name` | `str` | 是 | `owner/repo` 格式 |
+| `url` | `str` | 是 | 仓库 GitHub 链接 |
+| `description` | `str` | 是 | 原始英文描述，**采集阶段不生成中文摘要** |
+| `stars` | `int` | 是 | 总 Star 数 |
+| `language` | `str` | 是 | 主编程语言，无则为 `""` |
+| `topics` | `list[str]` | 否 | GitHub 话题标签列表，无则为 `[]` |
 
 ---
 

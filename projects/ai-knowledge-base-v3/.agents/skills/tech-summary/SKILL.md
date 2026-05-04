@@ -17,7 +17,7 @@ allowed-tools: Read, Grep, Glob, WebFetch
 
 ### 步骤 1：读取最新采集文件
 
-使用 `Glob` 查找 `knowledge/raw/github-trending-*.json` 中最新的文件，`Read` 读取全部条目。
+使用 `Glob` 查找 `knowledge/raw/` 下最新的 JSON 文件（按修改时间），`Read` 读取全部条目。
 若未找到，输出提示并结束。
 
 ### 步骤 2：逐条深度分析
@@ -65,7 +65,7 @@ allowed-tools: Read, Grep, Glob, WebFetch
   "source": "github_trending",
   "skill": "tech-summary",
   "analyzed_at": "2026-05-03T14:30:00+08:00",
-  "input_file": "github-trending-2026-05-03.json",
+  "input_file": "github_trending_20260503_130258.json",
   "trends": {
     "common_themes": ["多Agent协作", "本地化AI部署"],
     "new_concepts": ["Graph RAG", "MCP协议"],

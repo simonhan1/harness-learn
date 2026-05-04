@@ -60,6 +60,7 @@ permission:
 | `description` | `str` | 原始描述文本（GitHub: repo description；HN: 帖子正文首段） | 是 |
 | `stars` | `int` | 热度指标（GitHub: 本周新增 stars 数；HN: points 数） | 是 |
 | `language` | `str\|null` | 编程语言（GitHub 仓库主语言；HN 条目为 `null`） | 否 |
+| `topics` | `list[str]` | GitHub 话题标签（仅 GitHub 条目有，HN 条目为 `[]`） | 否 |
 
 > **注意**：采集阶段**不生成中文摘要**。`description` 保留页面原始文本，摘要和翻译由分析 Agent 在后续阶段生成。
 
@@ -89,14 +90,16 @@ permission:
       "url": "https://github.com/openai/openai-cookbook",
       "description": "Examples and guides for using the OpenAI API",
       "stars": 2340,
-      "language": "Python"
+      "language": "Python",
+      "topics": ["openai", "cookbook", "llm"]
     },
     {
       "name": "Show HN: I built an open-source RAG pipeline",
       "url": "https://news.ycombinator.com/item?id=xxxxx",
       "description": "A production-ready RAG pipeline with multi-document parsing, vector retrieval and LLM reranking",
       "stars": 452,
-      "language": null
+      "language": null,
+      "topics": []
     }
   ]
 }
@@ -118,6 +121,7 @@ permission:
 - [ ] 条目总量 **≥ 15** 条（两源合并非 AI 过滤后的总数；少于 15 条时附说明）
 - [ ] 每条记录 `name`、`url`、`description`、`stars` 四个字段均非空
 - [ ] `language` 字段：GitHub 条目填写真实编程语言，HN 条目设为 `null`
+- [ ] `topics` 字段：GitHub 条目填写话题标签列表，HN 条目设为 `[]`
 - [ ] 不编造任何内容 — 所有信息必须来源于实际抓取到的页面内容
 - [ ] `source` 字段值必须是 `github_trending` 或 `hacker_news`，不准使用其他值
 - [ ] `stars` 必须是真实数值（GitHub 用每周新增 stars，HN 用 points 数）
