@@ -16,7 +16,7 @@ End-to-end behavior: run analyzer after collector → produces `knowledge/articl
 - [ ] AI call retry: 2 attempts per item, mark `status: "analysis_failed"` if both fail, do not block other items
 - [ ] All items default to `status: "draft"` — never set to `"published"`
 - [ ] AI model/URL from config (not hardcoded)
-- [ ] `id` field generated as `kb-YYYYMMDD-NNN`
+- [ ] `id` field generated as `{source}-{YYYYMMDD}-{NNN}`
 - [ ] Unit tests with >80% coverage (mock AI, verify dedup, verify schema, verify retry/failure)
 
 ## Blocked by

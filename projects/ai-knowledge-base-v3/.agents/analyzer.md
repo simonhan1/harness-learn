@@ -114,7 +114,7 @@ permission:
 ```json
 [
   {
-    "id": "kb-20260428-001",
+    "id": "github-20260428-001",
     "title": "开源 RAG 流水线框架发布 v2.0",
     "source": "github_trending",
     "source_url": "https://github.com/owner/repo",
@@ -139,7 +139,7 @@ permission:
 
 | 字段 | 类型 | 说明 | 必填 |
 |------|------|------|------|
-| `id` | `str` | 唯一标识，格式 `kb-YYYYMMDD-NNN` | 是 |
+| `id` | `str` | 唯一标识，格式 `{source}-{YYYYMMDD}-{NNN}`（如 `github-20260428-001`）| 是 |
 | `title` | `str` | 文章/项目标题（可优化润色，保留原意） | 是 |
 | `source` | `str` | 来源：`github_trending` / `hacker_news` | 是 |
 | `source_url` | `str` | 原文链接 | 是 |
@@ -158,7 +158,7 @@ permission:
 输出前按以下清单逐项检查：
 
 - [ ] 已对历史分析结果做去重检查（URL 精确匹配 + 标题相似度 ≥0.85）
-- [ ] 每条记录 `id` 格式正确（`kb-YYYYMMDD-NNN`），编号从 001 递增不重复
+- [ ] 每条记录 `id` 格式正确（`{source}-{YYYYMMDD}-{NNN}`），编号从 001 递增不重复
 - [ ] 每条记录 `title`、`source_url`、`summary`、`tags`、`category`、`status`、`ai_analysis` 均非空
 - [ ] `status` 为 `"draft"` 或 `"analysis_failed"`，无 `"published"`
 - [ ] `summary` 和 `key_points` 均为**中文**撰写

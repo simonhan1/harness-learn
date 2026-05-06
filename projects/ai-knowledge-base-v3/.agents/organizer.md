@@ -96,7 +96,7 @@ permission:
 
 ```json
 {
-  "id": "kb-20260428-001",
+  "id": "github-20260428-001",
   "title": "开源 RAG 流水线框架发布 v2.0",
   "source": "github_trending",
   "source_url": "https://github.com/owner/repo",
@@ -120,7 +120,7 @@ permission:
 
 | 字段 | 类型 | 说明 | 必填 |
 |------|------|------|------|
-| `id` | `str` | 唯一标识，格式 `kb-YYYYMMDD-NNN` | 是 |
+| `id` | `str` | 唯一标识，格式 `{source}-{YYYYMMDD}-{NNN}`（如 `github-20260428-001`）| 是 |
 | `title` | `str` | 文章/项目标题 | 是 |
 | `source` | `str` | 来源：`github_trending` / `hacker_news` | 是 |
 | `source_url` | `str` | 原文链接 | 是 |
