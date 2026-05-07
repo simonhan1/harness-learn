@@ -20,13 +20,22 @@ logger = logging.getLogger(__name__)
 REQUIRED_FIELDS: dict[str, type] = {
     "id": str,
     "title": str,
+    "source": str,
     "source_url": str,
     "summary": str,
     "tags": list,
+    "category": str,
     "status": str,
 }
 
-VALID_STATUSES: set[str] = {"draft", "review", "published", "archived"}
+VALID_CATEGORIES: set[str] = {
+    "model_release",
+    "agent_framework",
+    "tool",
+    "paper",
+    "opinion",
+}
+VALID_STATUSES: set[str] = {"draft", "published", "archived", "analysis_failed"}
 VALID_AUDIENCES: set[str] = {"beginner", "intermediate", "advanced"}
 
 ID_PATTERN = re.compile(r"^[a-z][a-z0-9_]*-\d{8}-\d{3}$")
@@ -116,6 +125,22 @@ def validate_entry(data: dict[str, Any], filepath: Path) -> list[str]:
         errors.append(
             f"{prefix}: invalid ID format '{_id}', "
             f"expected {{source}}-{{YYYYMMDD}}-{{NNN}} (e.g. github-20260317-001)"
+        )
+
+    # Source enum
+    _source = data.get("source")
+    if isinstance(_source, str) and _source not in {"github_trending", "hacker_news"}:
+        errors.append(
+            f"{prefix}: invalid source '{_source}', "
+            f"allowed: github_trending, hacker_news"
+        )
+
+    # Category enum
+    _category = data.get("category")
+    if isinstance(_category, str) and _category not in VALID_CATEGORIES:
+        errors.append(
+            f"{prefix}: invalid category '{_category}', "
+            f"allowed: {', '.join(sorted(VALID_CATEGORIES))}"
         )
 
     # Status enum
