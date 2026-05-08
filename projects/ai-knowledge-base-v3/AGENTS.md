@@ -270,6 +270,36 @@ ai-knowledge-base-v3/
 
 ---
 
+## 11. 环境管理
+
+### Python 版本
+
+- 要求 **Python 3.12**
+- 使用 **conda** 管理虚拟环境，环境名：`harness_learn`
+
+### 依赖管理
+
+- 依赖通过项目根目录的 `requirements.txt` 声明
+- 核心依赖：
+  - `httpx` — HTTP 请求（LLM API 调用）
+  - `python-dotenv` — 从 `.env` 文件加载环境变量
+
+### 环境初始化
+
+```bash
+# 创建并激活 conda 环境
+conda create -n harness_learn python=3.12 -y
+conda activate harness_learn
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 复制环境变量模板（按需填写真实值）
+cp .env.example .env
+```
+
+---
+
 ## Agent skills
 
 ### Issue tracker
