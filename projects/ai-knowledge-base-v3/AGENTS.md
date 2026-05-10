@@ -276,6 +276,7 @@ ai-knowledge-base-v3/
 
 - 要求 **Python 3.12**
 - 使用 **conda** 管理虚拟环境，环境名：`harness_learn`
+- 若发现 Python 依赖包不存在，请先更新 requirements.txt，再执行 `pip install -r requirements.txt`
 
 ### 依赖管理
 
