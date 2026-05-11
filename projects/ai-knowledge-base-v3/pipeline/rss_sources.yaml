@@ -1,0 +1,69 @@
+# RSS 数据源配置
+# 每个源包含 name、url、category、enabled 字段
+# enabled: true 表示采集时激活，false 表示跳过
+
+sources:
+  # ========== 综合技术 ==========
+  - name: "Hacker News Best (AI 相关)"
+    url: "https://hnrss.org/best?q=ai+OR+llm+OR+agent+OR+ml+OR+machine+learning"
+    category: "general_tech"
+    enabled: true
+
+  - name: "Lobsters AI/ML"
+    url: "https://lobste.rs/t/ai.rss"
+    category: "general_tech"
+    enabled: true
+
+  # ========== AI 研究 ==========
+  - name: "arXiv cs.AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "ai_research"
+    enabled: true
+
+  # ========== 公司博客 ==========
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: "company_blog"
+    enabled: true
+
+  - name: "Anthropic Research"
+    url: "https://www.anthropic.com/research/feed"
+    category: "company_blog"
+    enabled: true
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "company_blog"
+    enabled: true
+
+  # ========== 中文社区（默认 disabled，需确认 RSS 可用性） ==========
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: "chinese_community"
+    enabled: false
+
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: "chinese_community"
+    enabled: false
+
+  - name: "Reddit r/MachineLearning"
+    url: "https://www.reddit.com/r/MachineLearning/hot.rss"
+    category: "ai_research"
+    enabled: true
+
+  - name: "Reddit r/LocalLLaMA"
+    url: "https://www.reddit.com/r/LocalLLaMA/hot.rss"
+    category: "open-source"
+    enabled: true
+
+  - name: "Google AI Blog"
+    url: "https://blog.google/technology/ai/rss/"
+    category: "industry"
+    enabled: true
+
+  # ========== 科技媒体 ==========
+  - name: "The Verge AI"
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    category: "news"
+    enabled: true
