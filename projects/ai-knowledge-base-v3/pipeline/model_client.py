@@ -382,7 +382,7 @@ def create_client(
     Raises:
         ValueError: If the provider is unknown or no API key can be found.
     """
-    provider = (provider or os.getenv("LLM_PROVIDER", "deepseek")).lower()
+    provider = (provider or os.getenv("LLM_PROVIDER") or "deepseek").lower()
 
     if provider not in API_BASES:
         raise ValueError(
