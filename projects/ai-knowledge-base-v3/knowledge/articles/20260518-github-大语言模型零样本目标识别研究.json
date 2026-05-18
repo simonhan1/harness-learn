@@ -1,0 +1,29 @@
+{
+  "title": "大语言模型零样本目标识别研究",
+  "source_url": "https://arxiv.org/abs/2605.15333",
+  "summary": "本文首次系统评估了前沿大语言模型在经典PDDL规划领域作为目标识别器的零样本性能。研究发现，LLM在此任务上表现不均：部分模型能随证据积累提升准确率，而另一些则固守世界知识先验。定性分析表明，这种差异源于证据整合能力的根本不同，而非领域熟悉度。",
+  "tags": [
+    "大语言模型",
+    "目标识别",
+    "零样本学习",
+    "PDDL",
+    "规划"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "LLM在目标识别任务上表现不均",
+      "部分模型能随证据积累提升准确率",
+      "部分模型固守世界知识先验",
+      "差异源于证据整合能力而非领域熟悉度",
+      "目标识别可作为LLM规划知识的基础基准"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260518-038",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

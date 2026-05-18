@@ -1,0 +1,29 @@
+{
+  "title": "SDOF：状态约束调度缓解多智能体编排对齐税",
+  "source_url": "https://arxiv.org/abs/2605.15204",
+  "summary": "SDOF框架将多智能体执行视为约束状态机，通过在线RLHF意图路由器和状态感知调度器实现防御层。在招聘系统基准测试中，7B模型在对抗性路由任务上准确率80.9%，端到端任务完成率86.5%，并阻止所有注入攻击。",
+  "tags": [
+    "多智能体编排",
+    "状态约束",
+    "RLHF",
+    "意图路由",
+    "安全执行"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出SDOF框架，将多智能体执行建模为约束状态机",
+      "包含在线RLHF意图路由器和状态感知调度器两个防御层",
+      "在招聘系统基准测试中，7B模型路由准确率80.9%优于GPT-4o的48.9%",
+      "端到端任务完成率86.5%，完全阻止22个注入操作",
+      "消息级审计达到100%精确率和88%召回率，专家一致性kappa=0.94"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-026",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

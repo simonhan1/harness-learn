@@ -1,0 +1,29 @@
+{
+  "title": "Firecrawl：为AI代理打造的网络数据提取利器",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "summary": "Firecrawl是一个开源的网络爬虫和数据提取工具，专为AI代理设计，支持搜索、抓取和清理网页内容，并将其转换为LLM友好的Markdown格式。它提供API接口，可高效获取结构化数据，助力AI应用开发。",
+  "tags": [
+    "AI代理",
+    "网络爬虫",
+    "数据提取",
+    "Markdown转换",
+    "开源工具"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "专为AI代理优化，支持搜索、抓取和清理网页",
+      "将HTML转换为Markdown，便于LLM处理",
+      "提供API接口，易于集成到AI工作流",
+      "开源项目，社区活跃，星数超12万",
+      "支持多种数据提取场景，如AI搜索和爬虫"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-018",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Stable Diffusion WebUI：最流行的AI图像生成工具",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "summary": "AUTOMATIC1111/stable-diffusion-webui 是一个基于 Gradio 的 Stable Diffusion 图形界面，支持文生图、图生图、图像放大等功能。它集成了 PyTorch 和多种扩散模型，提供丰富的扩展生态，是 AI 艺术创作领域最广泛使用的开源工具之一。",
+  "tags": [
+    "AI图像生成",
+    "Stable Diffusion",
+    "WebUI",
+    "开源工具",
+    "深度学习"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "提供直观的Web界面，降低Stable Diffusion使用门槛",
+      "支持txt2img、img2img、图像放大等多种核心功能",
+      "基于Gradio构建，易于部署和扩展",
+      "拥有庞大的社区和丰富的插件生态",
+      "持续更新，兼容最新模型和技术"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-006",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

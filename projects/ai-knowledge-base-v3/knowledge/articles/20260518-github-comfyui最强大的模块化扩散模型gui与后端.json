@@ -1,0 +1,29 @@
+{
+  "title": "ComfyUI：最强大的模块化扩散模型GUI与后端",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "summary": "ComfyUI是一个基于图/节点界面的扩散模型图形用户界面、API和后端，支持Stable Diffusion等模型。其模块化设计允许用户灵活构建和定制工作流，极大提升了AI图像生成的效率和可扩展性。",
+  "tags": [
+    "AI",
+    "扩散模型",
+    "GUI",
+    "工作流",
+    "Stable Diffusion"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "图/节点界面实现模块化工作流",
+      "支持Stable Diffusion等主流扩散模型",
+      "提供强大的API和后端支持",
+      "社区活跃，星数超11万",
+      "提升AI图像生成的灵活性和效率"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-019",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

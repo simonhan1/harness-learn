@@ -1,0 +1,29 @@
+{
+  "title": "AI控制中的集成监控：多样性信号优于更多计算",
+  "source_url": "https://arxiv.org/abs/2605.15377",
+  "summary": "本文提出通过集成多样化监控器来检测AI代理的不对齐行为，优于单一或同质集成。实验使用12个GPT-4.1-Mini监控器，最佳3监控器集成检测性能提升2.4倍，表明多样性而非规模驱动增益。微调监控器在集成中表现突出，且对分布外攻击保持优势。",
+  "tags": [
+    "AI安全",
+    "集成监控",
+    "多样性",
+    "微调",
+    "GPT-4.1-Mini"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "集成多样化监控器显著提升不对齐行为检测",
+      "多样性比计算规模更关键",
+      "最佳集成结合强个体性能与低相关性",
+      "微调监控器优于仅提示策略",
+      "方法在分布外攻击中保持鲁棒性"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-040",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

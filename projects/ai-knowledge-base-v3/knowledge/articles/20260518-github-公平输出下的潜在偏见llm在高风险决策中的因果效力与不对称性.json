@@ -1,0 +1,29 @@
+{
+  "title": "公平输出下的潜在偏见：LLM在高风险决策中的因果效力与不对称性",
+  "source_url": "https://arxiv.org/abs/2605.15217",
+  "summary": "该研究揭示指令调优语言模型在高风险决策中表面公平，但内部表示仍保留并放大人口统计偏见。通过激活引导和跨层干预，发现这些被抑制的偏见信息具有决策相关性，且不对称——仅在一个方向上影响决策。这表明仅依赖输出审计不足，需结合表示分析进行AI治理。",
+  "tags": [
+    "LLM",
+    "偏见",
+    "公平性",
+    "高风险决策",
+    "AI治理"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "模型输出无偏见但内部表示保留偏见",
+      "激活引导可逆转决策",
+      "偏见不对称性",
+      "对抗性提示和微调可触发偏见",
+      "需双层测试框架"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260518-029",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

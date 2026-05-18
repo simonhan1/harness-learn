@@ -1,0 +1,29 @@
+{
+  "title": "Hermes-Agent：与您共同成长的AI智能体",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "Hermes-Agent是一个基于Python的AI智能体框架，由NousResearch开发，支持多种主流LLM（如OpenAI、Anthropic、Claude等），旨在提供灵活、可扩展的智能体构建能力。其核心创新在于“与用户共同成长”的设计理念，强调智能体的自适应性和持续进化。",
+  "tags": [
+    "AI Agent",
+    "LLM",
+    "Python",
+    "NousResearch",
+    "OpenAI"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "支持OpenAI、Anthropic、Claude等多种LLM集成",
+      "强调智能体的自适应和持续进化能力",
+      "由知名AI研究机构NousResearch开发",
+      "基于Python，易于扩展和定制",
+      "高星数（155K）表明社区广泛关注"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-009",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

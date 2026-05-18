@@ -1,0 +1,29 @@
+{
+  "title": "可验证代理基础设施：主权AI系统的证明派生授权",
+  "source_url": "https://arxiv.org/abs/2605.15228",
+  "summary": "针对自主AI代理可能生成语义不安全动作的风险，本文提出分布式信任框架（DTF），通过结构化可验证工件计算执行权限。DTF引入证明、共识模型、临时执行身份和证据链，确保无证明不执行、无共识不授权、无证据不突变，为代理执行提供可审计、可约束的基础设施。",
+  "tags": [
+    "AI代理",
+    "授权机制",
+    "分布式信任",
+    "主权AI",
+    "可验证基础设施"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "自主AI代理使基于身份的静态授权失效",
+      "DTF通过证明派生权限替代静态身份授权",
+      "引入证明、共识、临时身份和证据链四要素",
+      "确保执行可审计、可约束、可重放",
+      "基于OpenKedge实现并适用于云原生环境"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260518-034",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Solvita：通过智能体进化增强大语言模型竞赛编程能力",
+  "source_url": "https://arxiv.org/abs/2605.15301",
+  "summary": "Solvita是一个智能体进化框架，通过四个专业智能体（Planner、Solver、Oracle、Hacker）和可训练的知识网络实现持续学习，无需更新模型权重。在多个基准测试中，Solvita在代码生成任务上达到新最优，性能超越现有多智能体系统，准确率接近单次基线两倍。",
+  "tags": [
+    "大语言模型",
+    "竞赛编程",
+    "多智能体框架",
+    "持续学习",
+    "强化学习"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "提出无权重更新的持续学习框架",
+      "四个专业智能体协同工作",
+      "图结构知识网络支持动态路由",
+      "在多个基准测试中取得最优结果",
+      "性能显著超越现有方法"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-035",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "AI漏洞猎手致Linux安全邮件列表几乎失控",
+  "source_url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
+  "summary": "Linus Torvalds指出，AI驱动的漏洞猎手大量提交低质量报告，导致Linux安全邮件列表几乎无法管理。这凸显了AI在安全领域的双刃剑效应，既提升效率也带来噪音。",
+  "tags": [
+    "Linux",
+    "安全",
+    "AI",
+    "漏洞猎手",
+    "邮件列表"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "AI漏洞猎手大量提交报告",
+      "Linux安全邮件列表几乎无法管理",
+      "Linus Torvalds公开批评",
+      "低质量报告增加维护负担",
+      "AI在安全领域的双刃剑效应"
+    ],
+    "sentiment": "negative"
+  },
+  "id": "github-20260518-023",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Domo CDO呼吁AI发展应慢下来，避免FOMO",
+  "source_url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
+  "summary": "Domo首席数据官表示，企业应避免因害怕错过（FOMO）而盲目跟风AI，建议采取更审慎的“慢速”策略，专注于实际业务价值而非技术炒作。文章批评了当前AI领域的急功近利现象。",
+  "tags": [
+    "AI FOMO",
+    "企业策略",
+    "数据管理",
+    "技术理性",
+    "Domo"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "企业应避免AI FOMO",
+      "建议采取慢速策略",
+      "聚焦业务价值",
+      "批评AI炒作",
+      "强调审慎决策"
+    ],
+    "sentiment": "negative"
+  },
+  "id": "github-20260518-021",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "CAPS：级联自适应成对选择实现高效并行推理",
+  "source_url": "https://arxiv.org/abs/2605.15513",
+  "summary": "CAPS是一种推理时框架，通过沿证据轴和分布轴非均匀分配验证器计算，实现高效并行推理。它采用四阶段级联和可选救援子程序，将每个候选的边际成本减半。在多个模型和基准测试中，CAPS以更少的验证器令牌预算优于现有方法。",
+  "tags": [
+    "并行推理",
+    "成对验证",
+    "自适应计算分配",
+    "大语言模型",
+    "测试时扩展"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "CAPS通过级联自适应选择减少验证器计算开销",
+      "沿证据轴和分布轴非均匀分配计算资源",
+      "四阶段级联加救援子程序实现高效推理",
+      "在代码和数学基准上优于现有方法",
+      "提供可解释的诊断指标用于部署前检查"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-044",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

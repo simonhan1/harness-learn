@@ -1,0 +1,29 @@
+{
+  "title": "神经符号框架NSPI：LLM生成猜想结合SOS证书自动证明多项式不等式",
+  "source_url": "https://arxiv.org/abs/2605.15445",
+  "summary": "本文提出NSPI框架，结合LLM和符号计算自动证明多项式不等式。LLM生成近似多项式平方和分解猜想，符号计算精化得到精确表示并证明不等式，最终在Lean中验证。实验表明该方法在多达10个变量的挑战性基准上有效且可扩展。",
+  "tags": [
+    "自动定理证明",
+    "多项式不等式",
+    "神经符号方法",
+    "平方和证书",
+    "Lean形式化验证"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "LLM生成多项式平方和分解猜想",
+      "符号计算精化猜想为精确证明",
+      "端到端流水线从启发式发现到机器验证",
+      "在多达10个变量的基准上验证可扩展性",
+      "结合LLM和符号计算解决可扩展性挑战"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-042",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

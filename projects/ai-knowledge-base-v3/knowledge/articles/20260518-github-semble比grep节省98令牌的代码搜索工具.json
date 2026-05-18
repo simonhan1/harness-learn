@@ -1,0 +1,29 @@
+{
+  "title": "Semble：比grep节省98%令牌的代码搜索工具",
+  "source_url": "https://github.com/MinishLab/semble",
+  "summary": "Semble是一个开源代码搜索工具，专为AI代理设计，通过结合静态Model2Vec嵌入和BM25算法，实现高效检索。相比grep+read方法，它减少98%的令牌消耗，同时达到99%的检索质量，速度提升约200倍，支持CPU运行且无需API密钥。",
+  "tags": [
+    "代码搜索",
+    "AI代理",
+    "令牌优化",
+    "开源工具",
+    "MCP服务器"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "令牌效率提升98%",
+      "检索质量达最佳Transformer的99%",
+      "CPU上运行，无需GPU",
+      "支持Claude Code等MCP集成",
+      "零配置，无需外部服务"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-024",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

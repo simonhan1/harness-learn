@@ -1,0 +1,29 @@
+{
+  "title": "AI吞噬世界（2026年春季）",
+  "source_url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+  "summary": "本文是一篇PDF格式的技术文章，探讨AI在2026年春季对全球各行业的深远影响，强调AI技术正逐步渗透并重塑经济、社会与产业格局。文章可能涉及AI在自动化、决策优化及创新应用方面的最新进展与挑战。",
+  "tags": [
+    "AI",
+    "技术趋势",
+    "产业影响",
+    "自动化",
+    "2026"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "AI技术正加速渗透全球各行业",
+      "AI对经济和社会结构产生深远影响",
+      "自动化与决策优化是核心应用方向",
+      "文章可能讨论AI带来的挑战与机遇",
+      "2026年春季是AI发展的关键节点"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260518-022",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

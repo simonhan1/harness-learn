@@ -1,0 +1,29 @@
+{
+  "title": "心智理论提升是否真正有益于人机交互？",
+  "source_url": "https://arxiv.org/abs/2605.15205",
+  "summary": "本文通过交互式评估，研究了提升大语言模型心智理论能力的技术是否真正有益于人机交互。研究发现，静态基准测试上的改进并不总能转化为动态交互中的更好表现，强调了基于交互评估的必要性。",
+  "tags": [
+    "心智理论",
+    "人机交互",
+    "大语言模型",
+    "交互评估",
+    "社会认知"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出交互式心智理论评估新范式",
+      "系统研究四种心智理论增强技术",
+      "使用四个真实数据集和用户研究",
+      "覆盖目标导向和体验导向任务",
+      "静态基准改进不保证动态交互性能"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260518-027",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

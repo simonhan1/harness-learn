@@ -1,0 +1,29 @@
+{
+  "title": "基于影响的团队引导框架：超越伙伴多样性的零样本人机协作",
+  "source_url": "https://arxiv.org/abs/2605.15400",
+  "summary": "本文提出影响导向的团队引导（IBTS）框架，通过影响塑造激励智能体发现多样且高性能的团队交互模式，并引导轨迹向强协调模式收敛。在Overcooked-AI的双人和三人场景中，IBTS优于基线方法，表明零样本协调需结合稀疏奖励机制与伙伴多样性覆盖。",
+  "tags": [
+    "零样本协调",
+    "人机协作",
+    "影响塑造",
+    "团队引导",
+    "Overcooked-AI"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "IBTS框架通过影响塑造提升零样本协调性能",
+      "在双人和三人场景中均优于基线",
+      "首次进行30人三人人机协作实验",
+      "强调稀疏奖励与多样性覆盖的结合",
+      "验证了协调结构从双人向多人迁移的能力"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-041",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

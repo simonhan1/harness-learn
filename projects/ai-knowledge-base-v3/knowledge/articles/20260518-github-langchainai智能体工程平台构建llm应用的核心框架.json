@@ -1,0 +1,29 @@
+{
+  "title": "LangChain：AI智能体工程平台，构建LLM应用的核心框架",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain是一个开源的AI智能体工程平台，提供统一的框架和工具链，用于构建、部署和管理基于大语言模型的应用。它支持多种LLM提供商（如OpenAI、Anthropic、Gemini），集成RAG、智能体、多智能体协作等高级功能，并包含LangGraph等子项目，是当前最流行的LLM应用开发框架之一。",
+  "tags": [
+    "LLM框架",
+    "智能体",
+    "RAG",
+    "多智能体",
+    "开源"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-18T22:51:03.305382+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "提供统一的LLM应用开发框架，支持多种模型和提供商",
+      "集成智能体、RAG、多智能体协作等高级功能",
+      "包含LangGraph等子项目，扩展了复杂工作流编排能力",
+      "拥有庞大的社区和生态系统，星数超13万",
+      "支持Python和TypeScript，覆盖全栈开发"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260518-015",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
