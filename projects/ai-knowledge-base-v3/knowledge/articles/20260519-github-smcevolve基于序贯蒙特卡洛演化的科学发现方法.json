@@ -1,0 +1,29 @@
+{
+  "title": "SMCEvolve：基于序贯蒙特卡洛演化的科学发现方法",
+  "source_url": "https://arxiv.org/abs/2605.15308",
+  "summary": "本文提出SMCEvolve框架，将程序搜索重新定义为从奖励倾斜目标分布中采样，并使用序贯蒙特卡洛采样器近似。该方法包含自适应父代重采样、混合变异与接受、自动收敛控制三个核心机制，并提供了有限样本复杂度分析。在数学、算法效率、符号回归和端到端机器学习研究基准上，SMCEvolve以更少的LLM调用次数超越了现有最先进系统。",
+  "tags": [
+    "科学发现",
+    "序贯蒙特卡洛",
+    "程序演化",
+    "大语言模型",
+    "自动搜索"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "将程序搜索建模为从奖励倾斜分布采样",
+      "提出SMC驱动的三个核心机制",
+      "提供有限样本复杂度理论保证",
+      "在多个基准上超越SOTA并减少LLM调用",
+      "代码开源"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-037",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

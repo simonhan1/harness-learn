@@ -1,0 +1,29 @@
+{
+  "title": "Open WebUI：用户友好的AI交互界面",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "summary": "Open WebUI是一个功能丰富的自托管AI界面，支持Ollama和OpenAI API等多种后端，提供类似ChatGPT的聊天体验，并集成了RAG、MCP等高级功能。该项目以高星数和活跃社区成为最受欢迎的AI WebUI之一，适合个人和团队部署使用。",
+  "tags": [
+    "AI界面",
+    "自托管",
+    "Ollama",
+    "OpenAI",
+    "RAG"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "支持Ollama和OpenAI API等多种AI后端",
+      "提供自托管、隐私保护的AI聊天界面",
+      "集成RAG（检索增强生成）和MCP功能",
+      "用户界面友好，类似ChatGPT体验",
+      "GitHub星数超13万，社区活跃"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-014",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "SkillSmith：编译智能体技能为边界导向运行时接口",
+  "source_url": "https://arxiv.org/abs/2605.15215",
+  "summary": "SkillSmith提出一种边界优先的编译器-运行时框架，通过离线编译技能包为最小可执行接口，提取细粒度操作边界，使智能体在运行时仅动态访问相关组件，减少上下文注入和推理冗余。在SkillsBench基准上，相比原始技能，解决阶段token使用减少57.44%，思考迭代减少42.99%，解决时间加快2.02倍，成本降低57.44%。",
+  "tags": [
+    "LLM智能体",
+    "技能编译",
+    "运行时优化",
+    "边界导向",
+    "效率提升"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "现有技能注入范式存在上下文冗余和重复推理两大问题",
+      "SkillSmith通过离线编译技能为最小接口，提取操作边界",
+      "运行时仅动态执行相关组件，减少不必要的上下文和推理",
+      "在SkillsBench上显著降低token使用、迭代次数、时间和成本",
+      "强模型编译的产物可被弱模型复用，提升任务准确率"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-029",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

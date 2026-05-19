@@ -1,0 +1,29 @@
+{
+  "title": "NOVA框架：AI知识发现的极限与成本",
+  "source_url": "https://arxiv.org/abs/2605.15219",
+  "summary": "本文提出NOVA框架，将AI的“生成-验证-积累-再训练”循环建模为知识空间的自适应采样过程。文章识别了知识发现失败的模式，并证明了在尾等价假设下，累积生成成本与发现数量呈幂律关系，揭示了知识发现的收益递减规律。",
+  "tags": [
+    "知识发现",
+    "AI自改进",
+    "缩放定律",
+    "污染陷阱",
+    "人类增强"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "NOVA框架将AI自改进循环建模为自适应采样",
+      "识别了四种失败模式：污染、遗忘、探索失败和接受失败",
+      "发现污染陷阱：当易发现知识耗尽时，假阳性率导致无效知识积累",
+      "证明在Zipf分布假设下，生成成本与发现数量呈Θ(c_gen D^α)关系",
+      "形式化了人类在知识发现中的增强作用，专家输入在自主探索障碍处最有价值"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260519-032",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

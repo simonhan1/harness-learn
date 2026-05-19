@@ -1,0 +1,29 @@
+{
+  "title": "OpenClaw：跨平台个人AI助手，数据自主掌控",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "summary": "OpenClaw是一个跨平台、跨操作系统的个人AI助手项目，采用TypeScript开发，强调用户数据自主权。其核心创新在于提供“龙虾方式”的个性化AI服务，支持在任何平台上运行，让用户完全掌控自己的数据，同时具备可扩展的助手功能。",
+  "tags": [
+    "AI助手",
+    "跨平台",
+    "数据隐私",
+    "开源",
+    "TypeScript"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "跨平台支持：任何操作系统和平台均可运行",
+      "数据自主权：用户完全掌控个人数据",
+      "个性化AI助手：提供定制化服务",
+      "开源项目：基于TypeScript开发",
+      "社区活跃：拥有37万+星标，关注度高"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-001",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

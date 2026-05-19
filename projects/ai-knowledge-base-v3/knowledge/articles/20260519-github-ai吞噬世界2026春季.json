@@ -1,0 +1,29 @@
+{
+  "title": "AI吞噬世界（2026春季）",
+  "source_url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+  "summary": "该PDF文章探讨了AI技术如何渗透并重塑全球各行各业，从自动化生产到智能决策，强调AI作为核心驱动力正在改变经济和社会结构。文章基于2026年春季的数据和趋势分析，提出了AI全面影响世界的观点。",
+  "tags": [
+    "AI",
+    "技术趋势",
+    "经济影响",
+    "自动化",
+    "社会变革"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "AI正在成为全球经济的核心驱动力",
+      "自动化技术将重塑传统行业",
+      "AI决策系统提升效率但带来伦理挑战",
+      "2026年春季数据显示AI应用加速",
+      "社会结构因AI普及面临调整"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-025",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Firecrawl：AI驱动的网络数据抓取与清洗工具",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "summary": "Firecrawl 是一个专为AI代理设计的开源网络爬虫和数据提取工具，支持搜索、抓取和清洗网页内容，并将其转换为干净的Markdown格式。它集成了AI搜索和爬虫功能，提供高效的数据提取服务，适用于LLM训练和AI应用开发。",
+  "tags": [
+    "AI爬虫",
+    "数据提取",
+    "网络搜索",
+    "Markdown转换",
+    "开源工具"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "专为AI代理设计，支持搜索、抓取和清洗网页",
+      "将网页内容转换为干净的Markdown格式",
+      "集成AI搜索和爬虫功能",
+      "适用于LLM训练和AI应用开发",
+      "开源项目，拥有12万+星标"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-018",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

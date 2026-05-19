@@ -1,0 +1,29 @@
+{
+  "title": "AI自主运营电台实验：营收惨淡但节目有趣",
+  "source_url": "https://andonlabs.com/blog/andon-fm",
+  "summary": "Andon Labs让四个AI代理自主运营一家广播电台，包括直播节目和商业运营。目前营收表现糟糕，但节目内容有时颇具趣味性。这是他们在媒体领域的最新实验，此前已在零售业进行过类似尝试。",
+  "tags": [
+    "AI代理",
+    "自主运营",
+    "广播电台",
+    "媒体实验",
+    "营收挑战"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "AI代理被赋予运营电台的全部工具",
+      "营收表现不佳，但节目内容有趣",
+      "这是媒体领域的实验，此前有零售业经验",
+      "公众可尝试与AI代理洽谈赞助",
+      "实验旨在观察AI自主运营中的问题"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260519-023",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

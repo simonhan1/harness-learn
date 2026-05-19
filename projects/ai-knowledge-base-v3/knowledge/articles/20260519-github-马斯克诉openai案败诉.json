@@ -1,0 +1,29 @@
+{
+  "title": "马斯克诉OpenAI案败诉",
+  "source_url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+  "summary": "埃隆·马斯克对山姆·奥特曼及OpenAI提起的诉讼已被法院驳回。该案涉及OpenAI从非营利向营利性转型的争议，法院判决未支持马斯克的诉求。",
+  "tags": [
+    "法律诉讼",
+    "OpenAI",
+    "埃隆·马斯克",
+    "AI治理",
+    "商业转型"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "马斯克起诉OpenAI和奥特曼败诉",
+      "诉讼焦点为OpenAI的营利性转型",
+      "法院未支持马斯克的主张",
+      "案件引发AI治理讨论",
+      "OpenAI商业模式受关注"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260519-024",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "CAX-Agent：用于可靠APDL自动化的轻量级Agent框架",
+  "source_url": "https://arxiv.org/abs/2605.15218",
+  "summary": "本文提出CAX-Agent，一种专为MAPDL自动化设计的轻量级Agent框架，通过三层架构（LLM服务、Agent框架、求解器后端）和恢复策略提升可靠性。实验评估三种恢复策略，模型驱动恢复在50个标准基准测试中达到最佳完成率（0.9267）和零干预率（0.84），显著优于无恢复和仅规则策略。",
+  "tags": [
+    "LLM",
+    "Agent框架",
+    "有限元仿真",
+    "自动化",
+    "故障恢复"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "CAX-Agent采用三层架构：LLM服务、Agent框架和求解器后端",
+      "恢复策略包括确定性规则修补、模型驱动再生和上下文增强",
+      "模型驱动恢复策略在50个基准测试中完成率0.9267，零干预率0.84",
+      "与无恢复和仅规则策略相比，效果显著（Cliff's delta 0.81-0.87）",
+      "基准测试使用简单几何形状以隔离恢复策略效果"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-031",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "基于多维度潜在推理的编码智能体上下文剪枝",
+  "source_url": "https://arxiv.org/abs/2605.15315",
+  "summary": "本文提出LaMR框架，通过将代码相关性分解为语义证据和依赖支持两个可解释维度，并分别用专用CRF建模，再通过混合专家网络动态加权，实现了对编码智能体上下文的有效剪枝。实验表明，LaMR在多个基准上节省高达31%的令牌，同时提升精确匹配分数，且常能匹配或超越未剪枝的全上下文基线。",
+  "tags": [
+    "LLM",
+    "编码智能体",
+    "上下文剪枝",
+    "条件随机场",
+    "AST分析"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "现有剪枝方法使用单目标序列标注器，造成建模瓶颈",
+      "LaMR将代码相关性分解为语义证据和依赖支持两个维度",
+      "每个维度由专用CRF建模，具有维度特定的转移动态",
+      "混合专家网络根据查询动态加权每个维度的发射分数",
+      "在SWE-Bench等基准上，LaMR节省31%令牌并提升+3.5精确匹配"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-038",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

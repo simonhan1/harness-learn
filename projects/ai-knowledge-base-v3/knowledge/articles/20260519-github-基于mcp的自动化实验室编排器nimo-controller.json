@@ -1,0 +1,29 @@
+{
+  "title": "基于MCP的自动化实验室编排器NIMO Controller",
+  "source_url": "https://arxiv.org/abs/2605.15227",
+  "summary": "本文提出基于模型上下文协议（MCP）的自动化实验室（SDL）软件架构，所有SDL功能通过MCP服务器暴露。基于此设计，开发了NIMO Controller编排器，提供可视化编程界面供人类用户设计实验流程，同时AI代理可通过统一MCP后端访问，实现人机统一接口。通过颜色匹配SDL案例验证了该架构的可用性。",
+  "tags": [
+    "自驱动实验室",
+    "模型上下文协议",
+    "AI代理",
+    "实验编排",
+    "可视化编程"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出基于MCP的SDL软件架构，统一人类与AI代理接口",
+      "开发NIMO Controller编排器，支持可视化编程",
+      "通过MCP服务器暴露所有SDL功能",
+      "案例研究验证了架构在颜色匹配SDL中的可用性",
+      "降低了SDL软件开发的技术门槛"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-034",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

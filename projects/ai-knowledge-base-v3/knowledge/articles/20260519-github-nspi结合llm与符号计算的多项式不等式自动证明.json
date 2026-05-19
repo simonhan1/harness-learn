@@ -1,0 +1,29 @@
+{
+  "title": "NSPI：结合LLM与符号计算的多项式不等式自动证明",
+  "source_url": "https://arxiv.org/abs/2605.15445",
+  "summary": "本文提出NSPI框架，结合大语言模型和符号计算自动证明多项式不等式。LLM生成近似多项式平方和分解猜想，经符号计算精化得到精确证明，并在Lean中验证。实验表明该方法在多达10个变量的挑战性基准上有效且可扩展。",
+  "tags": [
+    "多项式不等式证明",
+    "大语言模型",
+    "符号计算",
+    "神经符号系统",
+    "形式化验证"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出NSPI神经符号框架，结合LLM猜想与符号精化",
+      "利用LLM生成近似多项式平方和分解",
+      "通过符号计算获得精确平方和证明",
+      "在Lean中实现端到端机器验证",
+      "在多达10个变量的基准上展示可扩展性"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-043",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

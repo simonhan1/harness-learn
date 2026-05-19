@@ -1,0 +1,29 @@
+{
+  "title": "ICRL：通过强化学习内化自我批评",
+  "source_url": "https://arxiv.org/abs/2605.15224",
+  "summary": "ICRL框架通过强化学习联合训练求解器和批评者，使模型能够内化批评指导，无需外部批评即可自我改进。在智能体和数学推理任务上，ICRL相比GRPO平均提升6.4和7.0分，且8B批评者性能媲美32B批评者。",
+  "tags": [
+    "强化学习",
+    "自我批评",
+    "内化学习",
+    "智能体",
+    "数学推理"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "提出ICRL框架，联合训练求解器和批评者以内化批评",
+      "引入分布校准重加权比，解决分布偏移问题",
+      "角色分组优势估计稳定联合优化",
+      "在智能体和数学推理任务上显著提升性能",
+      "8B批评者性能媲美32B批评者，且使用更少token"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-033",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

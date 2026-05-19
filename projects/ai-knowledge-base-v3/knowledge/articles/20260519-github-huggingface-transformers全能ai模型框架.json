@@ -1,0 +1,29 @@
+{
+  "title": "HuggingFace Transformers：全能AI模型框架",
+  "source_url": "https://github.com/huggingface/transformers",
+  "summary": "HuggingFace Transformers是一个支持文本、视觉、音频和多模态模型的深度学习框架，提供统一的API用于推理和训练。它集成了数千个预训练模型，涵盖LLM、VLM、语音识别等前沿技术，是NLP和AI领域的核心工具。",
+  "tags": [
+    "deep-learning",
+    "nlp",
+    "pytorch",
+    "transformer",
+    "llm"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-19T17:19:35.648983+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 10,
+    "key_points": [
+      "支持文本、视觉、音频和多模态模型",
+      "统一的推理与训练API",
+      "集成数千个预训练模型",
+      "活跃社区与广泛采用",
+      "持续更新前沿模型如DeepSeek、Gemma"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260519-008",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
