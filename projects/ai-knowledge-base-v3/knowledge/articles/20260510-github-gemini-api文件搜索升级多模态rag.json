@@ -1,0 +1,29 @@
+{
+  "title": "Gemini API文件搜索升级多模态RAG",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+  "summary": "Google扩展Gemini API文件搜索功能，支持多模态RAG（检索增强生成），允许开发者对图像、音频和视频文件进行语义搜索，提升AI应用的上下文理解能力。",
+  "tags": [
+    "Gemini API",
+    "多模态RAG",
+    "文件搜索",
+    "Google AI",
+    "开发者工具"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T14:43:04.142402+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 6,
+    "key_points": [
+      "支持对图像、音频、视频文件进行语义搜索",
+      "集成多模态RAG能力",
+      "扩展Gemini API的开发者工具功能",
+      "提升AI应用的上下文理解和检索效率",
+      "基于Google博客的技术更新"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-006",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

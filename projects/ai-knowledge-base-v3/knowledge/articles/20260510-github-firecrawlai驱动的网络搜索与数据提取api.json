@@ -1,0 +1,29 @@
+{
+  "title": "Firecrawl：AI驱动的网络搜索与数据提取API",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "summary": "Firecrawl是一个专为AI应用设计的网络搜索、抓取和数据提取API，支持将网页内容转换为Markdown格式，便于LLM处理。该项目在GitHub上获得超过11万星标，是AI领域热门的网络数据工具。",
+  "tags": [
+    "AI",
+    "Web Scraping",
+    "Data Extraction",
+    "API",
+    "LLM"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T11:23:44.640794+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "提供AI友好的网络搜索和抓取API",
+      "支持HTML到Markdown转换，优化LLM输入",
+      "集成AI代理和爬虫功能",
+      "高星标项目，社区活跃",
+      "适用于数据提取和AI训练数据收集"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-018",
+  "source": "github"
+}

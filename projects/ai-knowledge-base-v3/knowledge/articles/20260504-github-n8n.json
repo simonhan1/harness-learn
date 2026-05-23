@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-002",
+  "title": "n8n-io/n8n — Fair-code工作流自动化平台，原生集成AI能力",
+  "source": "github_trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "summary": "Fair-code工作流自动化平台，原生集成AI Agent工作流(基于LangChain)，400+集成和900+模板，支持自托管或云端部署，兼容MCP协议。",
+  "tags": ["WorkflowAutomation", "AIOrchestration", "LowCode", "MCP", "SelfHosted"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 187k Star、57.3k Fork、603 Release，企业级工作流自动化标杆",
+      "基于 LangChain 构建 AI Agent 工作流，支持可视化+代码双模式",
+      "400+ 集成 + 900+ 模板 + MCP Server/Client 支持",
+      "Fair-code 许可，支持自托管和云端，企业版含SSO/气隙部署"
+    ],
+    "sentiment": "positive"
+  }
+}

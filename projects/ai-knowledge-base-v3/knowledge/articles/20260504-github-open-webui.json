@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-013",
+  "title": "open-webui/open-webui — 自托管AI平台，离线运行支持全模态交互",
+  "source": "github_trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "summary": "自托管AI平台(v0.9.2)，支持完全离线运行。9款向量数据库+15+Web搜索+语音/视频通话+图像生成编辑。企业级LDAP/SCIM/SSO/RBAC+Redis集群+OpenTelemetry可观测。",
+  "tags": ["AIInterface", "SelfHosted", "RAG", "Multimodal", "Enterprise"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 135k Star、19.3k Fork、159 Release(v0.9.2)，功能最全的自托管AI界面",
+      "9款向量数据库 + 15+ Web搜索提供商 + 语音/视频通话 + 图像生成/编辑",
+      "企业级：LDAP/Active Directory/SCIM 2.0/SSO/OAuth + RBAC + Redis集群 + OpenTelemetry",
+      "Python函数调用工具 + 持久化Artifact存储 + Pipelines插件框架，可扩展性强"
+    ],
+    "sentiment": "positive"
+  }
+}

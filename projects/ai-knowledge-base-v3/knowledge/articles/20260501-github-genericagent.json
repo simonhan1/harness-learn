@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-007",
+  "title": "lsdefine/GenericAgent — 自进化 Agent：从 3.3K 行种子代码生长出专属技能树",
+  "source": "github_trending",
+  "source_url": "https://github.com/lsdefine/GenericAgent",
+  "summary": "一个极简、自进化的自主 Agent 框架，核心仅约 3K 行代码。设计哲学是「不预设技能，靠进化获得能力」——每解决一个新任务，自动将执行路径固化为可复用的 Skill 存入分层记忆系统，使用越久能力越强。通过 9 个原子工具和约 100 行的 Agent Loop，赋予任意 LLM 对本地计算机的系统级控制（浏览器、终端、文件系统、键鼠、屏幕视觉、移动设备 ADB）。核心创新在于极致 Token 效率（<30K 上下文窗口）和自我进化机制。已发布 arXiv 技术论文。",
+  "tags": ["AutonomousAgent", "SelfEvolving", "TokenEfficiency", "SkillTree", "OpenSource"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "自进化机制是根本性创新——Agent 会在每次任务后自动沉淀经验为 Skill，形成「越用越强」的正循环",
+      "Token 效率行业领先：<30K 上下文窗口 vs 同类产品 200K-1M，成本降低一个数量级",
+      "极简架构（3K 行核心代码）证明复杂 Agent 系统可以小而美，违反「更大才更好」的主流惯性",
+      "自举实证——仓库的所有 git 操作均由 Agent 自主完成，作者全程未打开终端，验证了框架的实战能力",
+      "已支持微信/QQ/飞书/钉钉/Telegram 等多平台 Bot 前端，生态扩展迅速"
+    ],
+    "sentiment": "positive"
+  }
+}

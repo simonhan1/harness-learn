@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-015",
+  "title": "anthropics/skills — Agent Skills公开仓库，定义Skills标准规范",
+  "source": "github_trending",
+  "source_url": "https://github.com/anthropics/skills",
+  "summary": "Anthropic官方Agent Skills公开仓库(128k Star)，定义agentskills.io开放标准。含完整规范(spec/)、模板(template/)和文档技能(docx/pdf/pptx/xlsx)生产级参考实现。",
+  "tags": ["AgentSkills", "StandardSpec", "Claude", "SkillsFramework", "Anthropic"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 128k Star、15k Fork，Anthropic 官方 Skills 仓库，推动行业标准化",
+      "定义 agentskills.io 开放标准，含完整规范(spec/)和创作模板(template/)",
+      "文档技能(docx/pdf/pptx/xlsx)可供生产级参考，展示复杂Skills设计模式",
+      "可通过Claude Code/Claude.ai/API使用，支持自定义Skills上传和分发"
+    ],
+    "sentiment": "positive"
+  }
+}

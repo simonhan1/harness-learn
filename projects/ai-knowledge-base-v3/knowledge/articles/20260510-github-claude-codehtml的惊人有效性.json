@@ -1,0 +1,29 @@
+{
+  "title": "Claude Code：HTML的惊人有效性",
+  "source_url": "https://twitter.com/trq212/status/2052809885763747935",
+  "summary": "文章探讨了使用Claude Code时HTML的显著效果，通过示例展示了HTML在AI辅助编程中的强大表现，并引用相关讨论，强调HTML作为输出格式的实用性和效率。",
+  "tags": [
+    "Claude Code",
+    "HTML",
+    "AI编程",
+    "技术效率",
+    "Hacker News"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T17:01:46.595298+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "Claude Code利用HTML输出效果显著",
+      "HTML格式在AI辅助中表现高效",
+      "示例网站展示具体应用",
+      "相关讨论强调HTML的实用性",
+      "社区反响热烈，有455分和254条评论"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-007",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

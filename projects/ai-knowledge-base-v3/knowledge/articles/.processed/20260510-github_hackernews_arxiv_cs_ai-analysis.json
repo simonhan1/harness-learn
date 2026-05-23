@@ -1,0 +1,218 @@
+[
+  {
+    "title": "OpenClaw：跨平台个人AI助手，数据自主掌控",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "summary": "OpenClaw是一个跨平台个人AI助手项目，支持任何操作系统和平台。其核心价值在于用户完全掌控自己的数据，强调隐私和自主性。项目以“龙虾方式”为特色，提供个性化AI服务，适合追求数据主权和灵活部署的用户。",
+    "tags": [
+      "AI助手",
+      "跨平台",
+      "数据自主",
+      "隐私保护",
+      "开源"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 6,
+      "key_points": [
+        "跨平台支持，覆盖任何操作系统",
+        "用户完全掌控个人数据",
+        "以龙虾为象征的个性化AI体验",
+        "开源项目，社区驱动",
+        "标签强调数据所有权和隐私"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "n8n：开源低代码AI工作流自动化平台",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "summary": "n8n是一个支持自托管的低代码工作流自动化平台，集成了400+应用和原生AI能力。它允许用户通过可视化界面构建工作流，同时支持自定义代码和AI节点，适用于从简单任务到复杂AI管道的自动化场景。",
+    "tags": [
+      "工作流自动化",
+      "低代码",
+      "AI集成",
+      "自托管",
+      "开源"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "可视化工作流构建与自定义代码结合",
+        "原生AI能力支持，可集成多种AI服务",
+        "400+预构建集成，覆盖主流应用",
+        "支持自托管和云部署，数据隐私可控",
+        "开源（Fair-code许可），社区活跃，星数超18万"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "AutoGPT：人人可用的自主AI智能体平台",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "summary": "AutoGPT是一个开源的自主AI智能体框架，旨在让每个人都能轻松构建和使用AI智能体。它支持多种LLM（如GPT、Claude、Llama），提供任务分解、工具调用和记忆管理等功能，是当前最受欢迎的自主AI项目之一。",
+    "tags": [
+      "自主AI智能体",
+      "LLM框架",
+      "开源工具",
+      "Python",
+      "多模型支持"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "提供自主AI智能体构建框架，支持任务分解与执行",
+        "集成多种LLM（GPT、Claude、Llama等），灵活切换",
+        "开源且社区活跃，拥有18.4万星标",
+        "降低AI智能体开发门槛，面向普通用户和开发者",
+        "支持工具调用和记忆管理，增强智能体能力"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Everything Claude Code：AI代理性能优化与技能记忆系统",
+    "source_url": "https://github.com/affaan-m/everything-claude-code",
+    "summary": "一个为Claude Code、Codex等AI编码代理设计的性能优化框架，整合技能、本能、记忆、安全与研究优先开发，提升代理在复杂开发任务中的效率和可靠性。",
+    "tags": [
+      "AI代理",
+      "性能优化",
+      "Claude Code",
+      "开发者工具",
+      "MCP"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "提供技能、本能、记忆等模块化能力增强",
+        "支持Claude Code、Codex、Cursor等多种代理",
+        "强调研究优先的开发方法论",
+        "集成安全机制与性能优化",
+        "高星数反映社区高度关注"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Ollama：本地运行大模型的极简工具",
+    "source_url": "https://github.com/ollama/ollama",
+    "summary": "Ollama是一个开源的本地大模型运行工具，支持Kimi、DeepSeek、Qwen、Gemma等多种主流模型，提供简洁的API和命令行界面，让用户无需复杂配置即可在个人电脑上快速部署和运行LLM，降低了AI模型使用的门槛。",
+    "tags": [
+      "大模型",
+      "本地部署",
+      "开源工具",
+      "LLM",
+      "Go"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "支持多种主流大模型（如DeepSeek、Qwen、Gemma等）",
+        "提供简洁的API和命令行界面，易于使用",
+        "本地运行，保护数据隐私",
+        "开源项目，社区活跃，星数超17万",
+        "基于Go语言开发，性能高效"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Gemini API文件搜索升级多模态RAG",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+    "summary": "Google扩展Gemini API文件搜索功能，支持多模态RAG（检索增强生成），允许开发者对图像、音频和视频文件进行语义搜索，提升AI应用的上下文理解能力。",
+    "tags": [
+      "Gemini API",
+      "多模态RAG",
+      "文件搜索",
+      "Google AI",
+      "开发者工具"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 6,
+      "key_points": [
+        "支持对图像、音频、视频文件进行语义搜索",
+        "集成多模态RAG能力",
+        "扩展Gemini API的开发者工具功能",
+        "提升AI应用的上下文理解和检索效率",
+        "基于Google博客的技术更新"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Meta过度依赖AI导致员工士气低落",
+    "source_url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+    "summary": "本文报道Meta公司因过度强调AI技术而引发员工不满，员工感到工作压力增大、创造力受限，且AI项目优先级过高导致其他业务被忽视。文章揭示了AI在组织内部可能带来的负面文化影响。",
+    "tags": [
+      "Meta",
+      "AI",
+      "员工士气",
+      "企业文化",
+      "科技新闻"
+    ],
+    "category": "opinion",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 4,
+      "key_points": [
+        "Meta过度强调AI优先级",
+        "员工感到工作压力增大",
+        "AI项目挤压其他业务空间",
+        "员工创造力受限",
+        "组织文化面临挑战"
+      ],
+      "sentiment": "negative"
+    }
+  },
+  {
+    "title": "Claude Code展示HTML的惊人效果：AI生成网页示例",
+    "source_url": "https://twitter.com/trq212/status/2052809885763747935",
+    "summary": "该项目通过Claude Code生成HTML示例，展示了AI在网页开发中的强大能力。基于Simon Willison的文章，项目提供了交互式演示，证明AI能高效创建功能完整的HTML页面，引发技术社区广泛讨论。",
+    "tags": [
+      "AI编程",
+      "HTML",
+      "Claude Code",
+      "网页开发",
+      "AI工具"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:43:04.142402+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 6,
+      "key_points": [
+        "Claude Code能生成复杂HTML页面",
+        "项目提供在线示例验证AI能力",
+        "基于Simon Willison的深度分析文章",
+        "Hacker News上获得444分和250条评论",
+        "展示AI在网页开发中的实际应用"
+      ],
+      "sentiment": "positive"
+    }
+  }
+]

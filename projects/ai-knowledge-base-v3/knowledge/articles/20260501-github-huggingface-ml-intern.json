@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-005",
+  "title": "huggingface/ml-intern — 开源 ML 工程师：读论文、训模型、交付成果",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/ml-intern",
+  "summary": "Hugging Face 官方推出的自主 ML 工程师 Agent，能够自主阅读研究论文、编写代码、训练模型并交付 ML 产品。深度集成 HF 生态（文档、数据集、论文库、云计算），支持交互式和 headless 两种模式。内置死循环检测、自动上下文压缩、会话追踪分享等工程化特性。可接入 Slack 通知，支持通过 MCP 协议扩展工具能力。",
+  "tags": ["HuggingFace", "MLAgent", "AutonomousAgent", "Research", "ModelTraining"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "Hugging Face 官方维护，生态深度整合（HF 文档、数据集、Papers、Spaces 计算资源），可信度最高",
+      "目标极为宏大——实现端到端的自主 ML 研究-训练-部署闭环，远超一般编程 Agent 的定位",
+      "内置死循环检测器和自动上下文压缩等工程化机制，面向生产使用而非 demo",
+      "支持 MCP 协议扩展，可接入外部工具和服务，架构开放且可扩展",
+      "会话自动存储为 Hugging Face Dataset（JSONL 格式），支持追踪、分享和审计"
+    ],
+    "sentiment": "positive"
+  }
+}

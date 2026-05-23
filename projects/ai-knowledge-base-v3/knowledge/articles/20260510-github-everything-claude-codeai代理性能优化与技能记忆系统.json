@@ -1,0 +1,29 @@
+{
+  "title": "Everything Claude Code：AI代理性能优化与技能记忆系统",
+  "source_url": "https://github.com/affaan-m/everything-claude-code",
+  "summary": "一个为Claude Code、Codex等AI编码代理设计的性能优化框架，整合技能、本能、记忆、安全与研究优先开发，提升代理在复杂开发任务中的效率和可靠性。",
+  "tags": [
+    "AI代理",
+    "性能优化",
+    "Claude Code",
+    "开发者工具",
+    "MCP"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-10T14:43:04.142402+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "提供技能、本能、记忆等模块化能力增强",
+      "支持Claude Code、Codex、Cursor等多种代理",
+      "强调研究优先的开发方法论",
+      "集成安全机制与性能优化",
+      "高星数反映社区高度关注"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-004",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

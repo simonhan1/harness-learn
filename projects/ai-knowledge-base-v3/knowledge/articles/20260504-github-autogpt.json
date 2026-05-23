@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-003",
+  "title": "Significant-Gravitas/AutoGPT — 自主AI Agent构建与部署平台",
+  "source": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "自主AI Agent构建与部署平台，提供低代码Agent Builder、预配置Agent市场和部署控制，支持自托管免费使用和云端Beta，已从单体Agent演进为平台化产品。",
+  "tags": ["AgentFramework", "AutonomousAgent", "LowCode", "AgentMarketplace"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "已获 184k Star、46.2k Fork、102 Release，自主Agent领域先驱项目",
+      "低代码 Agent Builder + 预配置 Agent 市场 + 工作流管理 + 监控分析",
+      "从单体Agent演进为完整平台(autogpt_platform + Forge + Benchmark + CLI)",
+      "示例Agent包含视频生成和社交内容提取，展示多场景落地能力"
+    ],
+    "sentiment": "positive"
+  }
+}

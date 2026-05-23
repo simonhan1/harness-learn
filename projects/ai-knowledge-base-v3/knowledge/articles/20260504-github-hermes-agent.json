@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-014",
+  "title": "NousResearch/hermes-agent — 自学习AI Agent，内置闭环学习机制",
+  "source": "github_trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "自学习AI Agent(v0.12.0)，内置闭环学习回路(自动生成Skills→自我改进→记忆持久化→跨会话搜索)。40+工具，6种终端后端，Telegram/Discord/Slack多渠道，内置Cron定时任务。",
+  "tags": ["AIAgent", "SelfLearning", "MultiChannel", "Skills", "CronScheduler"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "已获 131k Star、19.9k Fork、v0.12.0(2026.4.30)，Nous Research 官方出品",
+      "首创闭环学习回路：自动生成Skills→自我改进→Honcho用户建模→跨会话FTS5搜索",
+      "6种终端后端(本地/Docker/SSH/Daytona/Singularity/Modal) + 40+工具 + 多渠道分发",
+      "内置Cron定时任务 + 子Agent并行部署 + 批量轨迹生成(Atropos RL环境)"
+    ],
+    "sentiment": "positive"
+  }
+}

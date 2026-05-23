@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-010",
+  "title": "CJackHwang/ds2api — DeepSeek 兼容中间件接口",
+  "source": "github_trending",
+  "source_url": "https://github.com/CJackHwang/ds2api",
+  "summary": "一个 DeepSeek 兼容的中间件接口项目，基于 Go 语言实现，专注于高并发场景下的协议适配和转换。作为技术探索项目，展示了如何将多样化的 Web 协议转换为标准化格式，为 DeepSeek 模型服务提供统一接入层。具有参考实现价值，适用于需要将不同 LLM 服务协议统一化的中间件开发场景。",
+  "tags": ["DeepSeek", "API", "Middleware", "ProtocolAdaptation", "Go"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 6,
+    "key_points": [
+      "为 DeepSeek 模型建立标准化接入层，降低不同协议之间的对接成本",
+      "Go 语言实现，天然适合高并发场景，可用于生产环境的 API 网关",
+      "技术探索性质的项目，代码量适中，适合学习和参考",
+      "解决了 LLM API 协议碎片化问题的一个侧面，但未形成通用标准",
+      "在 DeepSeek 快速崛起的背景下具有时效价值"
+    ],
+    "sentiment": "neutral"
+  }
+}

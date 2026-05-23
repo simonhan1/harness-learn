@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-001",
+  "title": "openclaw/openclaw — 个人AI助手，20+渠道分发，本地优先架构",
+  "source": "github_trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "summary": "个人AI助手，支持20+渠道分发(WhatsApp/Telegram/Slack/Discord/Signal/iMessage等)，本地优先网关架构，内置语音唤醒、实时画布、多Agent路由和技能市场。",
+  "tags": ["AIAssistant", "MultiChannel", "SelfHosted", "Skills", "Gateway"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 368k Star、75.7k Fork、130+ Release，AI助手类项目最高星数",
+      "支持 WhatsApp/Telegram/Slack/Discord/Signal/iMessage 等 20+ 消息渠道",
+      "内置 Voice Wake + 实时 Canvas + 多Agent路由 + ClawHub 技能市场",
+      "本地优先架构，配套 macOS/iOS/Android 应用，Docker 一键部署"
+    ],
+    "sentiment": "positive"
+  }
+}

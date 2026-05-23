@@ -1,0 +1,29 @@
+{
+  "title": "AUTOMATIC1111/stable-diffusion-webui：Stable Diffusion全能Web界面",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "summary": "该项目提供了一个基于Gradio的Stable Diffusion Web UI，支持文本生成图像、图像到图像转换、超分辨率放大等核心功能。它集成了深度学习模型和PyTorch框架，为AI艺术创作和图像生成提供了直观的交互界面，是当前最流行的Stable Diffusion前端工具之一。",
+  "tags": [
+    "AI艺术",
+    "图像生成",
+    "Stable Diffusion",
+    "Web界面",
+    "深度学习"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T11:23:44.640794+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "支持txt2img和img2img核心功能",
+      "集成超分辨率放大和图像修复",
+      "基于Gradio的交互式Web界面",
+      "活跃社区和大量扩展插件",
+      "降低Stable Diffusion使用门槛"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-006",
+  "source": "github"
+}

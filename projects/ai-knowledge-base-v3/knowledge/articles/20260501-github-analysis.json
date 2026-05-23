@@ -1,0 +1,232 @@
+[
+  {
+    "id": "github-20260501-001",
+    "title": "mattpocock/skills — 面向真实工程的 Claude Code Agent 技能集",
+    "source": "github_trending",
+    "source_url": "https://github.com/mattpocock/skills",
+    "summary": "Matt Pocock 发布的 Claude Code 工程技能集合，倡导「真实工程而非氛围编码」。包含 /grill-me（需求对齐访谈）、/tdd（红绿重构循环）、/diagnose（系统化调试）、/improve-codebase-architecture 等 10+ 个可组合技能，覆盖需求沟通、测试驱动开发、架构治理、上下文压缩等关键痛点。设计哲学：小型、可适配、可组合，适用于任何模型。",
+    "tags": ["Agent", "ClaudeCode", "SoftwareEngineering", "TDD", "Skills"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "首创「共享语言」(CONTEXT.md) 机制，统一 Agent 与开发者的领域术语，大幅减少 token 浪费和沟通歧义",
+        "/grill-me 需求对齐访谈使用率达 60k+ 开发者，是当前最热门的 Agent 需求澄清方案",
+        "系统化解决 AI 编码四大失败模式：需求不对齐、输出冗余、代码不可用、软件熵失控",
+        "/improve-codebase-architecture 可在数天内修复 AI 编码造成的代码腐化",
+        "技能设计为可组合的 Unix 风格工具，用户可按需选择和自定义"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-002",
+    "title": "forrestchang/andrej-karpathy-skills — 基于 Karpathy LLM 编码洞察的 Claude Code 调优",
+    "source": "github_trending",
+    "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "summary": "将 Andrej Karpathy（前 OpenAI/Tesla AI 负责人）在 LLM 编码实践中观察到的典型陷阱和对策，凝练为一套 Claude Code 行为调优规则。源自 Karpathy 在社交媒体上持续分享的 LLM 编码经验，涵盖上下文管理、输出质量提升、避免重复推理等高频问题。以单一 CLAUDE.md 文件分发，安装即生效。",
+    "tags": ["ClaudeCode", "PromptEngineering", "LLM", "Agent", "Karpathy"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "Andrej Karpathy 是 AI 领域最受尊敬的实践者之一，其编码经验具有极高参考价值",
+        "聚焦 LLM 编码中常见的低效行为和错误模式，给出可操作的纠正策略",
+        "零配置安装——单一 CLAUDE.md 文件放入项目即生效，降低使用门槛",
+        "与 mattpocock/skills 形成互补：Karpathy 侧重大模型行为理解，Pocock 侧重工程流程管控",
+        "本周 23k stars 体现出社区对「如何用好 AI 编码」方法的巨大需求"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-003",
+    "title": "Alishahryar1/free-claude-code — 免费使用 Claude Code 的开源工具",
+    "source": "github_trending",
+    "source_url": "https://github.com/Alishahryar1/free-claude-code",
+    "summary": "一个让开发者免费使用 Claude Code 的开源工具，支持终端、VSCode 扩展和 Discord 三种交互方式，并支持语音输入。与 OpenClaw 架构类似，旨在降低 Claude Code 的使用门槛，让更多开发者无需付费即可体验 AI 编程助手。基于 Python 实现，在 VSCode 中可无缝集成。",
+    "tags": ["ClaudeCode", "AIAgent", "DeveloperTools", "OpenSource", "VSCode"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 6,
+      "key_points": [
+        "大幅降低 Claude Code 使用门槛，对 AI 编码工具普及有推动作用",
+        "多平台支持（终端 / VSCode / Discord）覆盖不同使用场景",
+        "14.6k 本周 stars 反映出用户对免费 AI 编码工具的强烈需求",
+        "需关注使用条款合规性和长期可持续性，可能存在法律风险",
+        "与 OpenClaw 功能重叠但更聚焦 Claude Code 生态"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "id": "github-20260501-004",
+    "title": "TauricResearch/TradingAgents — 多 Agent LLM 金融交易框架",
+    "source": "github_trending",
+    "source_url": "https://github.com/TauricResearch/TradingAgents",
+    "summary": "一个基于多 Agent 协作架构的 LLM 金融交易框架，通过多个专业化 AI Agent 协作完成市场分析、策略生成、风险评估和交易执行。将量化交易中的分析师、策略师、风控经理等角色映射为独立的 LLM Agent，实现分工协作的智能交易决策流程。总星数 58k+，是金融 AI Agent 领域的标杆项目。",
+    "tags": ["MultiAgent", "LLM", "Finance", "Trading", "QuantitativeAnalysis"],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "将真实金融团队的协作模式映射为多 Agent 架构，设计思路清晰且可解释",
+        "58k+ 总星数显示金融 AI 领域对多 Agent 方案的强烈需求",
+        "多 Agent 框架在金融场景中的落地应用范本，对行业 Agent 框架设计有参考价值",
+        "将高风险场景（交易）交给 AI Agent 仍需审慎评估可靠性和风险控制",
+        "项目生态成熟度较高，有完善的文档和社区支持"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-005",
+    "title": "huggingface/ml-intern — 开源 ML 工程师：读论文、训模型、交付成果",
+    "source": "github_trending",
+    "source_url": "https://github.com/huggingface/ml-intern",
+    "summary": "Hugging Face 官方推出的自主 ML 工程师 Agent，能够自主阅读研究论文、编写代码、训练模型并交付 ML 产品。深度集成 HF 生态（文档、数据集、论文库、云计算），支持交互式和 headless 两种模式。内置死循环检测、自动上下文压缩、会话追踪分享等工程化特性。可接入 Slack 通知，支持通过 MCP 协议扩展工具能力。",
+    "tags": ["HuggingFace", "MLAgent", "AutonomousAgent", "Research", "ModelTraining"],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "Hugging Face 官方维护，生态深度整合（HF 文档、数据集、Papers、Spaces 计算资源），可信度最高",
+        "目标极为宏大——实现端到端的自主 ML 研究-训练-部署闭环，远超一般编程 Agent 的定位",
+        "内置死循环检测器和自动上下文压缩等工程化机制，面向生产使用而非 demo",
+        "支持 MCP 协议扩展，可接入外部工具和服务，架构开放且可扩展",
+        "会话自动存储为 Hugging Face Dataset（JSONL 格式），支持追踪、分享和审计"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-006",
+    "title": "abhigyanpatwari/GitNexus — 零服务器代码智能引擎（知识图谱 + Graph RAG Agent）",
+    "source": "github_trending",
+    "source_url": "https://github.com/abhigyanpatwari/GitNexus",
+    "summary": "一个完全在浏览器/本地运行的代码知识图谱引擎。将任意 GitHub 仓库或 ZIP 文件索引为包含依赖关系、调用链、功能聚类和执行流的完整知识图谱，并提供内置 Graph RAG Agent 进行代码探索。核心创新在于预计算结构化智能——聚类、追踪、评分等均在索引时完成，使 AI Agent 一次查询即可获得完整上下文，告别传统 Graph RAG 的多轮链式查询。支持 16 个 MCP 工具和 14 种编程语言。",
+    "tags": ["KnowledgeGraph", "RAG", "MCP", "CodeAnalysis", "Agent"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "预计算关系智能（Precomputed Relational Intelligence）是区别于传统 Graph RAG 的根本创新——单次查询返回完整上下文",
+        "影响分析（impact analysis）可精确计算代码变更的爆炸半径，解决 AI 编码的「盲改」痛点",
+        "支持 14 种语言和 14 个 AI 编码平台（Claude Code / Cursor / Codex / OpenCode 等），覆盖极广",
+        "纯客户端 Web UI + WASM 架构，无需服务器，代码隐私零泄露",
+        "已扩展到企业级功能（PR Review、多仓库图谱、自动重新索引），商业化路径清晰"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-007",
+    "title": "lsdefine/GenericAgent — 自进化 Agent：从 3.3K 行种子代码生长出专属技能树",
+    "source": "github_trending",
+    "source_url": "https://github.com/lsdefine/GenericAgent",
+    "summary": "一个极简、自进化的自主 Agent 框架，核心仅约 3K 行代码。设计哲学是「不预设技能，靠进化获得能力」——每解决一个新任务，自动将执行路径固化为可复用的 Skill 存入分层记忆系统，使用越久能力越强。通过 9 个原子工具和约 100 行的 Agent Loop，赋予任意 LLM 对本地计算机的系统级控制（浏览器、终端、文件系统、键鼠、屏幕视觉、移动设备 ADB）。核心创新在于极致 Token 效率（<30K 上下文窗口）和自我进化机制。已发布 arXiv 技术论文。",
+    "tags": ["AutonomousAgent", "SelfEvolving", "TokenEfficiency", "SkillTree", "OpenSource"],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "自进化机制是根本性创新——Agent 会在每次任务后自动沉淀经验为 Skill，形成「越用越强」的正循环",
+        "Token 效率行业领先：<30K 上下文窗口 vs 同类产品 200K-1M，成本降低一个数量级",
+        "极简架构（3K 行核心代码）证明复杂 Agent 系统可以小而美，违反「更大才更好」的主流惯性",
+        "自举实证——仓库的所有 git 操作均由 Agent 自主完成，作者全程未打开终端，验证了框架的实战能力",
+        "已支持微信/QQ/飞书/钉钉/Telegram 等多平台 Bot 前端，生态扩展迅速"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-008",
+    "title": "mksglu/context-mode — AI 编码 Agent 上下文窗口优化（98% 数据缩减，14 平台支持）",
+    "source": "github_trending",
+    "source_url": "https://github.com/mksglu/context-mode",
+    "summary": "一个解决 AI 编码 Agent 上下文窗口爆炸问题的 MCP 服务器。通过沙盒执行（工具输出不进入上下文）、会话连续性（SQLite FTS5 + BM25 索引恢复工作状态）、「用代码思考」范式（LLM 生成分析脚本而非读取原始数据）、输出压缩（移除冗余词、保留技术精度，65-75% 输出 token 缩减）四管齐下，实现 98% 的上下文空间节省。支持 Claude Code / Gemini CLI / VS Code Copilot / Cursor / OpenCode / Codex / Qwen Code 等 14 个平台。",
+    "tags": ["ContextOptimization", "MCP", "TokenEfficiency", "Agent", "DeveloperTools"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "直击 AI 编码 Agent 的核心瓶颈——上下文窗口浪费（30 分钟后 40% 上下文被无意义数据占据）",
+        "「用代码思考」范式是方法论贡献：LLM 应该编程分析而不是读取分析，一个脚本代替十次文件读取",
+        "14 平台支持覆盖几乎所有主流 AI 编码工具，是当前兼容性最广的上下文管理方案",
+        "会话连续性机制解决了 Agent 压缩对话后遗忘工作状态的根本问题",
+        "沙盒隔离（进程级隔离）同时解决了安全和隐私两个维度"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-009",
+    "title": "AIDC-AI/Pixelle-Video — AI 全自动短视频引擎",
+    "source": "github_trending",
+    "source_url": "https://github.com/AIDC-AI/Pixelle-Video",
+    "summary": "阿里巴巴国际数字商业（AIDC）推出的 AI 全自动短视频生成引擎，通过 AI 技术实现从素材处理、脚本生成、剪辑合成到自动发布的完整短视频制作流水线。面向电商营销和内容创作场景，支持多语言输出，降低短视频制作的人力成本和时间成本。基于 Python 实现，总星数 8.5k+。",
+    "tags": ["VideoGeneration", "AI", "Automation", "ContentCreation", "AIDC"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 5,
+      "key_points": [
+        "大厂（阿里 AIDC）出品的 AI 视频生成工具，代表 AI 在内容生产领域的落地应用",
+        "端到端自动化（素材→脚本→剪辑→发布），完整覆盖短视频制作全链路",
+        "面向电商场景的垂直优化，实用性强于通用 AI 视频工具",
+        "与 AI/LLM 知识库核心方向（Agent、LLM、RAG）关联度相对较低",
+        "技术栈以传统图像/视频处理 + AI 模型组合为主，Agent 层面创新有限"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "github-20260501-010",
+    "title": "CJackHwang/ds2api — DeepSeek 兼容中间件接口",
+    "source": "github_trending",
+    "source_url": "https://github.com/CJackHwang/ds2api",
+    "summary": "一个 DeepSeek 兼容的中间件接口项目，基于 Go 语言实现，专注于高并发场景下的协议适配和转换。作为技术探索项目，展示了如何将多样化的 Web 协议转换为标准化格式，为 DeepSeek 模型服务提供统一接入层。具有参考实现价值，适用于需要将不同 LLM 服务协议统一化的中间件开发场景。",
+    "tags": ["DeepSeek", "API", "Middleware", "ProtocolAdaptation", "Go"],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-01T12:00:00+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 6,
+      "key_points": [
+        "为 DeepSeek 模型建立标准化接入层，降低不同协议之间的对接成本",
+        "Go 语言实现，天然适合高并发场景，可用于生产环境的 API 网关",
+        "技术探索性质的项目，代码量适中，适合学习和参考",
+        "解决了 LLM API 协议碎片化问题的一个侧面，但未形成通用标准",
+        "在 DeepSeek 快速崛起的背景下具有时效价值"
+      ],
+      "sentiment": "neutral"
+    }
+  }
+]

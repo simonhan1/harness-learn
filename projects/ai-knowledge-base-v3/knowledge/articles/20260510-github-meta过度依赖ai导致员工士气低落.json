@@ -1,0 +1,29 @@
+{
+  "title": "Meta过度依赖AI导致员工士气低落",
+  "source_url": "https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html",
+  "summary": "本文报道Meta公司因过度强调AI技术而引发员工不满，员工感到工作压力增大、创造力受限，且AI项目优先级过高导致其他业务被忽视。文章揭示了AI在组织内部可能带来的负面文化影响。",
+  "tags": [
+    "Meta",
+    "AI",
+    "员工士气",
+    "企业文化",
+    "科技新闻"
+  ],
+  "category": "opinion",
+  "status": "archived",
+  "collected_at": "2026-05-10T14:43:04.142402+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 4,
+    "key_points": [
+      "Meta过度强调AI优先级",
+      "员工感到工作压力增大",
+      "AI项目挤压其他业务空间",
+      "员工创造力受限",
+      "组织文化面临挑战"
+    ],
+    "sentiment": "negative"
+  },
+  "id": "github-20260510-007",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-001",
+  "title": "mattpocock/skills — 面向真实工程的 Claude Code Agent 技能集",
+  "source": "github_trending",
+  "source_url": "https://github.com/mattpocock/skills",
+  "summary": "Matt Pocock 发布的 Claude Code 工程技能集合，倡导「真实工程而非氛围编码」。包含 /grill-me（需求对齐访谈）、/tdd（红绿重构循环）、/diagnose（系统化调试）、/improve-codebase-architecture 等 10+ 个可组合技能，覆盖需求沟通、测试驱动开发、架构治理、上下文压缩等关键痛点。设计哲学：小型、可适配、可组合，适用于任何模型。",
+  "tags": ["Agent", "ClaudeCode", "SoftwareEngineering", "TDD", "Skills"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "首创「共享语言」(CONTEXT.md) 机制，统一 Agent 与开发者的领域术语，大幅减少 token 浪费和沟通歧义",
+      "/grill-me 需求对齐访谈使用率达 60k+ 开发者，是当前最热门的 Agent 需求澄清方案",
+      "系统化解决 AI 编码四大失败模式：需求不对齐、输出冗余、代码不可用、软件熵失控",
+      "/improve-codebase-architecture 可在数天内修复 AI 编码造成的代码腐化",
+      "技能设计为可组合的 Unix 风格工具，用户可按需选择和自定义"
+    ],
+    "sentiment": "positive"
+  }
+}

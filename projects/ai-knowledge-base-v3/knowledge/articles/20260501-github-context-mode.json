@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-008",
+  "title": "mksglu/context-mode — AI 编码 Agent 上下文窗口优化（98% 数据缩减，14 平台支持）",
+  "source": "github_trending",
+  "source_url": "https://github.com/mksglu/context-mode",
+  "summary": "一个解决 AI 编码 Agent 上下文窗口爆炸问题的 MCP 服务器。通过沙盒执行（工具输出不进入上下文）、会话连续性（SQLite FTS5 + BM25 索引恢复工作状态）、「用代码思考」范式（LLM 生成分析脚本而非读取原始数据）、输出压缩（移除冗余词、保留技术精度，65-75% 输出 token 缩减）四管齐下，实现 98% 的上下文空间节省。支持 Claude Code / Gemini CLI / VS Code Copilot / Cursor / OpenCode / Codex / Qwen Code 等 14 个平台。",
+  "tags": ["ContextOptimization", "MCP", "TokenEfficiency", "Agent", "DeveloperTools"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "直击 AI 编码 Agent 的核心瓶颈——上下文窗口浪费（30 分钟后 40% 上下文被无意义数据占据）",
+      "「用代码思考」范式是方法论贡献：LLM 应该编程分析而不是读取分析，一个脚本代替十次文件读取",
+      "14 平台支持覆盖几乎所有主流 AI 编码工具，是当前兼容性最广的上下文管理方案",
+      "会话连续性机制解决了 Agent 压缩对话后遗忘工作状态的根本问题",
+      "沙盒隔离（进程级隔离）同时解决了安全和隐私两个维度"
+    ],
+    "sentiment": "positive"
+  }
+}

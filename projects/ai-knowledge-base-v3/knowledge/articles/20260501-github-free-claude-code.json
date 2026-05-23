@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-003",
+  "title": "Alishahryar1/free-claude-code — 免费使用 Claude Code 的开源工具",
+  "source": "github_trending",
+  "source_url": "https://github.com/Alishahryar1/free-claude-code",
+  "summary": "一个让开发者免费使用 Claude Code 的开源工具，支持终端、VSCode 扩展和 Discord 三种交互方式，并支持语音输入。与 OpenClaw 架构类似，旨在降低 Claude Code 的使用门槛，让更多开发者无需付费即可体验 AI 编程助手。基于 Python 实现，在 VSCode 中可无缝集成。",
+  "tags": ["ClaudeCode", "AIAgent", "DeveloperTools", "OpenSource", "VSCode"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 6,
+    "key_points": [
+      "大幅降低 Claude Code 使用门槛，对 AI 编码工具普及有推动作用",
+      "多平台支持（终端 / VSCode / Discord）覆盖不同使用场景",
+      "14.6k 本周 stars 反映出用户对免费 AI 编码工具的强烈需求",
+      "需关注使用条款合规性和长期可持续性，可能存在法律风险",
+      "与 OpenClaw 功能重叠但更聚焦 Claude Code 生态"
+    ],
+    "sentiment": "neutral"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-008",
+  "title": "huggingface/transformers — ML模型定义框架，覆盖全模态的行业标准",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "summary": "HuggingFace模型定义框架(v5.7.0)，覆盖文本/视觉/音频/多模态领域，100万+Hub检查点。统一模型定义兼容Axolotl/Unsloth/DeepSpeed/vLLM/SGLang等训练推理全生态。",
+  "tags": ["ModelFramework", "NLP", "Multimodal", "PyTorch", "PretrainedModels"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 10,
+    "key_points": [
+      "已获 160k Star、33.1k Fork、255 Release(v5.7.0)，ML模型定义的行业标准框架",
+      "统一模型定义接口，连接 Axolotl/Unsloth/DeepSpeed/FSDP(vLLM/SGLang/TGI) 等全生态",
+      "1M+ Hub 模型检查点，Pipeline API 覆盖文本生成/语音识别/图像分类/VQA等全模态任务",
+      "Apache 2.0 许可，活跃社区 + 学术引用(wolf-etal-2020-transformers论文)"
+    ],
+    "sentiment": "positive"
+  }
+}

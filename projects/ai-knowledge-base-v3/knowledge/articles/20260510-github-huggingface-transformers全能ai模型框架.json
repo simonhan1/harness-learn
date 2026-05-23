@@ -1,0 +1,29 @@
+{
+  "title": "HuggingFace Transformers：全能AI模型框架",
+  "source_url": "https://github.com/huggingface/transformers",
+  "summary": "HuggingFace Transformers是一个支持文本、视觉、音频和多模态模型定义与训练的深度学习框架，集成了大量预训练模型（如DeepSeek、Gemma、Qwen等），提供统一的API用于推理和训练，是NLP和AI领域最流行的开源工具之一。",
+  "tags": [
+    "深度学习",
+    "自然语言处理",
+    "预训练模型",
+    "多模态",
+    "模型框架"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T11:23:44.640794+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 10,
+    "key_points": [
+      "支持文本、视觉、音频和多模态模型",
+      "集成数千个预训练模型",
+      "提供统一的推理和训练API",
+      "基于PyTorch，社区活跃",
+      "持续更新最新模型如DeepSeek、Qwen"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-008",
+  "source": "github"
+}

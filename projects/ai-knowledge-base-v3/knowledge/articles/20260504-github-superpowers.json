@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-004",
+  "title": "obra/superpowers — Agent编码方法论与Skills框架，跨平台TDD驱动开发",
+  "source": "github_trending",
+  "source_url": "https://github.com/obra/superpowers",
+  "summary": "跨平台Agent编码方法论与Skills框架，被Claude Code/Codex/Cursor/Gemini官方市场收录。内置头脑风暴→计划→TDD→子Agent调度→代码审查→分支合并的完整开发流水线。",
+  "tags": ["AgentDevelopment", "SkillsFramework", "TDD", "SubagentOrchestration", "MultiPlatform"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 177k Star、15.7k Fork，进入 Claude/Codex/Cursor/Gemini/Copilot 官方市场",
+      "强制TDD和子Agent驱动开发，Agent可数小时自主工作不偏离计划",
+      "完整开发流水线：头脑风暴→Git Worktree→计划→TDD→代码审查→分支合并",
+      "Skills包含系统化调试、验证完成、并行Agent分发等10+个可组合模块"
+    ],
+    "sentiment": "positive"
+  }
+}

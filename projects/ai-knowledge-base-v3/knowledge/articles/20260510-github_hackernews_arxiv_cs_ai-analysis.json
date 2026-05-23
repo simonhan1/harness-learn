@@ -1,0 +1,191 @@
+[
+  {
+    "title": "openclaw：跨平台个人AI助手，数据自主掌控",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "summary": "openclaw是一个跨平台、跨操作系统的个人AI助手项目，强调用户数据自主权（own-your-data），采用TypeScript开发。其独特定位在于“龙虾方式”（lobster way），结合了AI助手与数据隐私保护，适合多平台使用场景。",
+    "tags": [
+      "AI助手",
+      "数据隐私",
+      "跨平台",
+      "TypeScript",
+      "个人化"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "跨平台支持（任何OS）",
+        "强调用户数据自主权",
+        "TypeScript实现",
+        "标签含crustacean等独特元素",
+        "星数高（370k）表明社区关注"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "n8n：开源低代码AI工作流自动化平台",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "summary": "n8n是一个公平代码（fair-code）工作流自动化平台，原生集成AI能力，支持可视化构建与自定义代码结合，提供400+集成，可自托管或云部署。其MCP（Model Context Protocol）支持使其成为AI代理工作流的关键工具，兼具低代码易用性与开发者灵活性。",
+    "tags": [
+      "工作流自动化",
+      "低代码",
+      "AI集成",
+      "开源",
+      "MCP"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "原生AI能力，支持AI代理工作流",
+        "400+集成，覆盖主流服务",
+        "可视化构建与自定义代码结合",
+        "支持自托管和云部署",
+        "MCP客户端与服务器支持，增强AI上下文交互"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "AutoGPT：人人可用的自主AI代理框架",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "summary": "AutoGPT是一个开源的自主AI代理框架，旨在让每个人都能轻松构建和使用AI代理。它支持多种LLM（如GPT、Claude、Llama），提供任务规划、执行和工具调用能力，是当前最流行的自主AI项目之一。",
+    "tags": [
+      "自主AI代理",
+      "LLM框架",
+      "开源工具",
+      "任务自动化",
+      "多模型支持"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "提供自主AI代理的完整实现，支持任务分解与执行",
+        "兼容多种主流LLM（OpenAI、Claude、Llama等）",
+        "拥有丰富的插件生态和社区贡献",
+        "强调可访问性，降低AI代理使用门槛",
+        "GitHub星数超18万，是AI代理领域标杆项目"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Everything Claude Code：全能AI代理性能优化系统",
+    "source_url": "https://github.com/affaan-m/everything-claude-code",
+    "summary": "一个为Claude Code、Codex、Cursor等AI编码代理设计的性能优化框架，集成技能、本能、记忆、安全与研究优先开发功能，旨在提升代理的效率和可靠性。",
+    "tags": [
+      "AI代理",
+      "性能优化",
+      "Claude Code",
+      "开发者工具",
+      "MCP"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "为多种AI编码代理提供统一性能优化",
+        "集成技能、本能、记忆等高级功能",
+        "强调安全与研究优先的开发理念",
+        "支持Claude Code、Codex、Opencode、Cursor等",
+        "高星数（177k）表明社区高度关注"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Ollama：本地运行大模型的极简工具",
+    "source_url": "https://github.com/ollama/ollama",
+    "summary": "Ollama是一个用Go语言编写的开源工具，让用户能在本地轻松运行和管理多种大型语言模型，如DeepSeek、Qwen、Gemma等。它简化了模型下载、部署和交互流程，支持GPU加速和API调用，是AI开发者和爱好者的实用工具。",
+    "tags": [
+      "LLM",
+      "本地部署",
+      "Go",
+      "开源工具",
+      "模型管理"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "支持多种主流模型如DeepSeek、Qwen、Gemma",
+        "一键本地运行，无需复杂配置",
+        "提供REST API便于集成",
+        "跨平台支持（Windows/Mac/Linux）",
+        "社区活跃，星数超17万"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Gemini API文件搜索升级多模态",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+    "summary": "Google宣布Gemini API的文件搜索功能扩展至多模态，支持图像、音频和视频内容的检索与分析，增强了RAG能力。该更新使开发者能构建更丰富的多模态搜索应用，提升信息获取效率。",
+    "tags": [
+      "Gemini",
+      "多模态",
+      "文件搜索",
+      "RAG",
+      "API"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "Gemini API文件搜索现支持多模态内容",
+        "涵盖图像、音频和视频检索",
+        "增强RAG能力",
+        "提升开发者构建多模态搜索应用效率",
+        "Google持续扩展AI工具功能"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Claude Code：HTML的惊人有效性",
+    "source_url": "https://twitter.com/trq212/status/2052809885763747935",
+    "summary": "文章探讨了使用Claude Code时HTML的显著效果，通过示例展示了HTML在AI辅助编程中的强大表现，并引用相关讨论，强调HTML作为输出格式的实用性和效率。",
+    "tags": [
+      "Claude Code",
+      "HTML",
+      "AI编程",
+      "技术效率",
+      "Hacker News"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T17:01:46.595298+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "Claude Code利用HTML输出效果显著",
+        "HTML格式在AI辅助中表现高效",
+        "示例网站展示具体应用",
+        "相关讨论强调HTML的实用性",
+        "社区反响热烈，有455分和254条评论"
+      ],
+      "sentiment": "positive"
+    }
+  }
+]

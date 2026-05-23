@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-009",
+  "title": "anomalyco/opencode — 开源AI编程Agent，厂商中立，面向TUI",
+  "source": "github_trending",
+  "source_url": "https://github.com/anomalyco/opencode",
+  "summary": "100%开源AI编程Agent(v1.14.33)，不绑定任何模型提供商，支持Claude/OpenAI/Google/本地模型。内置plan/build双Agent模式+LSP支持+客户端-服务器架构，桌面App Beta。",
+  "tags": ["CodingAgent", "OpenSource", "TUI", "MultiModel", "DeveloperTools"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 154k Star、17.8k Fork、784 Release(v1.14.33)，开源编程Agent头部项目",
+      "100%开源+厂商中立，支持 Claude/OpenAI/Google/本地模型，不锁定生态",
+      "内置 plan(build)双Agent模式 + LSP支持 + 客户端-服务器架构 + 桌面App",
+      "由neovim用户和terminal.shop团队打造，专注TUI极致体验"
+    ],
+    "sentiment": "positive"
+  }
+}

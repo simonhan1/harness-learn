@@ -1,0 +1,29 @@
+{
+  "title": "LangChain：AI代理工程化平台，赋能多模型编排",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain是一个开源框架，用于构建基于大语言模型的AI代理和应用程序。它支持多种模型（如OpenAI、Anthropic、Gemini），提供RAG、多代理协作等核心功能，并通过LangGraph实现复杂工作流编排，是当前最流行的AI工程化平台之一。",
+  "tags": [
+    "AI代理",
+    "LLM框架",
+    "多模型支持",
+    "RAG",
+    "工作流编排"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-10T11:23:44.640794+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "支持多种主流LLM（OpenAI、Anthropic、Gemini等），提供统一接口",
+      "内置RAG、多代理协作、工具调用等高级功能",
+      "通过LangGraph实现复杂工作流编排和状态管理",
+      "拥有庞大的开源社区和丰富的生态系统",
+      "提供TypeScript版本，支持跨语言开发"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-015",
+  "source": "github"
+}

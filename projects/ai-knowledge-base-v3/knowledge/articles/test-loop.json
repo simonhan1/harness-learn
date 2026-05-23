@@ -1,0 +1,21 @@
+{
+  "id": "github-20260507-001",
+  "title": "LangGraph — 基于有向图的LLM Agent可控工作流编排框架",
+  "source": "github_trending",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "summary": "LangGraph 是基于有向循环图的 LLM Agent 编排框架，支持状态持久化、人工介入和流式输出。",
+  "tags": ["LangGraph", "AgentFramework", "Orchestration", "LLM"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-07T14:30:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "基于有向图（含循环）的Agent工作流编排，支持复杂控制流",
+      "内置状态持久化与检查点机制，支持断点续跑和人工介入",
+      "节点与边组合灵活，支持条件分支、并行执行等模式"
+    ],
+    "sentiment": "positive"
+  }
+}

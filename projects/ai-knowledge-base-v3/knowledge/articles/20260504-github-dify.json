@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-011",
+  "title": "langgenius/dify — 生产级LLM应用平台，RAG+Agent+LLMOps全栈",
+  "source": "github_trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "summary": "生产级LLM应用平台(v1.14.0)，集成RAG管道(PDF/PPT摄取检索)、50+内置Agent工具、可视化工作流和LLMOps可观测。企业级支持SSO/权限/气隙部署。",
+  "tags": ["LLMPlatform", "RAG", "AgentWorkflow", "LowCode", "Enterprise"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "已获 140k Star、21.9k Fork、162 Release(v1.14.0)，开源LLM应用平台头部项目",
+      "RAG管道支持 PDF/PPT 等文档摄取检索 + Prompt IDE + 模型性能对比",
+      "50+ 内置Agent工具(Google Search/DALL·E/Stable Diffusion等) + 可视化工作流",
+      "企业级特性：SSO/权限/气隙部署 + LLMOps可观测 + 数百种LLM模型支持"
+    ],
+    "sentiment": "positive"
+  }
+}

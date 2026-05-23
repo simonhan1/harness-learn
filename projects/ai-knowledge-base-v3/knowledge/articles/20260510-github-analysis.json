@@ -1,0 +1,137 @@
+[
+  {
+    "title": "OpenClaw：跨平台个人AI助手，数据自主掌控",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "summary": "OpenClaw是一个跨平台、跨操作系统的个人AI助手项目，强调用户数据所有权和隐私保护。它采用TypeScript开发，以“龙虾方式”为理念，提供个性化AI服务，支持在任何操作系统和平台上运行，让用户完全掌控自己的数据。",
+    "tags": [
+      "AI助手",
+      "跨平台",
+      "数据隐私",
+      "开源",
+      "TypeScript"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:41:23.929641+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 6,
+      "key_points": [
+        "跨平台支持：任何操作系统和平台",
+        "数据自主：用户完全掌控个人数据",
+        "个性化AI助手：提供个人化服务",
+        "开源项目：基于TypeScript开发",
+        "理念独特：以龙虾方式（the lobster way）为特色"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "n8n：开源低代码AI工作流自动化平台",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "summary": "n8n是一个功能强大的开源工作流自动化平台，支持可视化构建与自定义代码结合，原生集成AI能力，提供400+应用连接器。它可自托管或云端使用，是低代码/无代码领域的明星项目，适合构建复杂自动化流程和AI代理。",
+    "tags": [
+      "工作流自动化",
+      "低代码平台",
+      "AI集成",
+      "开源",
+      "自托管"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:41:23.929641+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "可视化工作流编辑器，支持拖拽构建自动化流程",
+        "原生AI能力，可集成LLM、AI代理等",
+        "400+集成，覆盖主流API和服务",
+        "支持自托管部署，保障数据隐私",
+        "活跃社区，18.7万星标，持续更新"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "AutoGPT：人人可用的自主AI智能体平台",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "summary": "AutoGPT是一个开源自主AI智能体框架，旨在让每个人都能轻松构建和使用AI代理。它支持多种LLM（如GPT、Claude、Llama），提供任务规划、执行和工具调用能力，是当前最受欢迎的自主AI项目之一。",
+    "tags": [
+      "自主AI智能体",
+      "LLM框架",
+      "开源工具",
+      "任务自动化",
+      "多模型支持"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:41:23.929641+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "提供自主AI智能体构建框架，支持任务分解与执行",
+        "兼容GPT、Claude、Llama等多种主流大语言模型",
+        "开源且社区活跃，拥有超过18万星标",
+        "降低AI智能体开发门槛，面向普通用户和开发者",
+        "支持工具调用和插件扩展，实现复杂自动化任务"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "everything-claude-code：AI代理性能优化与技能系统",
+    "source_url": "https://github.com/affaan-m/everything-claude-code",
+    "summary": "该项目是一个AI代理性能优化系统，为Claude Code、Codex等工具提供技能、本能、记忆、安全及研究优先的开发框架，旨在提升LLM代理的生产力和效率。",
+    "tags": [
+      "AI代理",
+      "Claude Code",
+      "性能优化",
+      "开发者工具",
+      "LLM"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:41:23.929641+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "提供技能、本能、记忆等核心功能",
+        "支持Claude Code、Codex、Cursor等多种工具",
+        "强调安全与研究优先的开发理念",
+        "基于JavaScript实现，易于集成",
+        "高星数（177k）表明社区高度关注"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Ollama：本地运行主流大模型的极简工具",
+    "source_url": "https://github.com/ollama/ollama",
+    "summary": "Ollama是一个用Go语言开发的开源工具，支持在本地轻松运行Kimi、DeepSeek、Qwen、Gemma等数十种主流大语言模型。它简化了模型下载、管理和推理流程，让开发者无需复杂配置即可快速体验和部署LLM。",
+    "tags": [
+      "LLM",
+      "本地部署",
+      "开源工具",
+      "Go",
+      "模型推理"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-05-10T14:41:23.929641+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "支持多种主流模型如DeepSeek、Qwen、Gemma等",
+        "一键本地运行，无需复杂配置",
+        "Go语言开发，轻量高效",
+        "社区活跃，星数超17万",
+        "适合开发者和AI爱好者快速体验LLM"
+      ],
+      "sentiment": "positive"
+    }
+  }
+]

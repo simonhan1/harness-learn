@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-009",
+  "title": "AIDC-AI/Pixelle-Video — AI 全自动短视频引擎",
+  "source": "github_trending",
+  "source_url": "https://github.com/AIDC-AI/Pixelle-Video",
+  "summary": "阿里巴巴国际数字商业（AIDC）推出的 AI 全自动短视频生成引擎，通过 AI 技术实现从素材处理、脚本生成、剪辑合成到自动发布的完整短视频制作流水线。面向电商营销和内容创作场景，支持多语言输出，降低短视频制作的人力成本和时间成本。基于 Python 实现，总星数 8.5k+。",
+  "tags": ["VideoGeneration", "AI", "Automation", "ContentCreation", "AIDC"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 5,
+    "key_points": [
+      "大厂（阿里 AIDC）出品的 AI 视频生成工具，代表 AI 在内容生产领域的落地应用",
+      "端到端自动化（素材→脚本→剪辑→发布），完整覆盖短视频制作全链路",
+      "面向电商场景的垂直优化，实用性强于通用 AI 视频工具",
+      "与 AI/LLM 知识库核心方向（Agent、LLM、RAG）关联度相对较低",
+      "技术栈以传统图像/视频处理 + AI 模型组合为主，Agent 层面创新有限"
+    ],
+    "sentiment": "positive"
+  }
+}

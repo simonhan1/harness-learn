@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-006",
+  "title": "ollama/ollama — 本地大模型运行引擎，一键运行主流开源模型",
+  "source": "github_trending",
+  "source_url": "https://github.com/ollama/ollama",
+  "summary": "本地LLM运行引擎，支持Kimi-K2.5/GLM-5/DeepSeek/Qwen/Gemma等数十种模型，覆盖聊天界面、IDE集成、RAG、Agent框架等100+社区集成。REST API + Python/JS SDK。",
+  "tags": ["LocalLLM", "ModelDeployment", "InferenceEngine", "MultiModel", "SelfHosted"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "已获 171k Star、16k Fork、211 Release(v0.23.0)，本地LLM推理基础设施标杆",
+      "支持 Kimi-K2.5/GLM-5/MiniMax/DeepSeek/gpt-oss/Qwen/Gemma 等数十种模型",
+      "生态覆盖 100+ 社区集成：Chat UI、VS Code插件、RAG引擎、Agent框架、数据库",
+      "一键启动集成(ollama launch claude/codex/opencode)，连接AI编程生态"
+    ],
+    "sentiment": "positive"
+  }
+}

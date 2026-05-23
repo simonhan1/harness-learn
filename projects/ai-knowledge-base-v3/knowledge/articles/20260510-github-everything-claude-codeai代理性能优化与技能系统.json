@@ -1,0 +1,29 @@
+{
+  "title": "everything-claude-code：AI代理性能优化与技能系统",
+  "source_url": "https://github.com/affaan-m/everything-claude-code",
+  "summary": "该项目是一个AI代理性能优化系统，为Claude Code、Codex等工具提供技能、本能、记忆、安全及研究优先的开发框架，旨在提升LLM代理的生产力和效率。",
+  "tags": [
+    "AI代理",
+    "Claude Code",
+    "性能优化",
+    "开发者工具",
+    "LLM"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-10T14:41:23.929641+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "提供技能、本能、记忆等核心功能",
+      "支持Claude Code、Codex、Cursor等多种工具",
+      "强调安全与研究优先的开发理念",
+      "基于JavaScript实现，易于集成",
+      "高星数（177k）表明社区高度关注"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-004",
+  "source": "github"
+}

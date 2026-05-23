@@ -1,0 +1,219 @@
+{
+  "source": "github_trending",
+  "skill": "tech-summary",
+  "analyzed_at": "2026-05-04T15:30:00+08:00",
+  "input_file": "github_trending_20260504_143500.json",
+  "trends": {
+    "common_themes": [
+      "AI Agent框架与Skills标准化",
+      "本地化AI部署与推理",
+      "多Agent协作与子Agent编排",
+      "低代码/可视化AI工作流平台",
+      "多渠道AI助手分发"
+    ],
+    "new_concepts": [
+      "Agent Skills标准 (agentskills.io)",
+      "自学习闭环Agent (self-improving learning loop)",
+      "Agent Harness性能优化系统",
+      "Skills即插件生态"
+    ],
+    "trend_summary": "本期以AI Agent框架标准化和多Agent协作为核心趋势。Anthropic推动的Agent Skills标准正在形成行业共识，多家项目跟进实现。本地化LLM部署覆盖从推理引擎(Ollama)到交互界面(Open WebUI)的完整链路。低代码可视化的AI工作流构建平台(Dify/Langflow/n8n)持续高速增长，渠道分发的个人AI助手(OpenClaw/Hermes)成为新的竞技场。"
+  },
+  "items": [
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "个人AI助手，支持20+渠道分发，本地优先架构，语音触发与实时画布。",
+      "score": 8,
+      "score_reason": "368k Star顶级项目，多渠道覆盖成熟但非颠覆性突破，属于应用层创新",
+      "tech_highlights": [
+        "已获 368k Star，75.7k Fork，130+ Release",
+        "支持 WhatsApp/Telegram/Slack/Discord/Signal/iMessage 等 20+ 渠道",
+        "内置 Voice Wake + 实时 Canvas + 多Agent路由 + 技能市场"
+      ],
+      "tags": ["AI助手", "多渠道分发", "本地部署", "Skills生态"]
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "summary": "Fair-code工作流自动化平台，原生集成AI能力，400+集成。",
+      "score": 8,
+      "score_reason": "187k Star，Fair-code+AI原生定位差异化明显，企业级自动化成熟",
+      "tech_highlights": [
+        "已获 187k Star，57.3k Fork，603 Release",
+        "基于 LangChain 构建 AI Agent 工作流，支持自托管或云端",
+        "400+ 集成 + 900+ 模版，MCP Server/Client 支持"
+      ],
+      "tags": ["工作流自动化", "AI编排", "低代码", "MCP", "自托管"]
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "自主AI Agent构建与部署平台，提供低代码Agent构建器。",
+      "score": 7,
+      "score_reason": "184k Star，自主Agent领域先驱，从单体Agent演进为平台化产品",
+      "tech_highlights": [
+        "已获 184k Star，46.2k Fork，102 Release",
+        "低代码 Agent Builder + 预配置 Agent 市场 + 部署控制",
+        "自托管免费，支持多模型，含视频生成/引用提取等示例Agent"
+      ],
+      "tags": ["Agent框架", "自主Agent", "低代码平台", "Agent市场"]
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "Agent编码方法论与Skills框架，强制TDD和子Agent驱动开发。",
+      "score": 8,
+      "score_reason": "177k Star，跨平台Agent开发方法论标杆，被Claude/Codex/Cursor等官方收录",
+      "tech_highlights": [
+        "已获 177k Star，15.7k Fork，进入 Claude/Codex/Cursor/Gemini 官方市场",
+        "内置头脑风暴→计划→TDD→子Agent调度→代码审查→分支合并完整流水线",
+        "子Agent驱动开发模式，支持Agent数小时自主工作不偏离计划"
+      ],
+      "tags": ["Agent开发", "Skills框架", "TDD方法论", "子Agent编排", "多平台"]
+    },
+    {
+      "name": "affaan-m/everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "summary": "Agent Harness性能优化系统，含48个Agent和182个Skills。",
+      "score": 7,
+      "score_reason": "173k Star的庞大配置集合，提出Agent Harness优化方法论，但本质是配置层创新",
+      "tech_highlights": [
+        "已获 173k Star，26.8k Fork，Anthropic Hackathon 获奖项目",
+        "48 Agent + 182 Skills + 68 命令，覆盖12种语言生态",
+        "内置 AgentShield 安全审计(102规则/1282测试) + 持续学习系统"
+      ],
+      "tags": ["Agent优化", "ClaudeCode", "Skills生态", "安全审计", "持续学习"]
+    },
+    {
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "summary": "本地大模型运行引擎，一键运行Kimi/GLM/DeepSeek等主流模型。",
+      "score": 9,
+      "score_reason": "171k Star，本地LLM推理基础设施，生态覆盖代码编辑器到企业工具全链路",
+      "tech_highlights": [
+        "已获 171k Star，16k Fork，211 Release，v0.23.0 最新",
+        "支持 Kimi-K2.5/GLM-5/DeepSeek/Qwen/Gemma 等数十种模型",
+        "生态涵盖 100+ 社区集成：聊天界面、IDE、RAG、Agent框架、数据库"
+      ],
+      "tags": ["本地LLM", "模型部署", "推理引擎", "多模型支持", "自托管"]
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "summary": "Stable Diffusion Web界面，支持文生图/图生图/修复等完整功能。",
+      "score": 6,
+      "score_reason": "163k Star，图像生成领域经典项目，但最近更新放缓(最新Release 2025年2月)",
+      "tech_highlights": [
+        "已获 163k Star，30.3k Fork，SD 图像生成领域标杆工具",
+        "支持 txt2img/img2img/inpainting/upscale/LoRA/ControlNet 等完整管线",
+        "丰富扩展生态，社区贡献大量自定义脚本和插件"
+      ],
+      "tags": ["图像生成", "StableDiffusion", "WebUI", "AI绘画", "开源工具"]
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "summary": "HuggingFace模型定义框架，覆盖文本/视觉/音频/多模态全领域。",
+      "score": 10,
+      "score_reason": "160k Star，ML模型定义的行业标准框架，100万+检查点，连接训练/推理全生态",
+      "tech_highlights": [
+        "已获 160k Star，33.1k Fork，255 Release，v5.7.0 最新",
+        "统一模型定义，兼容 Axolotl/Unsloth/DeepSpeed/FSDP/vLLM/SGLang 等",
+        "1M+ Hub 模型检查点，Pipeline API 覆盖文本/视觉/语音/多模态任务"
+      ],
+      "tags": ["模型框架", "NLP", "多模态", "PyTorch", "预训练模型"]
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "summary": "开源AI编程Agent，不绑定厂商，面向TUI，支持多模型。",
+      "score": 8,
+      "score_reason": "154k Star，开源编程Agent头部项目，厂商中立+TUI差异化，桌面App Beta",
+      "tech_highlights": [
+        "已获 154k Star，17.8k Fork，784 Release，v1.14.33 最新",
+        "100% 开源，不绑定任何模型提供商，支持 Claude/OpenAI/Google/本地模型",
+        "内置 plan/build 双Agent模式 + LSP支持 + 客户端-服务器架构"
+      ],
+      "tags": ["编程Agent", "开源", "TUI", "多模型", "开发工具"]
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "summary": "可视化AI Agent和工作流构建平台，支持多Agent编排和MCP。",
+      "score": 7,
+      "score_reason": "148k Star，可视化构建器差异化突出，但面临Dify等竞品直接竞争",
+      "tech_highlights": [
+        "已获 148k Star，8.9k Fork，292 Release，v1.9.2 最新",
+        "可视化构建 + Python源代码编辑双模式，支持多Agent对话编排",
+        "内置MCP Server，可将任意工作流转为MCP工具，支持LangSmith/LangFuse可观测"
+      ],
+      "tags": ["可视化编排", "Agent工作流", "低代码", "MCP", "RAG"]
+    },
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "summary": "生产级LLM应用平台，集成RAG管道、Agent、工作流和LLMOps。",
+      "score": 8,
+      "score_reason": "140k Star，开源LLM应用平台头部项目，RAG+Agent+LLMOps全栈覆盖",
+      "tech_highlights": [
+        "已获 140k Star，21.9k Fork，162 Release，v1.14.0 最新",
+        "RAG管道支持 PDF/PPT 等文档摄取检索 + 50+ 内置Agent工具",
+        "企业级特性：SSO/权限/气隙部署 + LLMOps 可观测 + 模型管理"
+      ],
+      "tags": ["LLM平台", "RAG管道", "Agent工作流", "低代码", "企业级"]
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "summary": "Agent工程平台，提供LangGraph可控Agent工作流框架。",
+      "score": 8,
+      "score_reason": "136k Star，LLM应用开发的行业标准框架，生态庞大(DeepAgents+LangGraph+LangSmith)",
+      "tech_highlights": [
+        "已获 136k Star，22.4k Fork，1235 Release",
+        "推出 DeepAgents 支持计划/子Agent/文件系统的复杂任务 + LangGraph 低层编排",
+        "统一模型接口 + 丰富集成生态 + LangSmith 全链路可观测"
+      ],
+      "tags": ["Agent框架", "LLM开发", "编排", "LangGraph", "DeepAgents"]
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "summary": "自托管AI平台，支持离线运行、RAG、语音视频和图像生成。",
+      "score": 8,
+      "score_reason": "135k Star，最全功能的自托管AI界面，企业认证+可观测+水平扩展完备",
+      "tech_highlights": [
+        "已获 135k Star，19.3k Fork，159 Release，v0.9.2 最新",
+        "9款向量数据库 + 15+ Web搜索 + 语音/视频通话 + 图像生成/编辑",
+        "企业级特性：LDAP/SCIM/SSO/OAuth + RBAC + Redis集群 + OpenTelemetry"
+      ],
+      "tags": ["AI界面", "本地部署", "RAG", "多模态", "企业级"]
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "自学习AI Agent，内置闭环学习机制，支持多渠道和定时任务。",
+      "score": 7,
+      "score_reason": "131k Star，首创封闭学习回路的Agent，但技术架构仍在快速迭代中",
+      "tech_highlights": [
+        "已获 131k Star，19.9k Fork，v0.12.0 2026.4.30 最新",
+        "内置闭环学习：自动生成Skills → 自我改进 → 记忆持久化 → 跨会话搜索",
+        "6种终端后端(本地/Docker/SSH/Modal等)，40+工具，Telegram/Discord/Slack分发"
+      ],
+      "tags": ["AI Agent", "自主学习", "多渠道", "Skills生态", "定时任务"]
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "summary": "Anthropic发布的Agent Skills公开仓库，定义Skills标准规范。",
+      "score": 8,
+      "score_reason": "128k Star，Agent Skills标准规范的官方定义者，推动行业标准化",
+      "tech_highlights": [
+        "已获 128k Star，15k Fork，Anthropic 官方仓库",
+        "定义 agentskills.io 开放标准，含完整规范(spec/)和模板(template/)",
+        "文档技能(docx/pdf/pptx/xlsx)可作为生产级参考实现"
+      ],
+      "tags": ["Agent Skills", "标准规范", "Claude", "Skills框架", "Anthropic"]
+    }
+  ]
+}

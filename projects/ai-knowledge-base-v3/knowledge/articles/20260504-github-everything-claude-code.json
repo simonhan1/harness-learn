@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-005",
+  "title": "affaan-m/everything-claude-code — Agent Harness性能优化系统",
+  "source": "github_trending",
+  "source_url": "https://github.com/affaan-m/everything-claude-code",
+  "summary": "Agent Harness性能优化系统(Anthropic Hackathon获奖)，含48个Agent、182个Skills和68个命令，覆盖12种语言生态。内置AgentShield安全审计(102规则)和持续学习系统。",
+  "tags": ["AgentOptimization", "ClaudeCode", "SkillsEcosystem", "SecurityAudit", "ContinuousLearning"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "已获 173k Star、26.8k Fork，Anthropic Hackathon 获奖项目",
+      "48 Agent + 182 Skills + 68 命令，覆盖 TypeScript/Python/Go/Java/Rust 等12种语言",
+      "内置 AgentShield 安全审计(102规则/1282测试) + 持续学习v2本能系统",
+      "跨平台支持 Claude Code/Codex/Cursor/OpenCode/Gemini，含桌面Dashboard GUI"
+    ],
+    "sentiment": "positive"
+  }
+}

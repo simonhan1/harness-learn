@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-007",
+  "title": "AUTOMATIC1111/stable-diffusion-webui — Stable Diffusion图像生成WebUI",
+  "source": "github_trending",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "summary": "Stable Diffusion Web图形界面，支持文生图/图生图/修复/放大/LoRA/ControlNet等完整图像生成管线，拥有丰富的社区扩展生态。最新更新放缓(Release 2025年2月)。",
+  "tags": ["ImageGeneration", "StableDiffusion", "WebUI", "AIPainting", "OpenSource"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 6,
+    "key_points": [
+      "已获 163k Star、30.3k Fork，SD图像生成领域使用最广的GUI工具",
+      "支持 txt2img/img2img/inpainting/upscale/LoRA/ControlNet/训练等完整管线",
+      "丰富扩展生态 + 社区大量自定义脚本和插件",
+      "最近更新放缓(最新Release 2025年2月)，活跃度下降"
+    ],
+    "sentiment": "neutral"
+  }
+}

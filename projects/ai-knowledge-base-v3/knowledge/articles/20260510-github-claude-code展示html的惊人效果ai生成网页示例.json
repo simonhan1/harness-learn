@@ -1,0 +1,29 @@
+{
+  "title": "Claude Code展示HTML的惊人效果：AI生成网页示例",
+  "source_url": "https://twitter.com/trq212/status/2052809885763747935",
+  "summary": "该项目通过Claude Code生成HTML示例，展示了AI在网页开发中的强大能力。基于Simon Willison的文章，项目提供了交互式演示，证明AI能高效创建功能完整的HTML页面，引发技术社区广泛讨论。",
+  "tags": [
+    "AI编程",
+    "HTML",
+    "Claude Code",
+    "网页开发",
+    "AI工具"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T14:43:04.142402+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 6,
+    "key_points": [
+      "Claude Code能生成复杂HTML页面",
+      "项目提供在线示例验证AI能力",
+      "基于Simon Willison的深度分析文章",
+      "Hacker News上获得444分和250条评论",
+      "展示AI在网页开发中的实际应用"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-008",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-006",
+  "title": "abhigyanpatwari/GitNexus — 零服务器代码智能引擎（知识图谱 + Graph RAG Agent）",
+  "source": "github_trending",
+  "source_url": "https://github.com/abhigyanpatwari/GitNexus",
+  "summary": "一个完全在浏览器/本地运行的代码知识图谱引擎。将任意 GitHub 仓库或 ZIP 文件索引为包含依赖关系、调用链、功能聚类和执行流的完整知识图谱，并提供内置 Graph RAG Agent 进行代码探索。核心创新在于预计算结构化智能——聚类、追踪、评分等均在索引时完成，使 AI Agent 一次查询即可获得完整上下文，告别传统 Graph RAG 的多轮链式查询。支持 16 个 MCP 工具和 14 种编程语言。",
+  "tags": ["KnowledgeGraph", "RAG", "MCP", "CodeAnalysis", "Agent"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "预计算关系智能（Precomputed Relational Intelligence）是区别于传统 Graph RAG 的根本创新——单次查询返回完整上下文",
+      "影响分析（impact analysis）可精确计算代码变更的爆炸半径，解决 AI 编码的「盲改」痛点",
+      "支持 14 种语言和 14 个 AI 编码平台（Claude Code / Cursor / Codex / OpenCode 等），覆盖极广",
+      "纯客户端 Web UI + WASM 架构，无需服务器，代码隐私零泄露",
+      "已扩展到企业级功能（PR Review、多仓库图谱、自动重新索引），商业化路径清晰"
+    ],
+    "sentiment": "positive"
+  }
+}

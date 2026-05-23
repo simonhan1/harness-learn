@@ -1,0 +1,29 @@
+{
+  "title": "Langflow：构建与部署AI智能体与工作流的强大工具",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "summary": "Langflow是一个基于Python的开源工具，专注于构建和部署AI驱动的智能体与工作流。它通过可视化界面简化了多智能体系统和大型语言模型应用的开发流程，支持React Flow交互，适用于生成式AI场景。",
+  "tags": [
+    "AI智能体",
+    "工作流",
+    "大语言模型",
+    "多智能体",
+    "可视化开发"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-10T11:23:44.640794+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "提供可视化界面构建AI工作流",
+      "支持多智能体协作与部署",
+      "集成大型语言模型与生成式AI",
+      "基于React Flow实现交互式设计",
+      "开源且社区活跃，星数高"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-010",
+  "source": "github"
+}

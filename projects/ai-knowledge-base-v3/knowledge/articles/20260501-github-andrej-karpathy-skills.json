@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-002",
+  "title": "forrestchang/andrej-karpathy-skills — 基于 Karpathy LLM 编码洞察的 Claude Code 调优",
+  "source": "github_trending",
+  "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+  "summary": "将 Andrej Karpathy（前 OpenAI/Tesla AI 负责人）在 LLM 编码实践中观察到的典型陷阱和对策，凝练为一套 Claude Code 行为调优规则。源自 Karpathy 在社交媒体上持续分享的 LLM 编码经验，涵盖上下文管理、输出质量提升、避免重复推理等高频问题。以单一 CLAUDE.md 文件分发，安装即生效。",
+  "tags": ["ClaudeCode", "PromptEngineering", "LLM", "Agent", "Karpathy"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "Andrej Karpathy 是 AI 领域最受尊敬的实践者之一，其编码经验具有极高参考价值",
+      "聚焦 LLM 编码中常见的低效行为和错误模式，给出可操作的纠正策略",
+      "零配置安装——单一 CLAUDE.md 文件放入项目即生效，降低使用门槛",
+      "与 mattpocock/skills 形成互补：Karpathy 侧重大模型行为理解，Pocock 侧重工程流程管控",
+      "本周 23k stars 体现出社区对「如何用好 AI 编码」方法的巨大需求"
+    ],
+    "sentiment": "positive"
+  }
+}

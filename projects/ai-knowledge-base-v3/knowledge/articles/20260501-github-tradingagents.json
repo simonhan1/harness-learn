@@ -1,0 +1,23 @@
+{
+  "id": "github-20260501-004",
+  "title": "TauricResearch/TradingAgents — 多 Agent LLM 金融交易框架",
+  "source": "github_trending",
+  "source_url": "https://github.com/TauricResearch/TradingAgents",
+  "summary": "一个基于多 Agent 协作架构的 LLM 金融交易框架，通过多个专业化 AI Agent 协作完成市场分析、策略生成、风险评估和交易执行。将量化交易中的分析师、策略师、风控经理等角色映射为独立的 LLM Agent，实现分工协作的智能交易决策流程。总星数 58k+，是金融 AI Agent 领域的标杆项目。",
+  "tags": ["MultiAgent", "LLM", "Finance", "Trading", "QuantitativeAnalysis"],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-05-01T12:00:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "将真实金融团队的协作模式映射为多 Agent 架构，设计思路清晰且可解释",
+      "58k+ 总星数显示金融 AI 领域对多 Agent 方案的强烈需求",
+      "多 Agent 框架在金融场景中的落地应用范本，对行业 Agent 框架设计有参考价值",
+      "将高风险场景（交易）交给 AI Agent 仍需审慎评估可靠性和风险控制",
+      "项目生态成熟度较高，有完善的文档和社区支持"
+    ],
+    "sentiment": "positive"
+  }
+}

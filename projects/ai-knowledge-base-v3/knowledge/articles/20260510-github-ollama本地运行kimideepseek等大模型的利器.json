@@ -1,0 +1,29 @@
+{
+  "title": "Ollama：本地运行Kimi、DeepSeek等大模型的利器",
+  "source_url": "https://github.com/ollama/ollama",
+  "summary": "Ollama是一个开源的本地大模型运行工具，支持Kimi-K2.5、GLM-5、DeepSeek、Qwen、Gemma等多种主流模型。它简化了模型下载、部署和交互流程，让用户无需复杂配置即可在个人电脑上高效运行和测试LLM，是AI开发者和爱好者的实用工具。",
+  "tags": [
+    "大模型",
+    "本地部署",
+    "开源工具",
+    "Go",
+    "LLM"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-10T11:23:44.640794+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "支持Kimi、DeepSeek、Qwen、Gemma等数十种主流开源模型",
+      "一键下载和运行模型，无需手动配置环境",
+      "提供简洁的CLI和REST API接口",
+      "跨平台支持，包括macOS、Linux和Windows",
+      "社区活跃，星数超17万，生态丰富"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260510-005",
+  "source": "github"
+}

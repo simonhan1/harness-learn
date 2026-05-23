@@ -1,0 +1,22 @@
+{
+  "id": "github-20260504-010",
+  "title": "langflow-ai/langflow — 可视化AI Agent和工作流构建平台",
+  "source": "github_trending",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "summary": "可视化AI Agent和工作流构建平台(v1.9.2)，支持可视化+Python代码双模式编辑，多Agent对话编排。内置MCP Server可将工作流转为MCP工具，集成LangSmith/LangFuse可观测。",
+  "tags": ["VisualOrchestration", "AgentWorkflow", "LowCode", "MCP", "RAG"],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-05-04T14:35:00+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "已获 148k Star、8.9k Fork、292 Release(v1.9.2)，可视化AI工作流领域主要竞争者",
+      "可视化构建 + Python源代码编辑双模式，支持多Agent对话编排和检索",
+      "内置MCP Server可将任意工作流转为MCP工具供其他应用调用",
+      "支持LangSmith/LangFuse可观测集成 + 企业级安全与扩展"
+    ],
+    "sentiment": "positive"
+  }
+}
