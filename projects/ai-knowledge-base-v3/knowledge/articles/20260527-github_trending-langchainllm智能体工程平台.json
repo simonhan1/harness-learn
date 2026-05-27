@@ -1,0 +1,25 @@
+{
+  "title": "LangChain：LLM智能体工程平台",
+  "summary": "LangChain是一个开源的智能体工程平台，提供框架和工具链，用于构建基于大语言模型（LLM）的智能体应用，支持OpenAI、Anthropic、Gemini等多模型集成，以及RAG、多智能体协作等高级功能。其创新点在于模块化设计和LangGraph等组件，简化了复杂AI工作流的开发与部署。",
+  "tags": [
+    "LLM框架",
+    "智能体",
+    "RAG",
+    "多模型集成",
+    "开源"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "模块化框架，支持多种LLM和工具集成",
+    "提供LangGraph等组件实现复杂工作流编排",
+    "社区活跃，星数超13万，企业级应用广泛"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-016",
+  "source": "github_trending",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:15:50.174903+08:00",
+  "published_at": null
+}

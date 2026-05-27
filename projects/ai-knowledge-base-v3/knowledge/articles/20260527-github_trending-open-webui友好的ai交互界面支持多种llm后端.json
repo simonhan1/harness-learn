@@ -1,0 +1,25 @@
+{
+  "title": "Open WebUI：友好的AI交互界面，支持多种LLM后端",
+  "summary": "Open WebUI是一个用户友好的AI界面，支持Ollama、OpenAI API等多种大语言模型后端。它提供自托管、RAG、工具调用等功能，已成为GitHub上星标最多的AI工具之一，适合个人和企业快速部署AI交互环境。",
+  "tags": [
+    "AI界面",
+    "自托管",
+    "LLM",
+    "Ollama",
+    "RAG"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "支持Ollama、OpenAI等多种LLM后端",
+    "提供自托管部署，保障数据隐私",
+    "集成RAG和工具调用等高级功能"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-014",
+  "source": "github_trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:15:45.144001+08:00",
+  "published_at": null
+}

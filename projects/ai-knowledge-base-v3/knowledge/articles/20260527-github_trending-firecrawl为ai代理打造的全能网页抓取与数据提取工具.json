@@ -1,0 +1,25 @@
+{
+  "title": "Firecrawl：为AI代理打造的全能网页抓取与数据提取工具",
+  "summary": "Firecrawl 是一个专为AI代理设计的网页抓取与数据提取工具，支持搜索、抓取和清理网页内容，并将其转换为干净的Markdown格式。该项目基于TypeScript开发，拥有12.4万星标，集成了AI驱动的爬虫、搜索和数据提取功能，是构建LLM应用和AI代理的关键基础设施。",
+  "tags": [
+    "AI抓取",
+    "数据提取",
+    "网页爬虫",
+    "Markdown转换",
+    "LLM工具"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "专为AI代理设计的一站式网页数据获取方案",
+    "支持搜索、抓取、清理和Markdown转换",
+    "高度集成AI爬虫与数据提取功能，降低开发门槛"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-018",
+  "source": "github_trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:15:54.602659+08:00",
+  "published_at": null
+}

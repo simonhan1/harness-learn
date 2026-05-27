@@ -1,0 +1,25 @@
+{
+  "title": "Gemini CLI：将Gemini AI带入终端的开源智能体",
+  "summary": "这是一个将Gemini AI能力直接集成到终端中的开源AI智能体。它支持MCP客户端和服务器，可扩展性强，为开发者提供高效的命令行AI交互体验。",
+  "tags": [
+    "AI智能体",
+    "命令行工具",
+    "Gemini API",
+    "MCP协议",
+    "TypeScript"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "将Gemini AI集成到终端，提升开发效率",
+    "支持MCP客户端和服务器，易于扩展",
+    "开源项目，社区活跃，星数超10万"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-024",
+  "source": "github_trending",
+  "source_url": "https://github.com/google-gemini/gemini-cli",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:16:08.608650+08:00",
+  "published_at": null
+}

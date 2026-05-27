@@ -1,0 +1,25 @@
+{
+  "title": "HuggingFace Transformers：全能AI模型框架",
+  "summary": "HuggingFace Transformers是一个开源Python库，提供统一的API来加载、训练和部署文本、视觉、音频和多模态领域的预训练模型。它支持PyTorch、TensorFlow和JAX，并集成了DeepSeek、Gemma、Qwen等最新模型，成为机器学习和自然语言处理领域的核心工具。",
+  "tags": [
+    "transformers",
+    "NLP",
+    "深度学习",
+    "多模态",
+    "Python"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "支持文本、视觉、音频和多模态模型",
+    "集成DeepSeek、Gemma、Qwen等最新模型",
+    "统一训练和推理API，兼容PyTorch/TensorFlow/JAX"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-009",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:15:34.042189+08:00",
+  "published_at": null
+}

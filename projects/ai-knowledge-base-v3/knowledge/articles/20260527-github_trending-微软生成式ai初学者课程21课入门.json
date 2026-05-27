@@ -1,0 +1,25 @@
+{
+  "title": "微软生成式AI初学者课程：21课入门",
+  "summary": "微软推出的免费课程，通过21节课、代码示例和资源，帮助初学者快速掌握生成式AI、提示工程、LLM、RAG等核心技术，并集成Azure OpenAI服务。",
+  "tags": [
+    "生成式AI",
+    "初学者课程",
+    "微软",
+    "提示工程",
+    "LLM"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "21节结构化课程覆盖生成式AI核心概念",
+    "提供Jupyter Notebook代码实战",
+    "集成Azure OpenAI、GPT、DALL-E等微软AI服务"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-022",
+  "source": "github_trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:16:04.197412+08:00",
+  "published_at": null
+}

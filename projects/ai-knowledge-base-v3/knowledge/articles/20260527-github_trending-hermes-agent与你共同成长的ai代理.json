@@ -1,0 +1,25 @@
+{
+  "title": "Hermes Agent：与你共同成长的AI代理",
+  "summary": "NousResearch推出的开源AI代理框架，基于Python构建，支持多模型集成（如Claude、ChatGPT），强调代理的持续学习与进化能力。项目获得16.8万星，是当前最热门的AI代理项目之一。",
+  "tags": [
+    "AI代理",
+    "多模型集成",
+    "持续学习",
+    "Python框架",
+    "开源"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 8,
+  "key_points": [
+    "支持Anthropic、OpenAI等多种主流LLM",
+    "强调代理的成长性与适应性",
+    "高星数表明社区高度关注"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260527-006",
+  "source": "github_trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "status": "draft",
+  "collected_at": "2026-05-27T09:15:27.261853+08:00",
+  "published_at": null
+}

@@ -1,0 +1,754 @@
+[
+  {
+    "title": "OpenClaw：跨平台个人AI助手，数据自主掌控",
+    "summary": "OpenClaw是一个跨平台、跨操作系统的个人AI助手项目，强调用户数据所有权和隐私保护。它采用TypeScript开发，支持在任何平台上运行，旨在提供一种“龙虾式”的个性化、自主可控的AI服务体验。",
+    "tags": [
+      "AI助手",
+      "跨平台",
+      "隐私保护",
+      "数据自主",
+      "TypeScript"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "跨平台支持，覆盖任何操作系统和设备",
+      "强调用户数据所有权，保护隐私",
+      "以“龙虾”为象征，提供个性化AI服务",
+      "使用TypeScript开发，具备现代性和可扩展性"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-001",
+    "source": "github_trending",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:15.979328+08:00",
+    "published_at": null
+  },
+  {
+    "title": "ECC：AI代理性能优化与安全开发框架",
+    "summary": "ECC是一个为Claude Code、Codex、Cursor等AI编程工具设计的代理性能优化系统，集成了技能、本能、记忆、安全和研究优先的开发理念，旨在提升AI代理在代码生成和任务执行中的效率与安全性。",
+    "tags": [
+      "AI代理",
+      "性能优化",
+      "开发者工具",
+      "LLM",
+      "安全"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 7,
+    "key_points": [
+      "为Claude Code等主流AI编程工具提供性能优化",
+      "集成技能、本能、记忆和安全模块",
+      "研究优先的开发方法，提升代理可靠性"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-002",
+    "source": "github_trending",
+    "source_url": "https://github.com/affaan-m/ECC",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:17.928641+08:00",
+    "published_at": null
+  },
+  {
+    "title": "n8n：开源AI工作流自动化平台，低代码集成400+应用",
+    "summary": "n8n是一个低代码工作流自动化平台，支持可视化拖拽构建与自定义代码，原生集成AI能力，可自托管或云端使用。拥有400+集成和MCP支持，适合开发者和企业快速实现数据流与自动化任务。",
+    "tags": [
+      "工作流自动化",
+      "低代码",
+      "AI集成",
+      "开源",
+      "自托管"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "可视化构建与自定义代码结合",
+      "400+原生集成",
+      "支持AI与MCP协议"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-003",
+    "source": "github_trending",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:20.075480+08:00",
+    "published_at": null
+  },
+  {
+    "title": "AutoGPT：人人可用的自主AI智能体框架",
+    "summary": "AutoGPT是一个开源自主AI智能体框架，旨在让每个人都能轻松使用和构建AI应用。它基于大语言模型（如GPT、Claude、Llama），支持自主决策、任务分解与执行，是当前最热门的AI智能体项目之一。",
+    "tags": [
+      "自主AI智能体",
+      "大语言模型",
+      "开源框架",
+      "任务自动化",
+      "Python"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "key_points": [
+      "提供自主AI智能体构建能力",
+      "支持多种主流大语言模型（GPT、Claude、Llama）",
+      "开源且社区活跃，星数超18万"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-004",
+    "source": "github_trending",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:22.277570+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Ollama：本地运行主流大模型的便捷工具",
+    "summary": "Ollama 是一个开源的 Go 语言工具，支持一键下载并本地运行 Kimi-K2.5、DeepSeek、Qwen、Gemma 等主流大语言模型。它简化了模型部署流程，无需复杂配置即可在个人电脑上快速体验和测试多种 LLM。",
+    "tags": [
+      "LLM部署",
+      "开源工具",
+      "本地推理",
+      "模型管理",
+      "Go语言"
+    ],
+    "category": "tool",
+    "relevance_score": 8,
+    "key_points": [
+      "支持多种主流大模型（如DeepSeek、Qwen、Gemma）",
+      "一键安装和运行，降低本地部署门槛",
+      "基于Go语言开发，轻量高效"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-005",
+    "source": "github_trending",
+    "source_url": "https://github.com/ollama/ollama",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:24.711263+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Hermes Agent：与你共同成长的AI代理",
+    "summary": "NousResearch推出的开源AI代理框架，基于Python构建，支持多模型集成（如Claude、ChatGPT），强调代理的持续学习与进化能力。项目获得16.8万星，是当前最热门的AI代理项目之一。",
+    "tags": [
+      "AI代理",
+      "多模型集成",
+      "持续学习",
+      "Python框架",
+      "开源"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 8,
+    "key_points": [
+      "支持Anthropic、OpenAI等多种主流LLM",
+      "强调代理的成长性与适应性",
+      "高星数表明社区高度关注"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-006",
+    "source": "github_trending",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:27.261853+08:00",
+    "published_at": null
+  },
+  {
+    "title": "AUTOMATIC1111/stable-diffusion-webui：Stable Diffusion Web界面",
+    "summary": "该项目提供了一个基于Gradio的Stable Diffusion Web UI，支持文本生成图像、图像生成图像、图像放大等功能，集成了深度学习模型和PyTorch框架，是AI艺术创作领域的标杆性工具。其创新点在于简洁易用的交互界面和强大的图像生成能力，降低了AI绘画的使用门槛。",
+    "tags": [
+      "Stable Diffusion",
+      "图像生成",
+      "AI艺术",
+      "深度学习",
+      "Web UI"
+    ],
+    "category": "tool",
+    "relevance_score": 9,
+    "key_points": [
+      "支持txt2img和img2img等多种模式",
+      "集成图像放大和修复功能",
+      "拥有庞大的社区和丰富的扩展生态"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-007",
+    "source": "github_trending",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:29.668026+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Prompts.chat：社区驱动的AI提示词共享平台",
+    "summary": "Prompts.chat是一个开源社区平台，用于分享、发现和收集AI提示词（prompts），支持ChatGPT、Claude、Gemini等多种大模型。它提供隐私自托管选项，拥有超过16万星标，是提示工程领域最受欢迎的资源库之一，帮助用户高效利用AI工具。",
+    "tags": [
+      "AI",
+      "提示工程",
+      "开源",
+      "社区",
+      "ChatGPT"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "社区驱动的提示词共享与发现平台",
+      "支持多种大模型如ChatGPT、Claude、Gemini",
+      "开源且支持自托管，保障隐私"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-008",
+    "source": "github_trending",
+    "source_url": "https://github.com/f/prompts.chat",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:31.830125+08:00",
+    "published_at": null
+  },
+  {
+    "title": "HuggingFace Transformers：全能AI模型框架",
+    "summary": "HuggingFace Transformers是一个开源Python库，提供统一的API来加载、训练和部署文本、视觉、音频和多模态领域的预训练模型。它支持PyTorch、TensorFlow和JAX，并集成了DeepSeek、Gemma、Qwen等最新模型，成为机器学习和自然语言处理领域的核心工具。",
+    "tags": [
+      "transformers",
+      "NLP",
+      "深度学习",
+      "多模态",
+      "Python"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "key_points": [
+      "支持文本、视觉、音频和多模态模型",
+      "集成DeepSeek、Gemma、Qwen等最新模型",
+      "统一训练和推理API，兼容PyTorch/TensorFlow/JAX"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-009",
+    "source": "github_trending",
+    "source_url": "https://github.com/huggingface/transformers",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:34.042189+08:00",
+    "published_at": null
+  },
+  {
+    "title": "JavaGuide：Java面试与后端系统设计指南",
+    "summary": "JavaGuide 是一个覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发的综合面试指南项目，整合了主流技术栈（如 MySQL、Redis、Spring AI）和现代 AI 工具（如 MCP、DeepSeek），为后端开发者提供系统化学习资源。",
+    "tags": [
+      "Java",
+      "面试指南",
+      "系统设计",
+      "后端开发"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "覆盖Java面试与后端核心技术栈",
+      "融入AI应用开发与MCP等新工具",
+      "高星开源项目，社区活跃"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-010",
+    "source": "github_trending",
+    "source_url": "https://github.com/Snailclimb/JavaGuide",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:36.062545+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Langflow：低代码AI代理与工作流构建部署工具",
+    "summary": "Langflow是一个强大的低代码平台，用于构建和部署AI驱动的代理与工作流。它通过可视化界面简化了基于大型语言模型的多智能体系统开发，支持快速原型设计和生产部署。",
+    "tags": [
+      "AI代理",
+      "工作流",
+      "低代码",
+      "多智能体",
+      "Langflow"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 7,
+    "key_points": [
+      "提供可视化拖拽界面，降低AI代理开发门槛",
+      "支持构建和部署多智能体系统与复杂工作流",
+      "基于Python，易于集成和扩展"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-011",
+    "source": "github_trending",
+    "source_url": "https://github.com/langflow-ai/langflow",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:38.199235+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Dify：生产级智能体工作流开发平台",
+    "summary": "Dify是一个生产级智能体工作流开发平台，支持低代码/无代码构建AI应用，集成LLM、RAG、MCP等核心能力，提供从原型到生产的全链路解决方案。其开源特性和丰富的模型支持使其成为构建复杂AI工作流的理想选择。",
+    "tags": [
+      "agent-framework",
+      "low-code",
+      "workflow",
+      "LLM",
+      "RAG"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 8,
+    "key_points": [
+      "生产级智能体工作流开发",
+      "低代码/无代码支持",
+      "集成LLM、RAG、MCP等能力",
+      "开源且支持多模型",
+      "从原型到生产全链路"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-012",
+    "source": "github_trending",
+    "source_url": "https://github.com/langgenius/dify",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:40.503917+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Anthropics/skills：智能体技能开发公共仓库",
+    "summary": "Anthropics/skills是一个面向Agent Skills的公共GitHub仓库，旨在分享和协作开发智能体技能。项目使用Python语言，拥有14.1万星标，体现了其在AI代理技能开发领域的高关注度，为开发者提供实用工具和代码资源。",
+    "tags": [
+      "agent-skills",
+      "Python",
+      "AI代理",
+      "技能开发",
+      "GitHub仓库"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 7,
+    "key_points": [
+      "高星标数（14.1万）表明项目影响力大",
+      "专注于智能体技能开发与协作",
+      "使用Python语言，易于社区参与"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-013",
+    "source": "github_trending",
+    "source_url": "https://github.com/anthropics/skills",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:42.871750+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Open WebUI：友好的AI交互界面，支持多种LLM后端",
+    "summary": "Open WebUI是一个用户友好的AI界面，支持Ollama、OpenAI API等多种大语言模型后端。它提供自托管、RAG、工具调用等功能，已成为GitHub上星标最多的AI工具之一，适合个人和企业快速部署AI交互环境。",
+    "tags": [
+      "AI界面",
+      "自托管",
+      "LLM",
+      "Ollama",
+      "RAG"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "支持Ollama、OpenAI等多种LLM后端",
+      "提供自托管部署，保障数据隐私",
+      "集成RAG和工具调用等高级功能"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-014",
+    "source": "github_trending",
+    "source_url": "https://github.com/open-webui/open-webui",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:45.144001+08:00",
+    "published_at": null
+  },
+  {
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools：AI工具系统提示与模型大合集",
+    "summary": "该项目收集了包括Cursor、Devin、Replit、Windsurf等数十种主流AI工具的系统提示、内部工具和模型信息，并涵盖部分开源资源。它为用户提供了一份全面的AI工具背后机制参考，便于理解、对比和二次开发，具有极高的实用价值。",
+    "tags": [
+      "AI工具",
+      "系统提示",
+      "开源",
+      "大模型",
+      "开发工具"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "收录大量主流AI工具的系统提示和模型信息",
+      "涵盖Cursor、Devin、Replit等热门平台",
+      "部分资源开源，便于学习和研究"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-015",
+    "source": "github_trending",
+    "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:47.594477+08:00",
+    "published_at": null
+  },
+  {
+    "title": "LangChain：LLM智能体工程平台",
+    "summary": "LangChain是一个开源的智能体工程平台，提供框架和工具链，用于构建基于大语言模型（LLM）的智能体应用，支持OpenAI、Anthropic、Gemini等多模型集成，以及RAG、多智能体协作等高级功能。其创新点在于模块化设计和LangGraph等组件，简化了复杂AI工作流的开发与部署。",
+    "tags": [
+      "LLM框架",
+      "智能体",
+      "RAG",
+      "多模型集成",
+      "开源"
+    ],
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "key_points": [
+      "模块化框架，支持多种LLM和工具集成",
+      "提供LangGraph等组件实现复杂工作流编排",
+      "社区活跃，星数超13万，企业级应用广泛"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-016",
+    "source": "github_trending",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:50.174903+08:00",
+    "published_at": null
+  },
+  {
+    "title": "微软MarkItDown：文档转Markdown利器",
+    "summary": "微软开源的Python工具，可将PDF、Office文档等转换为Markdown格式，支持LangChain、OpenAI等集成，简化文档处理流程，提升AI应用数据准备效率。",
+    "tags": [
+      "Python",
+      "Markdown",
+      "PDF",
+      "LangChain",
+      "OpenAI"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "支持多种文档格式（PDF、Office等）转Markdown",
+      "与LangChain、OpenAI等AI框架集成",
+      "微软官方维护，社区活跃，星数超12万"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-017",
+    "source": "github_trending",
+    "source_url": "https://github.com/microsoft/markitdown",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:52.074448+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Firecrawl：为AI代理打造的全能网页抓取与数据提取工具",
+    "summary": "Firecrawl 是一个专为AI代理设计的网页抓取与数据提取工具，支持搜索、抓取和清理网页内容，并将其转换为干净的Markdown格式。该项目基于TypeScript开发，拥有12.4万星标，集成了AI驱动的爬虫、搜索和数据提取功能，是构建LLM应用和AI代理的关键基础设施。",
+    "tags": [
+      "AI抓取",
+      "数据提取",
+      "网页爬虫",
+      "Markdown转换",
+      "LLM工具"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "专为AI代理设计的一站式网页数据获取方案",
+      "支持搜索、抓取、清理和Markdown转换",
+      "高度集成AI爬虫与数据提取功能，降低开发门槛"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-018",
+    "source": "github_trending",
+    "source_url": "https://github.com/firecrawl/firecrawl",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:54.602659+08:00",
+    "published_at": null
+  },
+  {
+    "title": "ComfyUI：最强模块化扩散模型图形界面与后端",
+    "summary": "ComfyUI是当前最强大且模块化的扩散模型GUI、API和后端，采用图/节点界面设计，支持Stable Diffusion等模型。其高度灵活的工作流编排能力，使用户能可视化构建复杂AI图像生成管道，兼具高性能与可扩展性，是AIGC领域的标杆工具。",
+    "tags": [
+      "AI",
+      "扩散模型",
+      "Stable Diffusion",
+      "工作流",
+      "节点式GUI"
+    ],
+    "category": "tool",
+    "relevance_score": 9,
+    "key_points": [
+      "模块化图/节点界面，支持复杂工作流可视化构建",
+      "集成Stable Diffusion等主流扩散模型，性能高效",
+      "提供完整API与后端，便于二次开发与集成"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-019",
+    "source": "github_trending",
+    "source_url": "https://github.com/Comfy-Org/ComfyUI",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:57.086156+08:00",
+    "published_at": null
+  },
+  {
+    "title": "llama.cC++实现的高效本地LLM推理引擎",
+    "summary": "llama.cpp是一个基于C/C++的轻量级LLM推理框架，使用ggml张量库优化CPU/GPU推理性能。它支持多种量化格式和模型架构，能在消费级硬件上运行大语言模型，极大降低了LLM部署门槛。",
+    "tags": [
+      "LLM推理",
+      "C++",
+      "量化",
+      "边缘部署",
+      "开源"
+    ],
+    "category": "tool",
+    "relevance_score": 9,
+    "key_points": [
+      "纯C/C++实现，无外部依赖，跨平台兼容",
+      "支持多种量化方案（如Q4_0、Q8_0）减少内存占用",
+      "活跃社区，持续集成新模型和优化技术"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-020",
+    "source": "github_trending",
+    "source_url": "https://github.com/ggml-org/llama.cpp",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:15:59.912046+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Shubhamsaboo/awesome-llm-apps：100+可运行AI Agent与RAG应用集合",
+    "summary": "该项目收录了100多个可直接运行、克隆和定制的AI Agent与RAG应用，覆盖多种场景。它提供了丰富的实用示例和代码，便于开发者快速上手和部署，是学习和构建LLM应用的宝贵资源。",
+    "tags": [
+      "AI Agent",
+      "RAG",
+      "Python",
+      "LLM",
+      "应用示例"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "包含100多个可直接运行的AI Agent和RAG应用",
+      "支持克隆、自定义和快速部署",
+      "覆盖多种实用场景，降低开发门槛"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-021",
+    "source": "github_trending",
+    "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:02.074510+08:00",
+    "published_at": null
+  },
+  {
+    "title": "微软生成式AI初学者课程：21课入门",
+    "summary": "微软推出的免费课程，通过21节课、代码示例和资源，帮助初学者快速掌握生成式AI、提示工程、LLM、RAG等核心技术，并集成Azure OpenAI服务。",
+    "tags": [
+      "生成式AI",
+      "初学者课程",
+      "微软",
+      "提示工程",
+      "LLM"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "21节结构化课程覆盖生成式AI核心概念",
+      "提供Jupyter Notebook代码实战",
+      "集成Azure OpenAI、GPT、DALL-E等微软AI服务"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-022",
+    "source": "github_trending",
+    "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:04.197412+08:00",
+    "published_at": null
+  },
+  {
+    "title": "spec-kit：规范驱动开发入门工具包",
+    "summary": "这是一个帮助开发者快速上手规范驱动开发（Spec-Driven Development）的工具包，集成了AI、Copilot等现代开发流程，支持从PRD到规范的工程化实践。项目旨在提升开发效率和代码质量，拥有超过10万星标，广受社区认可。",
+    "tags": [
+      "规范驱动开发",
+      "AI辅助开发",
+      "工程化工具",
+      "Copilot",
+      "开发流程"
+    ],
+    "category": "tool",
+    "relevance_score": 6,
+    "key_points": [
+      "提供规范驱动开发的入门指南和工具",
+      "集成AI和Copilot增强开发流程",
+      "支持从PRD到规范的完整工程链路"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-023",
+    "source": "github_trending",
+    "source_url": "https://github.com/github/spec-kit",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:06.646671+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Gemini CLI：将Gemini AI带入终端的开源智能体",
+    "summary": "这是一个将Gemini AI能力直接集成到终端中的开源AI智能体。它支持MCP客户端和服务器，可扩展性强，为开发者提供高效的命令行AI交互体验。",
+    "tags": [
+      "AI智能体",
+      "命令行工具",
+      "Gemini API",
+      "MCP协议",
+      "TypeScript"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "将Gemini AI集成到终端，提升开发效率",
+      "支持MCP客户端和服务器，易于扩展",
+      "开源项目，社区活跃，星数超10万"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-024",
+    "source": "github_trending",
+    "source_url": "https://github.com/google-gemini/gemini-cli",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:08.608650+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Supabase：开源Firebase替代方案，Postgres开发平台",
+    "summary": "Supabase 是一个开源的 Firebase 替代方案，提供专用的 Postgres 数据库，支持实时功能、身份验证、AI 嵌入和 WebSocket，可用于构建 Web、移动和 AI 应用。",
+    "tags": [
+      "数据库",
+      "开源",
+      "AI",
+      "实时",
+      "后端即服务"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "提供托管 Postgres 数据库，支持实时订阅和 WebSocket",
+      "集成身份验证、存储和边缘函数，替代 Firebase",
+      "支持 AI 应用开发，包括向量嵌入和 pgvector"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-025",
+    "source": "github_trending",
+    "source_url": "https://github.com/supabase/supabase",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:10.773692+08:00",
+    "published_at": null
+  },
+  {
+    "title": "rasbt/LLMs-from-scratch：从零构建ChatGPT级LLM实战教程",
+    "summary": "该项目提供从零开始用PyTorch实现ChatGPT类大语言模型的完整教程，涵盖预训练、微调、注意力机制等核心环节。以Jupyter Notebook形式呈现，代码与解释并重，适合深度学习从业者深入理解LLM底层原理。",
+    "tags": [
+      "LLM",
+      "PyTorch",
+      "从零实现",
+      "深度学习",
+      "自然语言处理"
+    ],
+    "category": "tool",
+    "relevance_score": 9,
+    "key_points": [
+      "从零实现ChatGPT类LLM的完整步骤",
+      "涵盖预训练、微调、指令微调等关键流程",
+      "使用Jupyter Notebook便于交互学习"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-026",
+    "source": "github_trending",
+    "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:13.099176+08:00",
+    "published_at": null
+  },
+  {
+    "title": "browser-use：让AI代理轻松操控浏览器",
+    "summary": "browser-use是一个基于Python和Playwright的开源工具，旨在让AI代理能够像人类一样操控浏览器，实现网页自动化任务。它通过LLM驱动，使AI能理解网页内容并执行操作，为AI代理提供便捷的网络访问能力，降低开发门槛。",
+    "tags": [
+      "AI代理",
+      "浏览器自动化",
+      "LLM",
+      "Playwright",
+      "Python工具"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "让AI代理无缝访问和操控网页",
+      "基于Playwright实现稳定浏览器自动化",
+      "集成LLM理解网页内容并执行任务"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-027",
+    "source": "github_trending",
+    "source_url": "https://github.com/browser-use/browser-use",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:15.304561+08:00",
+    "published_at": null
+  },
+  {
+    "title": "Deep-Live-Cam：实时人脸替换与一键深度伪造工具",
+    "summary": "该项目仅需单张图片即可实现实时人脸替换和一键视频深度伪造，支持网络摄像头应用。基于Python和GAN技术，提供低门槛、高速度的AI换脸体验。",
+    "tags": [
+      "实时换脸",
+      "深度伪造",
+      "AI工具",
+      "人脸替换",
+      "开源"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "单图即可驱动实时人脸替换",
+      "支持视频深度伪造与网络摄像头",
+      "基于GAN技术实现低延迟处理"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-028",
+    "source": "github_trending",
+    "source_url": "https://github.com/hacksider/Deep-Live-Cam",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:17.682812+08:00",
+    "published_at": null
+  },
+  {
+    "title": "NextChat：跨平台AI助手与多模型支持应用",
+    "summary": "NextChat是一个基于Next.js和Tauri构建的跨平台AI聊天应用，支持Web、桌面和移动端。它集成了ChatGPT、Claude、Gemini、Groq等多种主流AI模型，提供轻量、快速且可自部署的交互体验，是当前最受欢迎的开源AI前端之一。",
+    "tags": [
+      "AI助手",
+      "跨平台",
+      "多模型",
+      "开源",
+      "前端"
+    ],
+    "category": "tool",
+    "relevance_score": 7,
+    "key_points": [
+      "支持ChatGPT、Claude、Gemini、Groq等主流模型",
+      "跨平台覆盖Web、iOS、Android、桌面系统",
+      "基于Next.js和Tauri，轻量快速且支持自部署"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-029",
+    "source": "github_trending",
+    "source_url": "https://github.com/ChatGPTNextWeb/NextChat",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:20.004779+08:00",
+    "published_at": null
+  },
+  {
+    "title": "punkpeye/awesome-mcp-servers：MCP服务器精选集",
+    "summary": "该项目收集了众多MCP（Model Context Protocol）服务器资源，为AI开发者提供一站式参考，助力快速集成和部署。作为高星开源项目，它集中展示了MCP生态的关键工具与最佳实践，具有极高的实用价值。",
+    "tags": [
+      "MCP",
+      "服务器",
+      "AI",
+      "资源集合",
+      "开源"
+    ],
+    "category": "tool",
+    "relevance_score": 8,
+    "key_points": [
+      "收录大量MCP服务器资源",
+      "支持AI模型上下文协议",
+      "高星项目反映社区认可度"
+    ],
+    "sentiment": "positive",
+    "id": "github-20260527-030",
+    "source": "github_trending",
+    "source_url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "status": "draft",
+    "collected_at": "2026-05-27T09:16:22.263408+08:00",
+    "published_at": null
+  }
+]
