@@ -1,0 +1,29 @@
+{
+  "title": "Meta正式推出Instagram、Facebook和WhatsApp订阅服务",
+  "source_url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+  "summary": "Meta宣布在Instagram、Facebook和WhatsApp上正式推出订阅服务，用户可付费去除广告或获得额外功能。未来计划包括AI相关订阅，标志着Meta从广告收入向订阅模式的战略转变。",
+  "tags": [
+    "Meta",
+    "订阅服务",
+    "Instagram",
+    "Facebook",
+    "WhatsApp"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "Meta在三大社交平台推出订阅服务",
+      "订阅提供去广告和额外功能",
+      "未来将推出AI相关订阅计划",
+      "反映Meta商业模式从广告转向订阅",
+      "用户反应热烈，Hacker News讨论活跃"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260601-023",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

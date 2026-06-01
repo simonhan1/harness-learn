@@ -1,0 +1,1244 @@
+[
+  {
+    "title": "openclaw：跨平台个人AI助手，数据自主掌控",
+    "source_url": "https://github.com/openclaw/openclaw",
+    "summary": "openclaw是一个跨平台、跨操作系统的个人AI助手项目，强调用户数据自主权。它采用TypeScript开发，以“龙虾方式”提供个性化AI服务，支持在任何平台上运行，核心价值在于让用户完全掌控自己的数据。",
+    "tags": [
+      "AI助手",
+      "跨平台",
+      "数据自主",
+      "开源",
+      "TypeScript"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "跨平台支持，覆盖任何操作系统",
+        "用户完全掌控个人数据",
+        "采用TypeScript开发，技术栈现代",
+        "以“龙虾方式”为特色，强调个性化",
+        "开源项目，社区驱动"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "ECC：AI代理性能优化与安全框架",
+    "source_url": "https://github.com/affaan-m/ECC",
+    "summary": "ECC是一个面向AI代理的性能优化系统，集成了技能、本能、记忆和安全功能，专为Claude Code、Codex等开发工具设计，旨在提升LLM代理的生产力和可靠性。",
+    "tags": [
+      "AI代理",
+      "性能优化",
+      "开发者工具",
+      "安全",
+      "LLM"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "提供代理性能优化与安全增强",
+        "支持多种AI开发工具集成",
+        "包含技能、本能、记忆等模块",
+        "强调研究优先的开发方法",
+        "高星数表明社区广泛关注"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "n8n：开源低代码AI工作流自动化平台",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "summary": "n8n是一个开源的低代码工作流自动化平台，支持400+集成和原生AI能力。它允许用户通过可视化界面构建工作流，同时支持自定义代码、自托管或云部署，并集成了MCP客户端/服务器功能，是AI代理和工作流自动化的强大工具。",
+    "tags": [
+      "工作流自动化",
+      "低代码",
+      "AI集成",
+      "开源",
+      "自托管"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "开源且可自托管的低代码工作流平台",
+        "原生支持AI能力，包括MCP客户端/服务器",
+        "400+集成，覆盖主流API和服务",
+        "可视化构建与自定义代码结合",
+        "支持CLI和云部署，灵活性强"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "AutoGPT：人人可用的自主AI代理框架",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "summary": "AutoGPT是一个开源的自主AI代理框架，旨在让每个人都能轻松使用和构建AI应用。它基于大型语言模型（如GPT、Claude、Llama等），支持自主任务规划、执行和迭代，降低了AI代理的开发门槛。项目拥有超过18万星标，是AI代理领域最具影响力的开源项目之一。",
+    "tags": [
+      "自主AI代理",
+      "LLM应用框架",
+      "开源工具",
+      "Python",
+      "多模型支持"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "提供自主AI代理的完整实现，支持任务分解与执行",
+        "兼容多种LLM（GPT、Claude、Llama等），灵活性强",
+        "开源且社区活跃，拥有18万+星标，生态成熟",
+        "降低AI代理开发门槛，适合开发者和非技术人员",
+        "持续更新，支持插件扩展和自定义功能"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Hermes Agent：与您共同成长的AI智能体",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "summary": "Hermes Agent是一个由Nous Research开发的AI智能体框架，旨在与用户共同成长。它集成了多种主流AI模型（如Claude、ChatGPT），支持灵活扩展，适用于构建个性化、自适应的AI助手应用。",
+    "tags": [
+      "AI Agent",
+      "智能体框架",
+      "Python",
+      "多模型集成",
+      "自适应学习"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "支持Claude、ChatGPT等多种主流AI模型集成",
+        "强调与用户共同成长的个性化体验",
+        "基于Python开发，易于扩展和定制",
+        "由知名AI研究机构Nous Research维护",
+        "高星数（175k+）表明社区高度关注"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Ollama：本地运行主流大模型的极简工具",
+    "source_url": "https://github.com/ollama/ollama",
+    "summary": "Ollama是一个用Go语言编写的开源工具，让用户能在本地轻松运行和管理Kimi、DeepSeek、Qwen、Gemma等数十种主流大语言模型。它提供简洁的CLI和API，支持模型下载、部署与交互，极大降低了本地使用LLM的门槛，是AI开发者和爱好者的必备利器。",
+    "tags": [
+      "大模型工具",
+      "本地部署",
+      "开源",
+      "Go",
+      "LLM"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "支持Kimi、DeepSeek、Qwen、Gemma等数十种主流模型",
+        "提供简单易用的CLI和REST API",
+        "基于Go语言开发，性能高效",
+        "可本地运行，保护数据隐私",
+        "社区活跃，星数超17万，生态丰富"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Stable Diffusion WebUI：最流行的AI图像生成工具",
+    "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "summary": "AUTOMATIC1111/stable-diffusion-webui 是一个基于 Gradio 的 Stable Diffusion 网页界面，支持文本生成图像、图像到图像转换、放大等功能。它集成了 PyTorch 和多种扩散模型，提供直观的交互方式，是 AI 艺术创作和图像生成领域的标杆项目。",
+    "tags": [
+      "AI艺术",
+      "图像生成",
+      "扩散模型",
+      "Web界面",
+      "开源工具"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "提供直观的网页界面，降低Stable Diffusion使用门槛",
+        "支持txt2img、img2img、放大等多种图像生成功能",
+        "基于Gradio构建，易于扩展和自定义",
+        "集成PyTorch和多种扩散模型，性能优化良好",
+        "社区活跃，拥有大量插件和模型支持"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "f/prompts.chat：社区驱动的AI提示词共享平台",
+    "source_url": "https://github.com/f/prompts.chat",
+    "summary": "该项目是一个开源、免费的AI提示词（Prompts）共享与发现平台，支持自托管以保护隐私。它汇集了社区贡献的ChatGPT、Claude、Gemini等LLM的提示词，是提示工程领域的Awesome List，拥有超过16万星标，体现了其在AI社区中的巨大影响力。",
+    "tags": [
+      "AI提示词",
+      "开源",
+      "社区驱动",
+      "提示工程",
+      "LLM"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "提供海量社区贡献的AI提示词资源",
+        "支持自托管，保障组织隐私",
+        "覆盖ChatGPT、Claude、Gemini等多种主流LLM",
+        "基于Next.js和TypeScript构建，技术栈现代",
+        "星标数超16万，社区活跃度极高"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "HuggingFace Transformers：全能AI模型框架",
+    "source_url": "https://github.com/huggingface/transformers",
+    "summary": "HuggingFace Transformers是一个支持文本、视觉、音频和多模态模型定义、推理与训练的框架，集成了数千个预训练模型和统一API，覆盖NLP、语音识别、视觉语言模型等前沿领域，是深度学习社区的核心工具。",
+    "tags": [
+      "deep-learning",
+      "nlp",
+      "pytorch",
+      "transformer",
+      "model-hub"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "支持文本、视觉、音频和多模态模型",
+        "集成数千个预训练模型和统一API",
+        "兼容PyTorch、TensorFlow等主流框架",
+        "活跃社区与持续更新",
+        "涵盖推理与训练全流程"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "JavaGuide：Java面试与后端系统设计指南",
+    "source_url": "https://github.com/Snailclimb/JavaGuide",
+    "summary": "JavaGuide 是一个全面的 Java 面试与后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发。项目整合了 MCP、DeepSeek、Spring AI 等前沿技术，提供系统化的学习路径和实战经验，适合后端开发者备战面试与提升架构能力。",
+    "tags": [
+      "Java",
+      "面试",
+      "系统设计",
+      "分布式",
+      "AI应用开发"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "覆盖Java面试核心知识点",
+        "包含系统设计与高并发实战",
+        "整合AI应用开发与MCP、DeepSeek等工具",
+        "提供Redis、Redisson、MySQL等数据库指南",
+        "社区活跃，星数超15万，持续更新"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Langflow：构建AI代理与工作流的低代码平台",
+    "source_url": "https://github.com/langflow-ai/langflow",
+    "summary": "Langflow是一个强大的低代码工具，用于构建和部署AI驱动的代理及工作流。它基于Python，支持多代理协作、大语言模型集成，并通过可视化界面简化开发流程，适合快速原型设计与生产部署。",
+    "tags": [
+      "AI代理",
+      "工作流",
+      "低代码",
+      "大语言模型",
+      "多代理系统"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "低代码可视化构建AI工作流",
+        "支持多代理协作与复杂逻辑",
+        "集成大语言模型与生成式AI",
+        "适用于快速原型与生产部署",
+        "社区活跃，星数近15万"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Anthropic Skills：智能体技能开源库",
+    "source_url": "https://github.com/anthropics/skills",
+    "summary": "Anthropic官方发布的Agent Skills公共仓库，提供可复用的智能体技能模块，基于Python实现，旨在加速AI代理开发与部署。该项目以开源方式推动智能体生态建设，降低开发者门槛。",
+    "tags": [
+      "agent-skills",
+      "智能体",
+      "开源",
+      "Python",
+      "Anthropic"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "Anthropic官方维护的Agent Skills仓库",
+        "提供可复用的智能体技能模块",
+        "基于Python实现，易于集成",
+        "开源社区驱动，促进生态发展",
+        "降低AI代理开发门槛"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Dify：生产级智能体工作流开发平台",
+    "source_url": "https://github.com/langgenius/dify",
+    "summary": "Dify是一个生产就绪的低代码/无代码平台，用于构建和编排智能体工作流。它集成了LLM、RAG、MCP等能力，支持GPT-4、Gemini等模型，提供可视化编排，降低AI应用开发门槛。",
+    "tags": [
+      "agent-framework",
+      "low-code",
+      "workflow",
+      "LLM",
+      "RAG"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "生产级智能体工作流开发平台",
+        "低代码/无代码可视化编排",
+        "集成LLM、RAG、MCP等能力",
+        "支持GPT-4、Gemini等多种模型",
+        "高星数（143k+）社区活跃"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "open-webui：用户友好的AI交互界面，支持多模型与RAG",
+    "source_url": "https://github.com/open-webui/open-webui",
+    "summary": "open-webui是一个功能丰富的自托管AI用户界面，支持Ollama和OpenAI API等多种后端，提供直观的聊天、RAG（检索增强生成）和MCP（模型上下文协议）集成。该项目以其易用性和高度可定制性，成为个人和团队部署AI助手的流行选择。",
+    "tags": [
+      "AI界面",
+      "自托管",
+      "Ollama",
+      "OpenAI",
+      "RAG"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "支持Ollama和OpenAI API等多种AI后端",
+        "集成RAG功能，实现检索增强生成",
+        "提供MCP（模型上下文协议）支持",
+        "自托管部署，保护数据隐私",
+        "用户界面友好，易于定制和扩展"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools：海量AI工具系统提示与模型汇总",
+    "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "summary": "该项目收集了包括Cursor、Devin、Replit等数十种主流AI工具的系统提示词、内部工具及模型信息，并持续更新开源内容。为开发者深入理解AI工具运作机制、优化提示工程提供了宝贵资源，具有极高的参考价值。",
+    "tags": [
+      "AI工具",
+      "系统提示词",
+      "开源",
+      "提示工程",
+      "模型汇总"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "收录超25种AI工具的系统提示与模型",
+        "涵盖Cursor、Devin、Replit等主流平台",
+        "包含开源项目与内部工具信息",
+        "持续更新，资源丰富",
+        "助力提示工程与AI工具理解"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "LangChain：138K星的开源AI代理工程平台",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "summary": "LangChain是一个开源的AI代理工程平台，支持Python和TypeScript，提供构建LLM应用、代理、RAG系统的框架。它集成了OpenAI、Anthropic、Gemini等主流模型，拥有138K星，是当前最流行的AI开发框架之一。",
+    "tags": [
+      "AI代理",
+      "LLM框架",
+      "开源",
+      "Python",
+      "RAG"
+    ],
+    "category": "agent_framework",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "138K星，社区活跃度极高",
+        "支持多模型集成（OpenAI、Anthropic等）",
+        "提供代理、RAG、多代理系统构建能力",
+        "跨语言支持Python和TypeScript",
+        "企业级框架，适用于生产环境"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "微软MarkItDown：一键转换办公文档为Markdown",
+    "source_url": "https://github.com/microsoft/markitdown",
+    "summary": "微软开源的Python工具，支持将PDF、Office文档等多种格式转换为Markdown，集成OpenAI、LangChain等AI框架，极大简化文档处理流程，提升AI应用数据准备效率。",
+    "tags": [
+      "Markdown",
+      "文档转换",
+      "Python工具",
+      "微软开源",
+      "AI集成"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "支持PDF、Office文档等格式转Markdown",
+        "集成OpenAI、LangChain等AI框架",
+        "开源且易于扩展",
+        "提升AI应用数据预处理效率",
+        "微软官方维护，社区活跃"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "Firecrawl：大规模网页搜索与数据提取API",
+    "source_url": "https://github.com/firecrawl/firecrawl",
+    "summary": "Firecrawl 是一个强大的 API，用于大规模搜索、抓取和与网页交互。它专为 AI 代理和 LLM 设计，支持将网页内容转换为 Markdown，实现高效的数据提取，是构建 AI 应用的关键工具。",
+    "tags": [
+      "AI代理",
+      "网页抓取",
+      "数据提取",
+      "Markdown",
+      "网络搜索"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "提供统一的 API 用于搜索、抓取和网页交互",
+        "专为 AI 代理和 LLM 优化，支持 HTML 转 Markdown",
+        "支持大规模数据提取，适用于构建 AI 应用",
+        "开源项目，拥有超过 12 万星标，社区活跃",
+        "集成多种网络数据提取功能，如爬虫和搜索"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "ComfyUI：最强大的模块化扩散模型图形界面与后端",
+    "source_url": "https://github.com/Comfy-Org/ComfyUI",
+    "summary": "ComfyUI是一个基于节点/图形界面的扩散模型GUI、API和后端，支持Stable Diffusion等模型。其模块化设计允许用户通过拖拽节点灵活构建和定制工作流，极大提升了AI图像生成的易用性和可扩展性。",
+    "tags": [
+      "AI",
+      "扩散模型",
+      "图形界面",
+      "Stable Diffusion",
+      "工作流"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "模块化节点/图形界面，支持灵活构建工作流",
+        "提供强大的API和后端，易于集成和扩展",
+        "支持Stable Diffusion等多种扩散模型",
+        "开源且社区活跃，拥有大量用户和贡献者",
+        "显著降低AI图像生成的技术门槛"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "llama.cC++实现的高性能LLM推理引擎",
+    "source_url": "https://github.com/ggml-org/llama.cpp",
+    "summary": "llama.cpp是一个用C/C++编写的轻量级LLM推理库，基于ggml张量库，支持在CPU和GPU上高效运行各种大语言模型。其核心创新在于通过量化技术和优化的内存管理，使得在消费级硬件上也能流畅运行数十亿参数的模型，极大降低了LLM部署门槛。",
+    "tags": [
+      "LLM推理",
+      "C++",
+      "ggml",
+      "模型量化",
+      "边缘部署"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 9,
+      "key_points": [
+        "纯C/C++实现，无外部依赖，跨平台兼容性极佳",
+        "支持多种量化方案（如4-bit、5-bit），显著降低内存占用",
+        "可在CPU、GPU（CUDA/Metal）上高效运行",
+        "支持大量主流模型（如LLaMA、Mistral、Falcon等）",
+        "社区活跃，持续优化性能与功能"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "《沙丘》巴特勒圣战与AI未来",
+    "source_url": "https://technology.inquirer.net/147084/dunes-butlerian-jihad-and-the-future-of-ai",
+    "summary": "文章借《沙丘》中的巴特勒圣战（人类反抗思考机器）探讨AI发展的潜在风险，警示过度依赖AI可能导致人类失去自主性，并反思当前AI伦理与监管的必要性。",
+    "tags": [
+      "AI伦理",
+      "沙丘",
+      "巴特勒圣战",
+      "技术风险",
+      "AI监管"
+    ],
+    "category": "opinion",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "巴特勒圣战是《沙丘》中人类对抗AI的虚构事件",
+        "文章类比当前AI发展可能引发的社会控制问题",
+        "强调保持人类自主性和批判性思维的重要性",
+        "呼吁建立AI伦理框架防止技术滥用",
+        "认为科幻作品对现实技术发展有警示作用"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "ChatGPT谷歌插件泄露工作表数据",
+    "source_url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+    "summary": "文章揭示ChatGPT for Google Sheets插件存在数据泄露风险，攻击者可通过提示注入将工作簿内容外传至外部服务器。该漏洞利用AI模型的指令跟随特性，绕过安全限制，导致敏感数据被窃取。",
+    "tags": [
+      "数据泄露",
+      "提示注入",
+      "AI安全",
+      "谷歌插件",
+      "ChatGPT"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "ChatGPT for Google Sheets插件存在数据外泄漏洞",
+        "攻击者通过提示注入实现数据窃取",
+        "漏洞利用AI模型指令跟随特性",
+        "工作簿内容可被发送至外部服务器",
+        "需加强AI插件安全防护措施"
+      ],
+      "sentiment": "negative"
+    }
+  },
+  {
+    "title": "Meta正式推出Instagram、Facebook和WhatsApp订阅服务",
+    "source_url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+    "summary": "Meta宣布在Instagram、Facebook和WhatsApp上正式推出订阅服务，用户可付费去除广告或获得额外功能。未来计划包括AI相关订阅，标志着Meta从广告收入向订阅模式的战略转变。",
+    "tags": [
+      "Meta",
+      "订阅服务",
+      "Instagram",
+      "Facebook",
+      "WhatsApp"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "Meta在三大社交平台推出订阅服务",
+        "订阅提供去广告和额外功能",
+        "未来将推出AI相关订阅计划",
+        "反映Meta商业模式从广告转向订阅",
+        "用户反应热烈，Hacker News讨论活跃"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "AI时代原型设计的速度",
+    "source_url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+    "summary": "文章探讨了在AI辅助下，原型设计速度如何被极大提升，使得快速迭代和实验成为可能。作者认为AI工具降低了技术门槛，让开发者能更快验证想法，但同时也强调了保持对核心逻辑理解的重要性。",
+    "tags": [
+      "AI原型设计",
+      "快速迭代",
+      "开发效率",
+      "技术门槛",
+      "AI工具"
+    ],
+    "category": "opinion",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "AI加速了原型设计过程",
+        "降低了技术门槛",
+        "快速验证想法成为可能",
+        "需保持对核心逻辑的理解",
+        "强调迭代速度的重要性"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "远程工作而非AI导致初级招聘疲软",
+    "source_url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
+    "summary": "文章质疑AI对初级岗位招聘的影响，认为远程工作模式才是主因。远程办公削弱了初级员工的培训与融入，导致企业减少招聘，而非AI替代。",
+    "tags": [
+      "远程工作",
+      "初级招聘",
+      "AI影响",
+      "劳动力市场",
+      "培训"
+    ],
+    "category": "opinion",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 7,
+      "key_points": [
+        "远程工作阻碍初级员工成长",
+        "企业因培训困难减少招聘",
+        "AI并非初级岗位减少主因",
+        "需重新设计远程工作模式",
+        "文章引发对劳动力市场变化的反思"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "Cedana (YC S23) 招聘AI/HPC前向部署工程师",
+    "source_url": "https://www.ycombinator.com/companies/cedana/jobs/d1vYocG-forward-deployed-engineer-ai-hpc",
+    "summary": "Cedana是一家YC S23支持的初创公司，正在招聘前向部署工程师，专注于AI和高性能计算（HPC）领域。该职位涉及部署和优化AI系统，可能涉及检查点恢复等技术。目前该招聘信息在Hacker News上获得0个点赞和0条评论。",
+    "tags": [
+      "招聘",
+      "AI",
+      "HPC",
+      "YC",
+      "部署工程师"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 3,
+      "key_points": [
+        "Cedana是YC S23支持的初创公司",
+        "招聘前向部署工程师",
+        "专注于AI和HPC领域",
+        "职位涉及部署和优化AI系统",
+        "Hacker News上暂无互动"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "PhyDrawGen：自然语言驱动的物理精确图表生成",
+    "source_url": "https://arxiv.org/abs/2605.30512",
+    "summary": "本文提出PhyDrawGen，一种神经符号管道，用于从文本生成严格遵循物理定律的图表。它通过大语言模型提取场景图，经确定性求解器转换为精确几何图元，并利用微调视觉模型迭代修正约束违反。在1449个物理问题基准上，该方法在力学、光学和电磁学领域显著优于GPT-5-image等模型。",
+    "tags": [
+      "物理图表生成",
+      "神经符号方法",
+      "场景图",
+      "约束满足",
+      "大语言模型"
+    ],
+    "category": "model_release",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "解耦语义理解与物理约束满足",
+        "使用确定性求解器生成精确几何图元",
+        "微调Qwen-VL实现视觉验证循环",
+        "在1449个物理问题基准上表现优异",
+        "处理异常物体问题仍保持鲁棒性"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "物理可行的世界模型：面向查询条件具身AI",
+    "source_url": "https://arxiv.org/abs/2605.30542",
+    "summary": "本文指出现有观测预测型世界模型在具身AI中会产生物理上错误的推演，因为不同物理系统可能视觉相同但干预结果不同。作者提出应构建基于查询条件的最简物理抽象模型，包含模块化组件和自主编排器，以生成可解释、可验证且符合干预结果的世界模型。",
+    "tags": [
+      "世界模型",
+      "具身AI",
+      "物理可行性",
+      "干预查询",
+      "模块化架构"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "现有世界模型因忽略潜在物理差异而推荐不可行动作",
+        "提出查询条件的最简物理抽象作为设计原则",
+        "模型包含环境表示、状态估计、动作规范等模块",
+        "编排器动态组合组件以适配不同查询",
+        "在现有系统失败的查询上展示有效性"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "自动驾驶强化学习中不确定性感知与专家建议调控",
+    "source_url": "https://arxiv.org/abs/2605.30576",
+    "summary": "本文提出一种不确定性感知框架，通过自适应阈值触发专家建议来引导自动驾驶强化学习中的探索，避免长期依赖。采用承诺-冷却策略和随机早停机制控制指导时长，结合离线隐式分位数网络实现专家与智能体经验共享。在CARLA实验中，该方法将成功率提升5-7%，减少故障，实现更安全高效的探索。",
+    "tags": [
+      "自动驾驶",
+      "强化学习",
+      "不确定性感知",
+      "专家建议",
+      "安全探索"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "利用认知和偶然不确定性自适应触发专家建议",
+        "承诺-冷却策略与随机早停机制调控指导频率",
+        "共享回放缓冲区实现专家与智能体经验高效复用",
+        "基于IQN的离线策略框架支持安全探索",
+        "在CARLA无信号交叉口导航中提升成功率5-7%"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "LLM智能体自演化中能力解耦分析",
+    "source_url": "https://arxiv.org/abs/2605.30621",
+    "summary": "本文研究了LLM智能体在自演化过程中两种能力：生成有用更新（harness-updating）和从更新中受益（harness-benefit）。发现前者与基础能力无关，不同模型更新效果相似；后者则非单调：弱模型受益少，中等模型受益最大，强模型受益低于中等。",
+    "tags": [
+      "LLM智能体",
+      "自演化",
+      "能力解耦",
+      "基础能力",
+      "指令遵循"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "harness-updating能力与模型基础能力无关",
+        "harness-benefit能力非单调变化",
+        "弱模型存在激活失败或遵循失败问题",
+        "建议将能力预算投入任务求解而非演化器",
+        "需加强智能体的指令遵循训练"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "EHRBench：基于电子健康记录的LLM临床决策自动化基准",
+    "source_url": "https://arxiv.org/abs/2605.30637",
+    "summary": "EHRBench是一个自动化且可靠的基准测试，用于评估基于LLM的临床决策能力。它通过EHR-LLM-KB交互流程构建了近100万个问答项目，涵盖诊断、治疗和预后三类任务，并测试了30多个LLM，揭示了性能趋势与改进空间。",
+    "tags": [
+      "LLM",
+      "临床决策",
+      "电子健康记录",
+      "基准测试",
+      "自动化评估"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出EHRBench基准，用于评估LLM在真实临床决策中的可靠性",
+        "通过EHR-LLM-KB自动化流程构建大规模、高质量问答数据集",
+        "覆盖诊断、治疗、预后三类核心临床任务，包含近100万问答项",
+        "对30多个LLM进行基准测试，分析性能与鲁棒性",
+        "揭示LLM在临床决策中的能力趋势与差距"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "结构诱导信息用于重根Levin树搜索",
+    "source_url": "https://arxiv.org/abs/2605.30664",
+    "summary": "本文针对基于子目标策略树搜索的局限性，提出通过重根器隐式分解问题为软子任务，设计了三种重根器：基于聚类的、基于启发式的及混合型，避免了显式子目标生成，降低了计算开销，在复杂环境中实现了最先进的在线训练效率。",
+    "tags": [
+      "Levin树搜索",
+      "重根器",
+      "子目标分解",
+      "策略树搜索",
+      "在线训练效率"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出三种重根器设计：聚类、启发式及混合型",
+        "隐式分解问题为软子任务，避免显式子目标生成",
+        "降低计算开销，提升可扩展性",
+        "在复杂环境中超越基于子目标的策略树搜索",
+        "实现最先进的在线训练效率"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "策略性提供者响应下的医疗机制设计",
+    "source_url": "https://arxiv.org/abs/2605.30680",
+    "summary": "本文提出将医院机制设计视为语言模型的程序合成，通过多智能体模拟器Medi-Sim评估策略性提供者响应下的均衡效果。研究发现利润压力导致编码膨胀和低复杂度患者选择，而LLM引导的进化搜索可合成混合目标程序，消除编码膨胀并减少拒绝。",
+    "tags": [
+      "医疗机制",
+      "策略性响应",
+      "程序合成",
+      "多智能体模拟",
+      "LLM进化搜索"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "现有医疗AI基准忽略策略性提供者响应",
+        "Medi-Sim模拟器包含五个策略性渠道",
+        "恢复经典健康经济学发现",
+        "审计杠杆暴露压力迁移",
+        "LLM进化搜索合成可检查的混合目标程序"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "MAVEN：提升智能体工具调用的泛化能力",
+    "source_url": "https://arxiv.org/abs/2605.30738",
+    "summary": "MAVEN是一种轻量级符号推理框架，通过模块化分解、自适应工具编排和中间验证，显著提升了智能体在工具调用环境中的泛化能力。在MAVEN-Bench基准测试中，它将GPT-OSS-120b模型的准确率从48%提升至71%，且成本仅为前沿专有模型的约1/10。",
+    "tags": [
+      "智能体",
+      "工具调用",
+      "泛化",
+      "符号推理",
+      "基准测试"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出MAVEN框架，用于结构化分解和自适应工具编排",
+        "引入MAVEN-Bench基准，测试多步数学和物理推理",
+        "在多个基准上提升准确率，如从48%到71%",
+        "使用开源模型，成本仅为专有模型的1/10",
+        "强调以验证为中心的轻量级框架可增强组合推理"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "基于扩散模型的图状规则生成用于知识图谱推理",
+    "source_url": "https://arxiv.org/abs/2605.30747",
+    "summary": "本文提出GRiD框架，将图状规则发现重构为基于目标关系的离散生成过程。采用两阶段训练：监督预训练捕获结构先验，强化学习通过策略梯度优化直接引导非可微规则质量指标。实验表明GRiD在知识图谱补全任务中表现优异，图状规则能补充链状规则。",
+    "tags": [
+      "知识图谱推理",
+      "图状规则",
+      "扩散模型",
+      "强化学习",
+      "规则挖掘"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "现有规则挖掘方法仅关注链状规则，忽略图状结构如循环和分支",
+        "GRiD将图状规则发现重构为离散生成过程",
+        "两阶段训练：监督预训练+强化学习微调",
+        "强化学习直接优化非可微规则质量指标",
+        "图状规则与链状规则互补提升知识图谱补全性能"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "自适应上下文管理提升长程任务性能",
+    "source_url": "https://arxiv.org/abs/2605.30785",
+    "summary": "本文提出AdaCoM，一种通过外部LLM对冻结智能体进行自适应上下文管理的方法，利用灵活修改动作和端到端强化学习提升长程任务性能。实验发现高能力智能体受益于高保真上下文，低能力智能体需更激进压缩，且策略可跨相似能力智能体迁移。",
+    "tags": [
+      "LLM智能体",
+      "上下文管理",
+      "长程任务",
+      "强化学习",
+      "可迁移策略"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "AdaCoM通过外部LLM管理冻结智能体上下文，无需训练智能体本身",
+        "采用端到端强化学习优化上下文修改动作",
+        "揭示保真度-可靠性权衡：高能力智能体需高保真，低能力需激进压缩",
+        "跨智能体迁移实验表明策略可重用，尤其适用于能力相似的智能体",
+        "在网页搜索和深度研究基准上显著提升性能"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "PReMISE：将评分标准作为LLM评估的测量规范",
+    "source_url": "https://arxiv.org/abs/2605.30803",
+    "summary": "本文提出PReMISE框架，将可复用的评分标准视为测量规范，通过成对人类偏好数据发现策略级评分标准集，并从结构充分性、可靠性、偏好拟合和对抗鲁棒性四个维度审计评分标准。实验表明，原始评分标准无法同时满足可靠、偏好预测和对抗鲁棒性，而PReMISE在适用性、特异性和有效维度上表现最佳。",
+    "tags": [
+      "LLM评估",
+      "评分标准",
+      "对抗鲁棒性",
+      "偏好拟合",
+      "审计框架"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "评分标准变化会改变固定评判器对响应质量的测量",
+        "PReMISE从四个维度审计评分标准",
+        "原始评分标准无法同时满足可靠、偏好预测和对抗鲁棒性",
+        "偏好排名选择将评判准确率从65.0%提升至68.6%",
+        "可靠性约束精炼将高评分率从46.4%降至36.0%"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "COMPASS：认知MCTS引导的流程对齐安全搜索智能体",
+    "source_url": "https://arxiv.org/abs/2605.30838",
+    "summary": "COMPASS框架通过认知树探索合成隐蔽攻击轨迹，并利用内省步骤对齐隔离风险中间动作，实现多步交互中的鲁棒安全对齐，在保持通用效用的同时显著减少训练数据需求。",
+    "tags": [
+      "LLM安全",
+      "搜索智能体",
+      "流程对齐",
+      "蒙特卡洛树搜索",
+      "多步推理"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出认知树探索(CTE)合成隐蔽攻击轨迹",
+        "内省步骤对齐(ISA)实现细粒度过程监督",
+        "在安全-效用权衡中表现优异",
+        "大幅降低训练数据需求",
+        "解决检索诱导的安全退化问题"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "蒸馏LLM反馈用于Lean定理证明",
+    "source_url": "https://arxiv.org/abs/2605.30861",
+    "summary": "本文提出反馈蒸馏（Feedback Distillation）方法，通过让模型在token级别匹配自身分布（以语言模型提供的特权反馈为条件），解决GRPO在推理后训练中奖励稀疏、探索受限和模式崩溃的问题。在Lean4定理证明任务中，反馈蒸馏比GRPO保持更高的轨迹多样性，且两者互补：用反馈蒸馏初始化GRPO优于任一方法单独使用。",
+    "tags": [
+      "LLM",
+      "反馈蒸馏",
+      "GRPO",
+      "定理证明",
+      "推理后训练"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "反馈蒸馏提供token级监督，可注入外部知识",
+        "相比GRPO，反馈蒸馏保持更高策略熵和更好的pass@k扩展",
+        "反馈蒸馏与GRPO互补，联合使用效果更优",
+        "方法在Lean4定理证明任务上验证",
+        "为复杂推理后训练提供新方向"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "台球物理基准测试：多模态大模型的物理推理评估",
+    "source_url": "https://arxiv.org/abs/2605.30900",
+    "summary": "本文提出BilliardPhys-Bench基准，用于评估多模态大模型在台球环境中的物理推理能力。测试发现模型存在“静态偏差”，即在复杂场景下倾向于预测无交互，表明当前模型在视觉动态推理方面存在不足。",
+    "tags": [
+      "多模态大模型",
+      "物理推理",
+      "基准测试",
+      "视觉动态",
+      "静态偏差"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出BilliardPhys-Bench基准测试",
+        "评估GPT、Claude、Gemini、Qwen等模型",
+        "发现模型在复杂场景下性能下降",
+        "识别出“静态偏差”失败模式",
+        "指出需要更好的物理归纳偏置"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "基于人格的生成式AI多元对齐评估框架",
+    "source_url": "https://arxiv.org/abs/2605.31021",
+    "summary": "本文提出一种基于人格的评估框架，用合成认知画像替代单一评估函数，以捕捉人类判断的多元性。研究发现，生成式架构可维持这些评估人格，但存在状态空间漂移和语义不一致问题，需嵌入动态调节机制。",
+    "tags": [
+      "AI评估",
+      "多元对齐",
+      "人格模拟",
+      "生成式AI",
+      "动态调节"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出基于人格的评估框架，替代单一基准",
+        "生成式架构可维持评估人格但存在漂移",
+        "需动态调节机制保持人格一致性",
+        "框架反映真实共识变异性",
+        "为自适应AI评估提供基础"
+      ],
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "title": "异构多智能体差分变压器用于卫星集群自主管理",
+    "source_url": "https://arxiv.org/abs/2605.31023",
+    "summary": "本文提出一种基于差分变压器的异构多智能体架构，用于自主地球观测卫星集群的资源管理。通过关系观测-动作令牌化和差分注意力机制，该方法在无需精确模型的情况下实现实时决策，实验显示性能显著优于基线，并具有良好的适应性和迁移性。",
+    "tags": [
+      "卫星集群",
+      "自主资源管理",
+      "多智能体",
+      "差分变压器",
+      "强化学习"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "解决异构卫星集群自主资源管理问题",
+        "采用模型无关的强化学习框架",
+        "提出关系观测-动作令牌化与差分注意力机制",
+        "实验性能优于传统优化方法",
+        "架构对卫星数量变化具有强适应性和迁移性"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "LLM-FACETS：隐私保护的大模型透明度评估框架",
+    "source_url": "https://arxiv.org/abs/2605.31167",
+    "summary": "本文提出LLM-FACETS，一个开源框架，通过浏览器界面和插件架构，支持技术专家、领域专家和合规官三类用户评估大模型的事实性、认知校准和可重复性。框架确保确定性指标在本地运行，LLM评判指标明确调用外部API，并通过令牌级对数概率可视化、多评判共识和RAG三元组指标实现透明度。",
+    "tags": [
+      "大模型评估",
+      "隐私保护",
+      "透明度",
+      "可问责性",
+      "开源框架"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出面向三类从业者的评估框架",
+        "确定性指标本地运行，无数据外传",
+        "LLM评判指标保留用户凭证控制",
+        "实现令牌级不确定性可视化",
+        "支持插件扩展新指标和数据集"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "基于专家知识蒸馏的自动化AI技能生成系统",
+    "source_url": "https://arxiv.org/abs/2605.31264",
+    "summary": "本文提出COLLEAGUE.SKILL系统，通过专家知识蒸馏将人员或角色的异构痕迹自动转化为可检查、可修正、可被AI代理使用的技能包。技能包包含能力轨迹和边界行为轨迹，支持自然语言反馈更新、版本回滚、跨主机部署及受控分发，实现了从痕迹到可移植技能包的端到端工作流。",
+    "tags": [
+      "AI技能生成",
+      "知识蒸馏",
+      "LLM代理",
+      "专家知识",
+      "开源系统"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "提出从异构痕迹到技能包的自动化蒸馏流程",
+        "技能包包含能力轨迹和边界行为轨迹两个协调轨道",
+        "支持自然语言反馈更新、版本回滚和跨主机部署",
+        "开源系统已有约18.5k GitHub星标和215个技能",
+        "将人员技能表示为可移植、可修正的包而非不透明提示"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "GLIDE库：工业化预测驱动推理实现可靠GenAI与智能体评估",
+    "source_url": "https://arxiv.org/abs/2605.31278",
+    "summary": "GLIDE是一个开源Python库，统一了预测驱动推理（PPI）的最新方法，用于对智能体系统进行无偏估计和有效置信区间评估。它提供scipy风格的API、蒙特卡洛验证套件、方法选择决策树，并通过案例研究证明在同等精度下大幅减少人工标注成本。",
+    "tags": [
+      "预测驱动推理",
+      "智能体评估",
+      "开源库",
+      "无偏估计",
+      "GenAI"
+    ],
+    "category": "tool",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "统一多种PPI估计器和采样器",
+        "提供scipy风格API专用于均值估计",
+        "包含可复现的蒙特卡洛验证套件",
+        "基于经验的方法选择决策树",
+        "在智能体评估案例中显著节省标注成本"
+      ],
+      "sentiment": "positive"
+    }
+  },
+  {
+    "title": "TraceGraph：共享决策景观用于诊断和改进智能体轨迹",
+    "source_url": "https://arxiv.org/abs/2605.31308",
+    "summary": "TraceGraph是一个基于图的框架，通过将多模型智能体轨迹转化为共享决策景观，揭示隐藏的导航差异。它识别出产出核心和陷阱区域，并支持陷阱感知恢复流程，在SWE-bench上将解决率从40.4%提升至43.5%。该框架为理解智能体基准测试和模型差异提供了过程词汇。",
+    "tags": [
+      "智能体轨迹",
+      "图框架",
+      "基准测试",
+      "陷阱检测",
+      "恢复策略"
+    ],
+    "category": "paper",
+    "status": "draft",
+    "collected_at": "2026-06-01T17:45:08.147477+08:00",
+    "published_at": null,
+    "ai_analysis": {
+      "relevance_score": 8,
+      "key_points": [
+        "构建共享决策景观以分析多模型轨迹",
+        "识别产出核心和陷阱区域",
+        "定义三种事件：访问、陷阱暴露和修复",
+        "在SWE-bench上提升解决率",
+        "提供过程词汇以理解基准测试差异"
+      ],
+      "sentiment": "positive"
+    }
+  }
+]

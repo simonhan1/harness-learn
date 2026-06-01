@@ -1,0 +1,29 @@
+{
+  "title": "COMPASS：认知MCTS引导的流程对齐安全搜索智能体",
+  "source_url": "https://arxiv.org/abs/2605.30838",
+  "summary": "COMPASS框架通过认知树探索合成隐蔽攻击轨迹，并利用内省步骤对齐隔离风险中间动作，实现多步交互中的鲁棒安全对齐，在保持通用效用的同时显著减少训练数据需求。",
+  "tags": [
+    "LLM安全",
+    "搜索智能体",
+    "流程对齐",
+    "蒙特卡洛树搜索",
+    "多步推理"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出认知树探索(CTE)合成隐蔽攻击轨迹",
+      "内省步骤对齐(ISA)实现细粒度过程监督",
+      "在安全-效用权衡中表现优异",
+      "大幅降低训练数据需求",
+      "解决检索诱导的安全退化问题"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-038",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

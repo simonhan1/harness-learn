@@ -1,0 +1,29 @@
+{
+  "title": "x1xhlol/system-prompts-and-models-of-ai-tools：海量AI工具系统提示与模型汇总",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "summary": "该项目收集了包括Cursor、Devin、Replit等数十种主流AI工具的系统提示词、内部工具及模型信息，并持续更新开源内容。为开发者深入理解AI工具运作机制、优化提示工程提供了宝贵资源，具有极高的参考价值。",
+  "tags": [
+    "AI工具",
+    "系统提示词",
+    "开源",
+    "提示工程",
+    "模型汇总"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "收录超25种AI工具的系统提示与模型",
+      "涵盖Cursor、Devin、Replit等主流平台",
+      "包含开源项目与内部工具信息",
+      "持续更新，资源丰富",
+      "助力提示工程与AI工具理解"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-015",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

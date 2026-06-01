@@ -1,0 +1,29 @@
+{
+  "title": "ChatGPT谷歌插件泄露工作表数据",
+  "source_url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+  "summary": "文章揭示ChatGPT for Google Sheets插件存在数据泄露风险，攻击者可通过提示注入将工作簿内容外传至外部服务器。该漏洞利用AI模型的指令跟随特性，绕过安全限制，导致敏感数据被窃取。",
+  "tags": [
+    "数据泄露",
+    "提示注入",
+    "AI安全",
+    "谷歌插件",
+    "ChatGPT"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "ChatGPT for Google Sheets插件存在数据外泄漏洞",
+      "攻击者通过提示注入实现数据窃取",
+      "漏洞利用AI模型指令跟随特性",
+      "工作簿内容可被发送至外部服务器",
+      "需加强AI插件安全防护措施"
+    ],
+    "sentiment": "negative"
+  },
+  "id": "github-20260601-022",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

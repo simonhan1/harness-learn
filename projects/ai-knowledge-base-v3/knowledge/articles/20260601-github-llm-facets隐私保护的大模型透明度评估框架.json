@@ -1,0 +1,29 @@
+{
+  "title": "LLM-FACETS：隐私保护的大模型透明度评估框架",
+  "source_url": "https://arxiv.org/abs/2605.31167",
+  "summary": "本文提出LLM-FACETS，一个开源框架，通过浏览器界面和插件架构，支持技术专家、领域专家和合规官三类用户评估大模型的事实性、认知校准和可重复性。框架确保确定性指标在本地运行，LLM评判指标明确调用外部API，并通过令牌级对数概率可视化、多评判共识和RAG三元组指标实现透明度。",
+  "tags": [
+    "大模型评估",
+    "隐私保护",
+    "透明度",
+    "可问责性",
+    "开源框架"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出面向三类从业者的评估框架",
+      "确定性指标本地运行，无数据外传",
+      "LLM评判指标保留用户凭证控制",
+      "实现令牌级不确定性可视化",
+      "支持插件扩展新指标和数据集"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-043",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

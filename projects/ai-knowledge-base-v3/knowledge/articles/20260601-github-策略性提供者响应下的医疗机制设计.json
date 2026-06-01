@@ -1,0 +1,29 @@
+{
+  "title": "策略性提供者响应下的医疗机制设计",
+  "source_url": "https://arxiv.org/abs/2605.30680",
+  "summary": "本文提出将医院机制设计视为语言模型的程序合成，通过多智能体模拟器Medi-Sim评估策略性提供者响应下的均衡效果。研究发现利润压力导致编码膨胀和低复杂度患者选择，而LLM引导的进化搜索可合成混合目标程序，消除编码膨胀并减少拒绝。",
+  "tags": [
+    "医疗机制",
+    "策略性响应",
+    "程序合成",
+    "多智能体模拟",
+    "LLM进化搜索"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "现有医疗AI基准忽略策略性提供者响应",
+      "Medi-Sim模拟器包含五个策略性渠道",
+      "恢复经典健康经济学发现",
+      "审计杠杆暴露压力迁移",
+      "LLM进化搜索合成可检查的混合目标程序"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-033",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

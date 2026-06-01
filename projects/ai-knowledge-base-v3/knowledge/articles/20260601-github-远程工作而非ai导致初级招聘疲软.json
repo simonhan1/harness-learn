@@ -1,0 +1,29 @@
+{
+  "title": "远程工作而非AI导致初级招聘疲软",
+  "source_url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0",
+  "summary": "文章质疑AI对初级岗位招聘的影响，认为远程工作模式才是主因。远程办公削弱了初级员工的培训与融入，导致企业减少招聘，而非AI替代。",
+  "tags": [
+    "远程工作",
+    "初级招聘",
+    "AI影响",
+    "劳动力市场",
+    "培训"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "远程工作阻碍初级员工成长",
+      "企业因培训困难减少招聘",
+      "AI并非初级岗位减少主因",
+      "需重新设计远程工作模式",
+      "文章引发对劳动力市场变化的反思"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260601-025",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "PReMISE：将评分标准作为LLM评估的测量规范",
+  "source_url": "https://arxiv.org/abs/2605.30803",
+  "summary": "本文提出PReMISE框架，将可复用的评分标准视为测量规范，通过成对人类偏好数据发现策略级评分标准集，并从结构充分性、可靠性、偏好拟合和对抗鲁棒性四个维度审计评分标准。实验表明，原始评分标准无法同时满足可靠、偏好预测和对抗鲁棒性，而PReMISE在适用性、特异性和有效维度上表现最佳。",
+  "tags": [
+    "LLM评估",
+    "评分标准",
+    "对抗鲁棒性",
+    "偏好拟合",
+    "审计框架"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "评分标准变化会改变固定评判器对响应质量的测量",
+      "PReMISE从四个维度审计评分标准",
+      "原始评分标准无法同时满足可靠、偏好预测和对抗鲁棒性",
+      "偏好排名选择将评判准确率从65.0%提升至68.6%",
+      "可靠性约束精炼将高评分率从46.4%降至36.0%"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260601-037",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

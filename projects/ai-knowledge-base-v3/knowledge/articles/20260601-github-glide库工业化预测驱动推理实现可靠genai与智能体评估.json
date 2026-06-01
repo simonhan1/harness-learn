@@ -1,0 +1,29 @@
+{
+  "title": "GLIDE库：工业化预测驱动推理实现可靠GenAI与智能体评估",
+  "source_url": "https://arxiv.org/abs/2605.31278",
+  "summary": "GLIDE是一个开源Python库，统一了预测驱动推理（PPI）的最新方法，用于对智能体系统进行无偏估计和有效置信区间评估。它提供scipy风格的API、蒙特卡洛验证套件、方法选择决策树，并通过案例研究证明在同等精度下大幅减少人工标注成本。",
+  "tags": [
+    "预测驱动推理",
+    "智能体评估",
+    "开源库",
+    "无偏估计",
+    "GenAI"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "统一多种PPI估计器和采样器",
+      "提供scipy风格API专用于均值估计",
+      "包含可复现的蒙特卡洛验证套件",
+      "基于经验的方法选择决策树",
+      "在智能体评估案例中显著节省标注成本"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-045",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "LLM智能体自演化中能力解耦分析",
+  "source_url": "https://arxiv.org/abs/2605.30621",
+  "summary": "本文研究了LLM智能体在自演化过程中两种能力：生成有用更新（harness-updating）和从更新中受益（harness-benefit）。发现前者与基础能力无关，不同模型更新效果相似；后者则非单调：弱模型受益少，中等模型受益最大，强模型受益低于中等。",
+  "tags": [
+    "LLM智能体",
+    "自演化",
+    "能力解耦",
+    "基础能力",
+    "指令遵循"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "harness-updating能力与模型基础能力无关",
+      "harness-benefit能力非单调变化",
+      "弱模型存在激活失败或遵循失败问题",
+      "建议将能力预算投入任务求解而非演化器",
+      "需加强智能体的指令遵循训练"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260601-030",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

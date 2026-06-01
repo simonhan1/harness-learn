@@ -1,0 +1,29 @@
+{
+  "title": "基于专家知识蒸馏的自动化AI技能生成系统",
+  "source_url": "https://arxiv.org/abs/2605.31264",
+  "summary": "本文提出COLLEAGUE.SKILL系统，通过专家知识蒸馏将人员或角色的异构痕迹自动转化为可检查、可修正、可被AI代理使用的技能包。技能包包含能力轨迹和边界行为轨迹，支持自然语言反馈更新、版本回滚、跨主机部署及受控分发，实现了从痕迹到可移植技能包的端到端工作流。",
+  "tags": [
+    "AI技能生成",
+    "知识蒸馏",
+    "LLM代理",
+    "专家知识",
+    "开源系统"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出从异构痕迹到技能包的自动化蒸馏流程",
+      "技能包包含能力轨迹和边界行为轨迹两个协调轨道",
+      "支持自然语言反馈更新、版本回滚和跨主机部署",
+      "开源系统已有约18.5k GitHub星标和215个技能",
+      "将人员技能表示为可移植、可修正的包而非不透明提示"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-044",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "TraceGraph：共享决策景观用于诊断和改进智能体轨迹",
+  "source_url": "https://arxiv.org/abs/2605.31308",
+  "summary": "TraceGraph是一个基于图的框架，通过将多模型智能体轨迹转化为共享决策景观，揭示隐藏的导航差异。它识别出产出核心和陷阱区域，并支持陷阱感知恢复流程，在SWE-bench上将解决率从40.4%提升至43.5%。该框架为理解智能体基准测试和模型差异提供了过程词汇。",
+  "tags": [
+    "智能体轨迹",
+    "图框架",
+    "基准测试",
+    "陷阱检测",
+    "恢复策略"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "构建共享决策景观以分析多模型轨迹",
+      "识别产出核心和陷阱区域",
+      "定义三种事件：访问、陷阱暴露和修复",
+      "在SWE-bench上提升解决率",
+      "提供过程词汇以理解基准测试差异"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-046",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

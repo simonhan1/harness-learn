@@ -1,0 +1,29 @@
+{
+  "title": "Anthropic Skills：智能体技能开源库",
+  "source_url": "https://github.com/anthropics/skills",
+  "summary": "Anthropic官方发布的Agent Skills公共仓库，提供可复用的智能体技能模块，基于Python实现，旨在加速AI代理开发与部署。该项目以开源方式推动智能体生态建设，降低开发者门槛。",
+  "tags": [
+    "agent-skills",
+    "智能体",
+    "开源",
+    "Python",
+    "Anthropic"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "Anthropic官方维护的Agent Skills仓库",
+      "提供可复用的智能体技能模块",
+      "基于Python实现，易于集成",
+      "开源社区驱动，促进生态发展",
+      "降低AI代理开发门槛"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-012",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

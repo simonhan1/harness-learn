@@ -1,0 +1,29 @@
+{
+  "title": "LangChain：138K星的开源AI代理工程平台",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain是一个开源的AI代理工程平台，支持Python和TypeScript，提供构建LLM应用、代理、RAG系统的框架。它集成了OpenAI、Anthropic、Gemini等主流模型，拥有138K星，是当前最流行的AI开发框架之一。",
+  "tags": [
+    "AI代理",
+    "LLM框架",
+    "开源",
+    "Python",
+    "RAG"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "138K星，社区活跃度极高",
+      "支持多模型集成（OpenAI、Anthropic等）",
+      "提供代理、RAG、多代理系统构建能力",
+      "跨语言支持Python和TypeScript",
+      "企业级框架，适用于生产环境"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-016",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

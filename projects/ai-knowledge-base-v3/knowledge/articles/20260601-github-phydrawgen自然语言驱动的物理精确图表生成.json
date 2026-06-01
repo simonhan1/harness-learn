@@ -1,0 +1,29 @@
+{
+  "title": "PhyDrawGen：自然语言驱动的物理精确图表生成",
+  "source_url": "https://arxiv.org/abs/2605.30512",
+  "summary": "本文提出PhyDrawGen，一种神经符号管道，用于从文本生成严格遵循物理定律的图表。它通过大语言模型提取场景图，经确定性求解器转换为精确几何图元，并利用微调视觉模型迭代修正约束违反。在1449个物理问题基准上，该方法在力学、光学和电磁学领域显著优于GPT-5-image等模型。",
+  "tags": [
+    "物理图表生成",
+    "神经符号方法",
+    "场景图",
+    "约束满足",
+    "大语言模型"
+  ],
+  "category": "model_release",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "解耦语义理解与物理约束满足",
+      "使用确定性求解器生成精确几何图元",
+      "微调Qwen-VL实现视觉验证循环",
+      "在1449个物理问题基准上表现优异",
+      "处理异常物体问题仍保持鲁棒性"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-027",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
