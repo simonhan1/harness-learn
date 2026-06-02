@@ -1,0 +1,25 @@
+{
+  "title": "Anthropics Skills：公开智能体技能库，14.5万星标项目",
+  "summary": "Anthropics Skills是一个公开的智能体技能仓库，旨在提供可复用的Agent技能模块。项目基于Python，拥有14.5万星标，展示社区对智能体技能生态的高度关注。",
+  "tags": [
+    "智能体技能",
+    "Agent Skills",
+    "Anthropic",
+    "Python",
+    "开源工具"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 6,
+  "key_points": [
+    "公开智能体技能仓库",
+    "基于Python开发",
+    "14.5万星标，社区热度极高"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-012",
+  "source": "github_trending",
+  "source_url": "https://github.com/anthropics/skills",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:08:59.133095+08:00",
+  "published_at": null
+}

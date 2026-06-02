@@ -1,0 +1,25 @@
+{
+  "title": "微软生成式AI初学者课程：21课入门指南",
+  "summary": "微软推出的生成式AI入门课程，包含21节课程，覆盖GPT、DALL-E、Prompt工程等核心主题，适合初学者系统学习生成式AI的基础与实践。项目以Jupyter Notebook形式呈现，开源且社区活跃，是学习生成式AI的优质资源。",
+  "tags": [
+    "ai",
+    "azure",
+    "chatgpt",
+    "generative-ai",
+    "openai"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "21节系统课程，覆盖生成式AI核心概念",
+    "基于Jupyter Notebook，实践性强",
+    "由微软官方维护，社区活跃（超11万星）"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-022",
+  "source": "github_trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:09:20.547842+08:00",
+  "published_at": null
+}

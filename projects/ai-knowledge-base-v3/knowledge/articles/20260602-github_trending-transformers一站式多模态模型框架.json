@@ -1,0 +1,25 @@
+{
+  "title": "Transformers：一站式多模态模型框架",
+  "summary": "Hugging Face Transformers是一个提供数千个预训练模型（文本、图像、音频、多模态）的框架，支持PyTorch、TensorFlow等后端，用于推理和训练。它凭借统一API和模型中心成为NLP和深度学习生态的核心工具，推动了模型部署与研究的民主化。",
+  "tags": [
+    "深度学习",
+    "自然语言处理",
+    "多模态",
+    "预训练模型",
+    "模型中心"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "支持文本、视觉、音频和多模态模型",
+    "统一API，兼容PyTorch和TensorFlow",
+    "集成模型中心，提供海量预训练模型"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-009",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:08:53.142398+08:00",
+  "published_at": null
+}

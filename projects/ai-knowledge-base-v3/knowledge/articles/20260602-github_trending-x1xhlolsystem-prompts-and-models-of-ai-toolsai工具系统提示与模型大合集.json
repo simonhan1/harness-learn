@@ -1,0 +1,25 @@
+{
+  "title": "x1xhlol/system-prompts-and-models-of-ai-tools：AI工具系统提示与模型大合集",
+  "summary": "该项目汇集了数十种主流AI工具（如Cursor、Claude Code、Replit等）的系统提示、内部工具及模型信息，包括开源版本，为开发者提供了全面的AI工具链参考资源。其核心价值在于一站式整合，便于比较和学习不同AI助手的底层设计。",
+  "tags": [
+    "AI工具",
+    "系统提示",
+    "开源",
+    "Cursor",
+    "Copilot"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "收录了超过20种AI工具的系统提示和模型信息",
+    "涵盖Cursor、Claude Code、Replit等主流及新兴AI助手",
+    "包括开源版本，便于开发者深入研究和复用"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-016",
+  "source": "github_trending",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:09:07.633204+08:00",
+  "published_at": null
+}

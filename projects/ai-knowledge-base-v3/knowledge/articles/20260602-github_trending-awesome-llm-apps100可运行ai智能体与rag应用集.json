@@ -1,0 +1,25 @@
+{
+  "title": "Awesome LLM Apps：100+可运行AI智能体与RAG应用集",
+  "summary": "该项目汇集了100多个可直接运行、定制和部署的AI智能体与RAG应用示例，涵盖多种框架和工具，为开发者提供了丰富的实践参考和快速上手模板，极大降低了构建LLM应用的门槛。",
+  "tags": [
+    "AI智能体",
+    "RAG",
+    "Python",
+    "LLM应用",
+    "开源项目"
+  ],
+  "category": "tool",
+  "relevance_score": 8,
+  "key_points": [
+    "提供100+可直接运行的AI智能体与RAG应用代码",
+    "支持克隆、定制和快速部署，降低开发门槛",
+    "涵盖多种LLM框架和工具，适合学习与实践"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-021",
+  "source": "github_trending",
+  "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:09:18.487843+08:00",
+  "published_at": null
+}

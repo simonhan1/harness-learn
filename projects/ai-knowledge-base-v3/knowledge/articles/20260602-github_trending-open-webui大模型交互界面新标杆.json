@@ -1,0 +1,25 @@
+{
+  "title": "Open WebUI：大模型交互界面新标杆",
+  "summary": "Open WebUI是一个用户友好、功能丰富的AI交互界面，支持Ollama、OpenAI等多种API。其核心创新在于提供自托管、可扩展的WebUI，集成RAG、MCP等高级功能，降低了AI应用的使用门槛。",
+  "tags": [
+    "AI界面",
+    "大模型",
+    "自托管",
+    "Ollama",
+    "OpenAI"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "支持Ollama和OpenAI API，兼容主流大模型",
+    "提供自托管WebUI，用户可完全掌控数据",
+    "集成RAG和MCP功能，增强模型能力"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-015",
+  "source": "github_trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:09:05.332559+08:00",
+  "published_at": null
+}

@@ -1,0 +1,25 @@
+{
+  "title": "n8n：开源AI工作流自动化平台",
+  "summary": "n8n是一个开源的低代码/无代码工作流自动化平台，支持视觉化构建与自定义代码结合，拥有400+集成和原生AI能力。它可自托管或云部署，适用于自动化、数据流和AI代理开发，是IPAAS领域的领先工具。",
+  "tags": [
+    "工作流自动化",
+    "低代码/无代码",
+    "AI集成",
+    "开源",
+    "自托管"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "低代码视觉构建与自定义代码结合",
+    "原生AI能力与400+集成",
+    "支持自托管和云部署"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-003",
+  "source": "github_trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:08:39.941190+08:00",
+  "published_at": null
+}

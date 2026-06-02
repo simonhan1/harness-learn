@@ -1,0 +1,25 @@
+{
+  "title": "Hermes-Agent：与您共同成长的AI智能体",
+  "summary": "NousResearch推出的开源AI智能体框架，基于Python开发，支持多家大模型API（如Anthropic、OpenAI）。其核心创新在于“与用户共同成长”的适应性设计，可灵活扩展为个性化助手，目前拥有近18万星标，社区活跃度极高。",
+  "tags": [
+    "AI智能体",
+    "开源框架",
+    "大模型集成",
+    "Python",
+    "NousResearch"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "提供统一的智能体开发框架，支持Claude、ChatGPT等多模型",
+    "强调自适应成长特性，可随用户交互优化行为",
+    "高人气开源项目，社区贡献活跃，适合快速原型开发"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-005",
+  "source": "github_trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:08:44.485777+08:00",
+  "published_at": null
+}

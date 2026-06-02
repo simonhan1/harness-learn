@@ -1,0 +1,25 @@
+{
+  "title": "Langflow：AI代理与工作流构建与部署利器",
+  "summary": "Langflow是一个强大的AI工具，用于构建和部署AI代理及工作流。它支持多代理协作、大语言模型集成及可视化流程编辑，降低了AI应用开发门槛，提升了效率与灵活性。",
+  "tags": [
+    "agents",
+    "generative-ai",
+    "large-language-models",
+    "multiagent",
+    "react-flow"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 7,
+  "key_points": [
+    "可视化工作流构建，支持拖拽式编辑",
+    "多代理协作与集成大语言模型",
+    "简化AI应用部署流程"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260602-011",
+  "source": "github_trending",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "status": "draft",
+  "collected_at": "2026-06-02T23:08:56.950104+08:00",
+  "published_at": null
+}
