@@ -1,0 +1,28 @@
+{
+  "title": "AutoGPT：人人可用的自主AI代理框架",
+  "summary": "AutoGPT是一个开源的自主AI代理框架，旨在让每个人都能轻松构建和使用AI代理。它支持多种LLM后端（如GPT-4、Claude 3、Llama 3），提供自主任务规划、执行与迭代能力，在复杂任务完成率上较早期版本提升约40%，但响应延迟较直接调用API增加约2-5秒。当前是GitHub上最热门的AI代理项目之一，星标超18万，与LangChain、AgentGPT等主流框架协同发展。",
+  "tags": [
+    "自主AI代理",
+    "LLM框架",
+    "开源",
+    "Python",
+    "多模型支持",
+    "性能对比",
+    "LangChain",
+    "AgentGPT"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "提供自主任务规划与执行能力",
+    "支持GPT-4、Claude 3、Llama 3等多种LLM",
+    "开源且社区活跃，拥有超18万星标"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-004",
+  "source": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:20.776069+08:00",
+  "published_at": null
+}

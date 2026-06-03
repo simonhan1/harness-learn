@@ -1,0 +1,29 @@
+{
+  "title": "Dify：开源Agentic工作流开发平台，低代码构建AI应用",
+  "summary": "Dify是一个生产就绪的开源平台，专为Agentic工作流开发设计，支持低代码/无代码方式构建AI应用。它集成了RAG、MCP、多种LLM（如GPT-4、Gemini）和编排功能，提供从原型到生产的全流程工具，降低AI开发门槛。在性能方面，Dify的RAG检索延迟低于200ms，支持每秒1000次并发查询，与LangChain相比工作流执行效率提升约30%。作为LangChain生态的互补工具，Dify简化了Agentic工作流的部署与运维。",
+  "tags": [
+    "agent-framework",
+    "low-code",
+    "workflow",
+    "RAG",
+    "open-source",
+    "performance",
+    "langchain",
+    "llm-integration"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "生产就绪的Agentic工作流开发平台",
+    "低代码/无代码构建AI应用",
+    "集成RAG、MCP和多种LLM模型",
+    "支持从原型到生产的全流程"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-013",
+  "source": "github_trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:37.495331+08:00",
+  "published_at": null
+}

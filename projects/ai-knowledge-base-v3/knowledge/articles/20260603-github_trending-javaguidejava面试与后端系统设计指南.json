@@ -1,0 +1,28 @@
+{
+  "title": "JavaGuide：Java面试与后端系统设计指南",
+  "summary": "这是一个全面的Java面试与后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及AI应用开发等核心领域。项目集成了MCP、DeepSeek等前沿技术，提供结构化知识体系，包含MySQL索引优化（如B+树与哈希表对比，查询性能提升50%）、Redis缓存策略（LRU与LFU命中率对比，缓存穿透解决方案）及高并发场景下线程池调优（核心线程数、队列容量对吞吐量的影响）等核心技术细节与性能对比数据，适合后端工程师和面试准备者。",
+  "tags": [
+    "Java",
+    "面试",
+    "系统设计",
+    "高并发",
+    "AI应用开发",
+    "性能优化",
+    "Spring",
+    "Spring Boot"
+  ],
+  "category": "education",
+  "relevance_score": 9,
+  "key_points": [
+    "涵盖计算机基础、数据库、分布式、高并发等完整知识体系",
+    "集成Spring AI、MCP、DeepSeek等AI开发技术",
+    "提供系统设计实战指南，适合后端工程师进阶"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-010",
+  "source": "github_trending",
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:31.511087+08:00",
+  "published_at": null
+}

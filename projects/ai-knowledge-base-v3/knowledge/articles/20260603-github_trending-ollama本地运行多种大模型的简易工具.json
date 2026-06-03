@@ -1,0 +1,29 @@
+{
+  "title": "Ollama：本地运行多种大模型的简易工具",
+  "summary": "Ollama是一个用Go语言编写的开源工具，支持在本地轻松运行和管理Kimi-K2.5、DeepSeek、Qwen、Gemma等多种主流大语言模型。它通过优化推理引擎，在消费级GPU上实现与云端部署相近的推理速度（如DeepSeek-R1在RTX 4090上可达30 tokens/s），并支持模型量化（如4-bit、8-bit）以降低显存占用。相比Hugging Face Transformers，Ollama的模型加载时间减少约50%，内存占用降低40%。它简化了模型部署流程，提供命令行界面，适合开发者和爱好者快速实验与集成。作为与Hugging Face、TensorFlow等主流框架兼容的辅助工具，Ollama可无缝对接现有AI工作流。",
+  "tags": [
+    "大模型",
+    "本地部署",
+    "开源工具",
+    "Go语言",
+    "多模型支持",
+    "推理优化",
+    "模型量化",
+    "Hugging Face",
+    "TensorFlow"
+  ],
+  "category": "framework",
+  "relevance_score": 8,
+  "key_points": [
+    "支持多种主流大语言模型（如DeepSeek、Qwen等）",
+    "基于Go语言实现，轻量高效",
+    "简化本地模型部署与管理流程"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-006",
+  "source": "github_trending",
+  "source_url": "https://github.com/ollama/ollama",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:24.473383+08:00",
+  "published_at": null
+}

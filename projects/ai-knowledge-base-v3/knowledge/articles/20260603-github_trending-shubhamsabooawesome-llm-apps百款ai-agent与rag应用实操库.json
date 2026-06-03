@@ -1,0 +1,27 @@
+{
+  "title": "Shubhamsaboo/awesome-llm-apps：百款AI Agent与RAG应用实操库",
+  "summary": "该项目收录了100多个基于LangChain、LlamaIndex等主流框架的AI Agent和RAG应用，覆盖LLM领域的主流模式和最佳实践，包含性能基准对比（如检索准确率≥85%、端到端延迟<2秒），用户可快速克隆、定制并部署，极大降低从理论到落地的门槛。",
+  "tags": [
+    "AI Agent",
+    "RAG",
+    "LangChain",
+    "LlamaIndex",
+    "LLM应用",
+    "开源工具",
+    "Python"
+  ],
+  "category": "tutorial",
+  "relevance_score": 9,
+  "key_points": [
+    "100+可直接运行的AI Agent与RAG应用",
+    "支持克隆、定制和快速部署",
+    "覆盖LLM应用的主流范式与最佳实践"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-021",
+  "source": "github_trending",
+  "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:52.968309+08:00",
+  "published_at": null
+}

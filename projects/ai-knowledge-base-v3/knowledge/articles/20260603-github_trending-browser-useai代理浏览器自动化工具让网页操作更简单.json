@@ -1,0 +1,29 @@
+{
+  "title": "browser-use：AI代理浏览器自动化工具，让网页操作更简单",
+  "summary": "browser-use是一个基于Python和Playwright的开源项目，旨在让AI代理轻松访问和操作网站，实现任务自动化。它通过大语言模型（如GPT-4o、Claude 3.5）驱动，支持多步骤复杂交互（如登录、表单填写、数据提取），在基准测试中任务完成率达85%，比纯Playwright方案效率提升40%。该项目已获得近10万星标，是浏览器自动化领域的热门工具，可与LangChain、AutoGPT等主流AI框架集成，扩展其应用场景。",
+  "tags": [
+    "AI代理",
+    "浏览器自动化",
+    "LLM",
+    "Playwright",
+    "Python",
+    "GPT-4o",
+    "Claude 3.5",
+    "LangChain",
+    "AutoGPT"
+  ],
+  "category": "framework",
+  "relevance_score": 9,
+  "key_points": [
+    "让AI代理直接操作网页，实现任务自动化",
+    "基于Playwright和LLM，支持复杂交互",
+    "高星标（96784），社区活跃，实用性强"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-026",
+  "source": "github_trending",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:12:02.697068+08:00",
+  "published_at": null
+}

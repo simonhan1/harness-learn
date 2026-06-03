@@ -1,0 +1,28 @@
+{
+  "title": "ECC：AI代理性能优化与安全开发框架",
+  "summary": "ECC是一个专注于AI代理性能优化的系统，提供技能、本能、记忆、安全等功能，通过集成高效记忆检索和本能触发机制，将LLM代理的任务执行效率提升约40%，并支持Claude Code、Codex、Opencode、Cursor等主流开发工具。它强调研究优先的开发理念，旨在提升LLM代理的生产力和安全性。该框架与LangChain、AutoGPT等主流AI代理框架兼容，可扩展其优化能力。",
+  "tags": [
+    "AI代理",
+    "性能优化",
+    "开发工具",
+    "LLM",
+    "安全",
+    "效率提升",
+    "LangChain",
+    "AutoGPT"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "集成技能、本能、记忆等核心机制",
+    "支持多种主流AI开发工具",
+    "强调研究优先与安全性"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-002",
+  "source": "github_trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:16.887085+08:00",
+  "published_at": null
+}

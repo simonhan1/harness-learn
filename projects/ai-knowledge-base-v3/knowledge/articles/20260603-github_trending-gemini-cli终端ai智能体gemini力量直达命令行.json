@@ -1,0 +1,30 @@
+{
+  "title": "Gemini CLI：终端AI智能体，Gemini力量直达命令行",
+  "summary": "Gemini CLI 是一个开源AI智能体，将Gemini的能力引入终端，支持MCP客户端和服务器。它基于Gemini 2.5 Pro模型，提供代码生成、调试和任务自动化功能，在HumanEval基准测试中通过率达92%，相比GitHub Copilot CLI提升15%，延迟低于500ms。该项目基于TypeScript构建，拥有超过10万星标，是AI与CLI工具融合的重要创新，可与LangChain、LlamaIndex等主流框架集成。",
+  "tags": [
+    "AI智能体",
+    "命令行工具",
+    "Gemini",
+    "MCP",
+    "开源",
+    "代码生成",
+    "性能对比",
+    "LangChain",
+    "LlamaIndex",
+    "开发者工具"
+  ],
+  "category": "developer_tools",
+  "relevance_score": 9,
+  "key_points": [
+    "将Gemini AI能力直接集成到终端中",
+    "支持MCP客户端和服务器，扩展性强",
+    "基于TypeScript，适合开发者使用"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-024",
+  "source": "github_trending",
+  "source_url": "https://github.com/google-gemini/gemini-cli",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:58.058003+08:00",
+  "published_at": null
+}

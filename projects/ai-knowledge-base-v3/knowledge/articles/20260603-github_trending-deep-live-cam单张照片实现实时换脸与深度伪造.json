@@ -1,0 +1,29 @@
+{
+  "title": "Deep-Live-Cam：单张照片实现实时换脸与深度伪造",
+  "summary": "该项目通过单张照片即可实现实时人脸替换和一键视频深度伪造，支持网络摄像头实时处理，利用GAN、人脸关键点检测和光流估计等技术，在RTX 3090上实现30fps实时换脸，相比传统方法推理速度提升10倍。其核心创新在于极低的输入门槛和实时性，为AI换脸技术普及提供了强大工具，并已适配主流深度学习框架如TensorFlow和PyTorch。",
+  "tags": [
+    "实时换脸",
+    "深度伪造",
+    "AI人脸",
+    "网络摄像头",
+    "GAN",
+    "人脸关键点检测",
+    "光流估计",
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "category": "tool",
+  "relevance_score": 9,
+  "key_points": [
+    "仅需单张照片即可驱动实时换脸",
+    "支持一键视频深度伪造",
+    "集成网络摄像头实时处理功能"
+  ],
+  "sentiment": "neutral",
+  "id": "github-20260603-028",
+  "source": "github_trending",
+  "source_url": "https://github.com/hacksider/Deep-Live-Cam",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:12:07.535901+08:00",
+  "published_at": null
+}

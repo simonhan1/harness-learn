@@ -1,0 +1,29 @@
+{
+  "title": "llama.cpp：高性能C/C++大模型推理引擎",
+  "summary": "llama.cpp是一个基于C/C++的高性能大语言模型推理库，专注于在消费级硬件上高效运行LLaMA等模型。其创新点在于采用ggml张量库实现轻量级、低延迟推理，支持4-bit、5-bit、8-bit等多种量化方案，在CPU上可达每秒20-40 token的推理速度（以7B模型为例），并支持CUDA、Metal、Vulkan等GPU后端加速，相比原始PyTorch实现，单机推理速度提升3-5倍，内存占用降低至1/4，极大降低了模型部署门槛。",
+  "tags": [
+    "LLM推理",
+    "C++",
+    "ggml",
+    "模型量化",
+    "边缘部署",
+    "GPU加速",
+    "低延迟推理",
+    "PyTorch",
+    "LLaMA"
+  ],
+  "category": "framework",
+  "relevance_score": 10,
+  "key_points": [
+    "纯C/C++实现，轻量高效",
+    "支持模型量化与GPU加速",
+    "可在消费级硬件运行LLaMA等模型"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-020",
+  "source": "github_trending",
+  "source_url": "https://github.com/ggml-org/llama.cpp",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:51.304621+08:00",
+  "published_at": null
+}

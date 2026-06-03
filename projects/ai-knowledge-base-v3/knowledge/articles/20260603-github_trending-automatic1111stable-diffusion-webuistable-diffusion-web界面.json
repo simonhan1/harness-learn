@@ -1,0 +1,29 @@
+{
+  "title": "AUTOMATIC1111/stable-diffusion-webui：Stable Diffusion Web界面",
+  "summary": "该项目提供了一个功能丰富的Stable Diffusion Web用户界面，支持文本生成图像、图像到图像转换、图像放大等核心功能。基于Gradio和PyTorch构建，集成了深度学习模型，成为AI艺术创作领域最受欢迎的开源工具之一。核心技术包括采用Latent Diffusion架构，支持多种采样器（如DDIM、DPM++等）和CFG缩放，性能上通过xFormers优化显存占用，在NVIDIA RTX 3090上生成512x512图像仅需约2秒。",
+  "tags": [
+    "AI艺术",
+    "图像生成",
+    "Stable Diffusion",
+    "Web界面",
+    "深度学习",
+    "PyTorch",
+    "Gradio",
+    "Diffusers",
+    "Transformers"
+  ],
+  "category": "application",
+  "relevance_score": 9,
+  "key_points": [
+    "支持文本到图像和图像到图像生成",
+    "集成图像放大和多种扩散模型",
+    "基于Gradio和PyTorch，易于部署和使用"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-007",
+  "source": "github_trending",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:26.114479+08:00",
+  "published_at": null
+}

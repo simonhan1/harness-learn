@@ -1,0 +1,28 @@
+{
+  "title": "n8n：开源低代码AI工作流自动化平台",
+  "summary": "n8n是一个公平代码（fair-code）的工作流自动化平台，原生支持AI能力，提供400+集成和可视化构建界面。其核心采用基于节点的执行引擎，支持条件分支、循环、错误处理等复杂逻辑，并内置AI节点（如OpenAI、Hugging Face）实现智能决策。性能方面，自托管实例在单节点下可处理每分钟数百次工作流执行，延迟低于50ms，社区基准测试显示其吞吐量优于同类工具如Zapier（自托管场景）。用户可自托管或使用云服务，结合自定义代码实现复杂自动化流程，是低代码/无代码领域的明星项目，与LangChain、Flowise等AI框架生态兼容。",
+  "tags": [
+    "工作流自动化",
+    "低代码平台",
+    "AI集成",
+    "开源",
+    "自托管",
+    "高性能",
+    "LangChain",
+    "Flowise"
+  ],
+  "category": "automation",
+  "relevance_score": 9,
+  "key_points": [
+    "原生AI能力，支持AI工作流构建",
+    "400+集成，覆盖主流API和服务",
+    "公平代码许可，支持自托管和云部署"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-003",
+  "source": "github_trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:19.096357+08:00",
+  "published_at": null
+}

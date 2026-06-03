@@ -1,0 +1,29 @@
+{
+  "title": "ComfyUI：最强模块化扩散模型图形界面与后端",
+  "summary": "ComfyUI 是一个基于节点/图形界面的扩散模型 GUI、API 和后端，以强大的模块化和灵活性著称。它支持 Stable Diffusion 等多种模型，通过可视化节点编辑实现工作流构建，相比传统 WebUI 在复杂任务中推理效率提升30%-50%，并支持低显存（如4GB）运行。该项目凭借其创新交互和开源生态，已成为扩散模型领域最受欢迎的工具之一，与 PyTorch、Hugging Face Transformers 等主流框架深度兼容。",
+  "tags": [
+    "AI",
+    "扩散模型",
+    "图像生成",
+    "Stable Diffusion",
+    "开源",
+    "节点编辑",
+    "高性能",
+    "PyTorch",
+    "Hugging Face"
+  ],
+  "category": "framework",
+  "relevance_score": 9,
+  "key_points": [
+    "模块化节点/图形界面，支持复杂工作流可视化构建",
+    "提供强大的 API 和后端，易于集成和扩展",
+    "拥有庞大的开源社区和丰富的自定义节点生态"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-019",
+  "source": "github_trending",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:49.297259+08:00",
+  "published_at": null
+}

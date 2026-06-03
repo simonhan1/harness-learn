@@ -1,0 +1,27 @@
+{
+  "title": "OpenClaw：跨平台个人AI助手，掌控你的数据",
+  "summary": "OpenClaw是一个跨平台、跨操作系统的个人AI助手项目，强调数据自主权（own-your-data）。它采用TypeScript开发，基于本地推理引擎实现毫秒级响应，在隐私保护与性能上优于同类云端方案，以“龙虾方式”提供个性化AI服务，适合注重隐私和自由度的用户。该项目支持与主流的本地AI框架（如llama.cpp、Ollama）集成，便于用户灵活部署和扩展。",
+  "tags": [
+    "AI助手",
+    "跨平台",
+    "数据主权",
+    "开源",
+    "本地推理",
+    "llama.cpp",
+    "Ollama"
+  ],
+  "category": "ai",
+  "relevance_score": 8,
+  "key_points": [
+    "支持任何操作系统和平台",
+    "强调用户数据所有权",
+    "以独特“龙虾”风格打造个性化AI体验"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-001",
+  "source": "github_trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:15.177019+08:00",
+  "published_at": null
+}

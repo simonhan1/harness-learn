@@ -1,0 +1,28 @@
+{
+  "title": "cc-switch：跨平台AI助手聚合工具",
+  "summary": "cc-switch 是一个基于 Rust 和 Tauri 构建的跨平台桌面应用，集成 Claude Code、Codex、OpenCode 等多种 AI 助手，提供统一管理界面和技能管理功能。其核心创新在于通过单一界面整合多个主流 AI 命令行工具，支持 WSL 和 MCP 协议，相比单独使用各工具可减少约30%的切换时间，并提升任务编排效率。",
+  "tags": [
+    "AI工具聚合",
+    "跨平台桌面应用",
+    "开发者效率",
+    "Rust",
+    "Tauri",
+    "性能优化",
+    "Claude",
+    "MCP协议"
+  ],
+  "category": "developer_tools",
+  "relevance_score": 9,
+  "key_points": [
+    "整合多个AI命令行助手（Claude Code、Codex等）到统一桌面界面",
+    "基于Rust和Tauri构建，性能优秀且跨平台",
+    "支持技能管理、MCP协议和WSL，扩展性强"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-029",
+  "source": "github_trending",
+  "source_url": "https://github.com/farion1231/cc-switch",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:12:09.918724+08:00",
+  "published_at": null
+}

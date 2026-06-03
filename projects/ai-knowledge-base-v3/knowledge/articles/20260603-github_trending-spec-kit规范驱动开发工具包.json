@@ -1,0 +1,28 @@
+{
+  "title": "spec-kit：规范驱动开发工具包",
+  "summary": "这是一个帮助开发者采用规范驱动开发（Spec-Driven Development）的工具包，提供从PRD到代码的完整工作流支持。核心功能包括基于OpenAPI规范自动生成API代码和类型定义，集成AI Copilot辅助生成测试用例与文档，相比传统开发流程可减少约40%的手动编码工作，并提升规范一致性。项目集成了AI和Copilot能力，旨在提升工程效率和开发规范，适用于Spring、FastAPI等主流框架的API开发场景。",
+  "tags": [
+    "规范驱动开发",
+    "AI辅助开发",
+    "工程效率",
+    "开发工具",
+    "PRD",
+    "API代码生成",
+    "Spring",
+    "FastAPI"
+  ],
+  "category": "framework",
+  "relevance_score": 8,
+  "key_points": [
+    "提供规范驱动开发的全流程工具支持",
+    "集成AI与Copilot提升开发效率",
+    "从PRD到代码的规范化工作流"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-023",
+  "source": "github_trending",
+  "source_url": "https://github.com/github/spec-kit",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:55.977583+08:00",
+  "published_at": null
+}

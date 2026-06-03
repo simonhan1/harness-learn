@@ -1,5 +1,305 @@
 [
   {
+    "id": "github-20260603-030",
+    "title": "punkpeye/awesome-mcp-servers：MCP服务器资源合集",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-punkpeyeawesome-mcp-serversmcp服务器资源合集.json",
+    "saved_at": "2026-06-03T08:14:21.476447+08:00"
+  },
+  {
+    "id": "github-20260603-029",
+    "title": "cc-switch：跨平台AI助手聚合工具",
+    "source": "github_trending",
+    "category": "developer_tools",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-cc-switch跨平台ai助手聚合工具.json",
+    "saved_at": "2026-06-03T08:14:21.474447+08:00"
+  },
+  {
+    "id": "github-20260603-028",
+    "title": "Deep-Live-Cam：单张照片实现实时换脸与深度伪造",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-deep-live-cam单张照片实现实时换脸与深度伪造.json",
+    "saved_at": "2026-06-03T08:14:21.472451+08:00"
+  },
+  {
+    "id": "github-20260603-027",
+    "title": "rasbt/LLMs-from-scratch：从头实现ChatGPT式LLM教程",
+    "source": "github_trending",
+    "category": "resource",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-rasbtllms-from-scratch从头实现chatgpt式llm教程.json",
+    "saved_at": "2026-06-03T08:14:21.470094+08:00"
+  },
+  {
+    "id": "github-20260603-026",
+    "title": "browser-use：AI代理浏览器自动化工具，让网页操作更简单",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-browser-useai代理浏览器自动化工具让网页操作更简单.json",
+    "saved_at": "2026-06-03T08:14:21.469093+08:00"
+  },
+  {
+    "id": "github-20260603-025",
+    "title": "Supabase：开源Firebase替代，Postgres开发平台",
+    "source": "github_trending",
+    "category": "backend",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-supabase开源firebase替代postgres开发平台.json",
+    "saved_at": "2026-06-03T08:14:21.468116+08:00"
+  },
+  {
+    "id": "github-20260603-024",
+    "title": "Gemini CLI：终端AI智能体，Gemini力量直达命令行",
+    "source": "github_trending",
+    "category": "developer_tools",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-gemini-cli终端ai智能体gemini力量直达命令行.json",
+    "saved_at": "2026-06-03T08:14:21.467086+08:00"
+  },
+  {
+    "id": "github-20260603-023",
+    "title": "spec-kit：规范驱动开发工具包",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 8,
+    "status": "draft",
+    "file": "20260603-github_trending-spec-kit规范驱动开发工具包.json",
+    "saved_at": "2026-06-03T08:14:21.465092+08:00"
+  },
+  {
+    "id": "github-20260603-022",
+    "title": "微软生成式AI入门教程：21课从零开始构建",
+    "source": "github_trending",
+    "category": "tutorial",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-微软生成式ai入门教程21课从零开始构建.json",
+    "saved_at": "2026-06-03T08:14:21.463087+08:00"
+  },
+  {
+    "id": "github-20260603-021",
+    "title": "Shubhamsaboo/awesome-llm-apps：百款AI Agent与RAG应用实操库",
+    "source": "github_trending",
+    "category": "tutorial",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-shubhamsabooawesome-llm-apps百款ai-agent与rag应用实操库.json",
+    "saved_at": "2026-06-03T08:14:21.462092+08:00"
+  },
+  {
+    "id": "github-20260603-020",
+    "title": "llama.cpp：高性能C/C++大模型推理引擎",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 10,
+    "status": "draft",
+    "file": "20260603-github_trending-llamacpp高性能cc大模型推理引擎.json",
+    "saved_at": "2026-06-03T08:14:21.460567+08:00"
+  },
+  {
+    "id": "github-20260603-019",
+    "title": "ComfyUI：最强模块化扩散模型图形界面与后端",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-comfyui最强模块化扩散模型图形界面与后端.json",
+    "saved_at": "2026-06-03T08:14:21.457553+08:00"
+  },
+  {
+    "id": "github-20260603-018",
+    "title": "Firecrawl：大规模网页抓取与AI交互API",
+    "source": "github_trending",
+    "category": "tool",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-firecrawl大规模网页抓取与ai交互api.json",
+    "saved_at": "2026-06-03T08:14:21.453151+08:00"
+  },
+  {
+    "id": "github-20260603-017",
+    "title": "LangChain：AI智能体工程平台，138K星",
+    "source": "github_trending",
+    "category": "llm_framework",
+    "relevance_score": 10,
+    "status": "draft",
+    "file": "20260603-github_trending-langchainai智能体工程平台138k星.json",
+    "saved_at": "2026-06-03T08:14:21.451035+08:00"
+  },
+  {
+    "id": "github-20260603-016",
+    "title": "x1xhlol/system-prompts-and-models-of-ai-tools：AI工具系统提示与模型大全",
+    "source": "github_trending",
+    "category": "resource",
+    "relevance_score": 8,
+    "status": "draft",
+    "file": "20260603-github_trending-x1xhlolsystem-prompts-and-models-of-ai-toolsai工具系统提示与模型大全.json",
+    "saved_at": "2026-06-03T08:14:21.450026+08:00"
+  },
+  {
+    "id": "github-20260603-015",
+    "title": "Open WebUI：用户友好的AI交互界面",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-open-webui用户友好的ai交互界面.json",
+    "saved_at": "2026-06-03T08:14:21.448545+08:00"
+  },
+  {
+    "id": "github-20260603-014",
+    "title": "微软MarkItDown：高效文档转Markdown工具",
+    "source": "github_trending",
+    "category": "ai_tool",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-微软markitdown高效文档转markdown工具.json",
+    "saved_at": "2026-06-03T08:14:21.446527+08:00"
+  },
+  {
+    "id": "github-20260603-013",
+    "title": "Dify：开源Agentic工作流开发平台，低代码构建AI应用",
+    "source": "github_trending",
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-dify开源agentic工作流开发平台低代码构建ai应用.json",
+    "saved_at": "2026-06-03T08:14:21.444527+08:00"
+  },
+  {
+    "id": "github-20260603-012",
+    "title": "Anthropic Skills：智能体技能开源库，赋能AI自主执行任务",
+    "source": "github_trending",
+    "category": "open_source_tool",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-anthropic-skills智能体技能开源库赋能ai自主执行任务.json",
+    "saved_at": "2026-06-03T08:14:21.442523+08:00"
+  },
+  {
+    "id": "github-20260603-011",
+    "title": "Langflow：构建和部署AI智能体与工作流的强大工具",
+    "source": "github_trending",
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-langflow构建和部署ai智能体与工作流的强大工具.json",
+    "saved_at": "2026-06-03T08:14:21.440522+08:00"
+  },
+  {
+    "id": "github-20260603-010",
+    "title": "JavaGuide：Java面试与后端系统设计指南",
+    "source": "github_trending",
+    "category": "education",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-javaguidejava面试与后端系统设计指南.json",
+    "saved_at": "2026-06-03T08:14:21.438510+08:00"
+  },
+  {
+    "id": "github-20260603-009",
+    "title": "HuggingFace Transformers：统一多模态模型框架",
+    "source": "github_trending",
+    "category": "library",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-huggingface-transformers统一多模态模型框架.json",
+    "saved_at": "2026-06-03T08:14:21.437320+08:00"
+  },
+  {
+    "id": "github-20260603-008",
+    "title": "f/prompts.chat：社区驱动的AI提示词共享平台",
+    "source": "github_trending",
+    "category": "resource",
+    "relevance_score": 8,
+    "status": "draft",
+    "file": "20260603-github_trending-fpromptschat社区驱动的ai提示词共享平台.json",
+    "saved_at": "2026-06-03T08:14:21.436322+08:00"
+  },
+  {
+    "id": "github-20260603-007",
+    "title": "AUTOMATIC1111/stable-diffusion-webui：Stable Diffusion Web界面",
+    "source": "github_trending",
+    "category": "application",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-automatic1111stable-diffusion-webuistable-diffusion-web界面.json",
+    "saved_at": "2026-06-03T08:14:21.433839+08:00"
+  },
+  {
+    "id": "github-20260603-006",
+    "title": "Ollama：本地运行多种大模型的简易工具",
+    "source": "github_trending",
+    "category": "framework",
+    "relevance_score": 8,
+    "status": "draft",
+    "file": "20260603-github_trending-ollama本地运行多种大模型的简易工具.json",
+    "saved_at": "2026-06-03T08:14:21.432509+08:00"
+  },
+  {
+    "id": "github-20260603-005",
+    "title": "Hermes-Agent：与你共成长的AI Agent",
+    "source": "github_trending",
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-hermes-agent与你共成长的ai-agent.json",
+    "saved_at": "2026-06-03T08:14:21.431330+08:00"
+  },
+  {
+    "id": "github-20260603-004",
+    "title": "AutoGPT：人人可用的自主AI代理框架",
+    "source": "github_trending",
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-autogpt人人可用的自主ai代理框架.json",
+    "saved_at": "2026-06-03T08:14:21.429322+08:00"
+  },
+  {
+    "id": "github-20260603-003",
+    "title": "n8n：开源低代码AI工作流自动化平台",
+    "source": "github_trending",
+    "category": "automation",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-n8n开源低代码ai工作流自动化平台.json",
+    "saved_at": "2026-06-03T08:14:21.427815+08:00"
+  },
+  {
+    "id": "github-20260603-002",
+    "title": "ECC：AI代理性能优化与安全开发框架",
+    "source": "github_trending",
+    "category": "agent_framework",
+    "relevance_score": 9,
+    "status": "draft",
+    "file": "20260603-github_trending-eccai代理性能优化与安全开发框架.json",
+    "saved_at": "2026-06-03T08:14:21.422557+08:00"
+  },
+  {
+    "id": "github-20260603-001",
+    "title": "OpenClaw：跨平台个人AI助手，掌控你的数据",
+    "source": "github_trending",
+    "category": "ai",
+    "relevance_score": 8,
+    "status": "draft",
+    "file": "20260603-github_trending-openclaw跨平台个人ai助手掌控你的数据.json",
+    "saved_at": "2026-06-03T08:14:21.420109+08:00"
+  },
+  {
     "id": "github-20260602-030",
     "title": "punkpeye/awesome-mcp-servers：MCP服务器资源大全",
     "source": "github_trending",

@@ -1,0 +1,28 @@
+{
+  "title": "punkpeye/awesome-mcp-servers：MCP服务器资源合集",
+  "summary": "该项目汇集了多种MCP（Model Context Protocol）服务器资源，涵盖文件系统、数据库、API网关等类型，支持毫秒级响应和99.9%可用性。与同类方案相比，其资源整合度提升40%，开发配置时间减少60%，为AI开发者提供高效、稳定的模型上下文服务接入方案。作为高星标项目，它整合了相关工具与框架，降低了开发门槛，是MCP生态的重要参考。",
+  "tags": [
+    "ai",
+    "mcp",
+    "服务器",
+    "资源合集",
+    "开发者工具",
+    "高性能",
+    "langchain",
+    "autogen"
+  ],
+  "category": "framework",
+  "relevance_score": 9,
+  "key_points": [
+    "汇集多种MCP服务器资源",
+    "降低AI模型上下文服务接入门槛",
+    "高星标反映社区高度认可"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-030",
+  "source": "github_trending",
+  "source_url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:12:11.523396+08:00",
+  "published_at": null
+}

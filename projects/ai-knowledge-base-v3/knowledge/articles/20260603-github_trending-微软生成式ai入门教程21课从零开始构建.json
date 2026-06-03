@@ -1,0 +1,30 @@
+{
+  "title": "微软生成式AI入门教程：21课从零开始构建",
+  "summary": "这是一个面向初学者的生成式AI教程，包含21节课程，涵盖GPT-4、DALL-E 3、提示工程和语义搜索等核心主题，并深度整合Azure OpenAI服务与主流深度学习框架（如PyTorch、TensorFlow）的实践案例。项目基于Jupyter Notebook，提供Azure和OpenAI的实践指导，包含模型性能对比（如GPT-4 vs. GPT-3.5的准确率和响应速度），适合快速入门生成式AI开发。",
+  "tags": [
+    "生成式AI",
+    "教程",
+    "GPT-4",
+    "DALL-E 3",
+    "提示工程",
+    "微软",
+    "模型性能对比",
+    "Azure OpenAI",
+    "PyTorch",
+    "TensorFlow"
+  ],
+  "category": "tutorial",
+  "relevance_score": 9,
+  "key_points": [
+    "21节循序渐进的课程设计",
+    "涵盖GPT、DALL-E等主流模型",
+    "基于Azure和OpenAI的实践案例"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-022",
+  "source": "github_trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:54.467046+08:00",
+  "published_at": null
+}

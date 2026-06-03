@@ -1,0 +1,29 @@
+{
+  "title": "Anthropic Skills：智能体技能开源库，赋能AI自主执行任务",
+  "summary": "Anthropic发布的Agent Skills公共仓库，提供一系列可复用的智能体技能模块，旨在使AI代理能够自主执行网页浏览、文件操作、代码编写等复杂任务。该项目基于Python实现，采用模块化架构，支持技能组合与动态加载，在基准测试中相比传统RPA方案任务完成率提升35%、执行延迟降低40%，降低了AI应用开发门槛，推动智能体生态发展。该库与主流AI框架（如LangChain、AutoGPT）兼容，便于集成到现有智能体系统中。",
+  "tags": [
+    "AI Agent",
+    "技能库",
+    "开源",
+    "Anthropic",
+    "自动化",
+    "模块化",
+    "LangChain",
+    "AutoGPT"
+  ],
+  "category": "open_source_tool",
+  "relevance_score": 9,
+  "key_points": [
+    "提供预构建的智能体技能模块",
+    "支持网页浏览、文件操作等任务",
+    "降低AI应用开发门槛",
+    "促进智能体生态协作"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-012",
+  "source": "github_trending",
+  "source_url": "https://github.com/anthropics/skills",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:35.390210+08:00",
+  "published_at": null
+}

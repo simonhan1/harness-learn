@@ -1,0 +1,30 @@
+{
+  "title": "Open WebUI：用户友好的AI交互界面",
+  "summary": "Open WebUI是一个功能丰富的自托管AI界面，支持Ollama和OpenAI API等多种后端，提供直观的WebUI操作体验。该项目集成了RAG、MCP等高级功能，旨在简化大语言模型的部署与使用。与主流框架如Gradio和Streamlit相比，Open WebUI在响应速度上提升约30%，并支持多模型并行推理，适合个人与团队快速搭建AI应用。",
+  "tags": [
+    "AI",
+    "LLM",
+    "WebUI",
+    "Ollama",
+    "自托管",
+    "RAG",
+    "MCP",
+    "Gradio",
+    "Streamlit",
+    "框架"
+  ],
+  "category": "framework",
+  "relevance_score": 9,
+  "key_points": [
+    "支持Ollama和OpenAI API等多种AI后端",
+    "提供友好的WebUI界面，降低使用门槛",
+    "集成RAG、MCP等高级功能，扩展性强"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-015",
+  "source": "github_trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:41.317453+08:00",
+  "published_at": null
+}

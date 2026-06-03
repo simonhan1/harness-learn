@@ -1,0 +1,27 @@
+{
+  "title": "x1xhlol/system-prompts-and-models-of-ai-tools：AI工具系统提示与模型大全",
+  "summary": "该项目汇总了Augment Code、Claude Code、Cursor、Devin AI、Replit、Windsurf等数十款主流AI工具的官方系统提示、内部工具及模型信息，并包含开源实现。其核心技术细节包括各工具的系统提示结构、模型调用方式及上下文窗口限制等，为开发者、AI工具使用者及提示工程师提供了全面的参考资源，覆盖从代码助手到通用AI平台的广泛领域。此外，该项目与LangChain、Hugging Face等主流框架和平台紧密关联，便于集成与扩展。",
+  "tags": [
+    "system-prompts",
+    "ai-tools",
+    "cursor",
+    "devin",
+    "replit",
+    "langchain",
+    "huggingface"
+  ],
+  "category": "resource",
+  "relevance_score": 8,
+  "key_points": [
+    "收录超过20款AI工具的系统提示与模型信息",
+    "涵盖代码助手、通用AI平台等多种类型",
+    "包含开源实现，便于开发者学习和复用"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260603-016",
+  "source": "github_trending",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "status": "draft",
+  "collected_at": "2026-06-03T08:11:43.317352+08:00",
+  "published_at": null
+}
