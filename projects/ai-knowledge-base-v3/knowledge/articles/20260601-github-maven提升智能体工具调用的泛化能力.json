@@ -1,0 +1,29 @@
+{
+  "title": "MAVEN：提升智能体工具调用的泛化能力",
+  "source_url": "https://arxiv.org/abs/2605.30738",
+  "summary": "MAVEN是一种轻量级符号推理框架，通过模块化分解、自适应工具编排和中间验证，显著提升了智能体在工具调用环境中的泛化能力。在MAVEN-Bench基准测试中，它将GPT-OSS-120b模型的准确率从48%提升至71%，且成本仅为前沿专有模型的约1/10。",
+  "tags": [
+    "智能体",
+    "工具调用",
+    "泛化",
+    "符号推理",
+    "基准测试"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出MAVEN框架，用于结构化分解和自适应工具编排",
+      "引入MAVEN-Bench基准，测试多步数学和物理推理",
+      "在多个基准上提升准确率，如从48%到71%",
+      "使用开源模型，成本仅为专有模型的1/10",
+      "强调以验证为中心的轻量级框架可增强组合推理"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-034",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

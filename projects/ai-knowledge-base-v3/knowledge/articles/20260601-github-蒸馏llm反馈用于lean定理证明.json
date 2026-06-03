@@ -1,0 +1,29 @@
+{
+  "title": "蒸馏LLM反馈用于Lean定理证明",
+  "source_url": "https://arxiv.org/abs/2605.30861",
+  "summary": "本文提出反馈蒸馏（Feedback Distillation）方法，通过让模型在token级别匹配自身分布（以语言模型提供的特权反馈为条件），解决GRPO在推理后训练中奖励稀疏、探索受限和模式崩溃的问题。在Lean4定理证明任务中，反馈蒸馏比GRPO保持更高的轨迹多样性，且两者互补：用反馈蒸馏初始化GRPO优于任一方法单独使用。",
+  "tags": [
+    "LLM",
+    "反馈蒸馏",
+    "GRPO",
+    "定理证明",
+    "推理后训练"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "反馈蒸馏提供token级监督，可注入外部知识",
+      "相比GRPO，反馈蒸馏保持更高策略熵和更好的pass@k扩展",
+      "反馈蒸馏与GRPO互补，联合使用效果更优",
+      "方法在Lean4定理证明任务上验证",
+      "为复杂推理后训练提供新方向"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-039",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

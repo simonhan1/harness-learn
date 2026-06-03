@@ -1,0 +1,29 @@
+{
+  "title": "《沙丘》巴特勒圣战与AI未来",
+  "source_url": "https://technology.inquirer.net/147084/dunes-butlerian-jihad-and-the-future-of-ai",
+  "summary": "文章借《沙丘》中的巴特勒圣战（人类反抗思考机器）探讨AI发展的潜在风险，警示过度依赖AI可能导致人类失去自主性，并反思当前AI伦理与监管的必要性。",
+  "tags": [
+    "AI伦理",
+    "沙丘",
+    "巴特勒圣战",
+    "技术风险",
+    "AI监管"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "巴特勒圣战是《沙丘》中人类对抗AI的虚构事件",
+      "文章类比当前AI发展可能引发的社会控制问题",
+      "强调保持人类自主性和批判性思维的重要性",
+      "呼吁建立AI伦理框架防止技术滥用",
+      "认为科幻作品对现实技术发展有警示作用"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260601-021",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

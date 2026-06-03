@@ -1,0 +1,29 @@
+{
+  "title": "结构诱导信息用于重根Levin树搜索",
+  "source_url": "https://arxiv.org/abs/2605.30664",
+  "summary": "本文针对基于子目标策略树搜索的局限性，提出通过重根器隐式分解问题为软子任务，设计了三种重根器：基于聚类的、基于启发式的及混合型，避免了显式子目标生成，降低了计算开销，在复杂环境中实现了最先进的在线训练效率。",
+  "tags": [
+    "Levin树搜索",
+    "重根器",
+    "子目标分解",
+    "策略树搜索",
+    "在线训练效率"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出三种重根器设计：聚类、启发式及混合型",
+      "隐式分解问题为软子任务，避免显式子目标生成",
+      "降低计算开销，提升可扩展性",
+      "在复杂环境中超越基于子目标的策略树搜索",
+      "实现最先进的在线训练效率"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260601-032",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

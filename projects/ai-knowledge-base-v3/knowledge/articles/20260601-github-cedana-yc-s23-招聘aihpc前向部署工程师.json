@@ -1,0 +1,29 @@
+{
+  "title": "Cedana (YC S23) 招聘AI/HPC前向部署工程师",
+  "source_url": "https://www.ycombinator.com/companies/cedana/jobs/d1vYocG-forward-deployed-engineer-ai-hpc",
+  "summary": "Cedana是一家YC S23支持的初创公司，正在招聘前向部署工程师，专注于AI和高性能计算（HPC）领域。该职位涉及部署和优化AI系统，可能涉及检查点恢复等技术。目前该招聘信息在Hacker News上获得0个点赞和0条评论。",
+  "tags": [
+    "招聘",
+    "AI",
+    "HPC",
+    "YC",
+    "部署工程师"
+  ],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-06-01T17:45:08.147477+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 3,
+    "key_points": [
+      "Cedana是YC S23支持的初创公司",
+      "招聘前向部署工程师",
+      "专注于AI和HPC领域",
+      "职位涉及部署和优化AI系统",
+      "Hacker News上暂无互动"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260601-026",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
