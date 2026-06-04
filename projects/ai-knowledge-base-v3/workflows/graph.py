@@ -20,9 +20,9 @@ from nodes import (
     collect_node,
     analyze_node,
     organize_node,
-    review_node,
     save_node,
 )
+from reviewer import review_node
 
 logger = logging.getLogger(__name__)
 

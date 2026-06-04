@@ -1,0 +1,25 @@
+{
+  "title": "AutoGPT：人人可用的自主AI智能体框架",
+  "summary": "AutoGPT是一个开源自主AI智能体框架，旨在让每个人都能使用和构建AI应用。它通过将大语言模型（如GPT、Claude、Llama）与任务分解、工具调用和记忆管理相结合，实现了自主目标驱动执行。该项目降低了AI智能体开发门槛，推动了AI民主化。",
+  "tags": [
+    "自主AI智能体",
+    "LLM框架",
+    "开源工具",
+    "任务自动化",
+    "AI民主化"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 7,
+  "key_points": [
+    "提供自主AI智能体框架，支持多种LLM后端",
+    "通过任务分解和工具调用实现复杂目标自动化",
+    "降低AI开发门槛，推动AI民主化应用"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-004",
+  "source": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:29:37.247535+08:00",
+  "published_at": null
+}

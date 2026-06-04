@@ -1,0 +1,25 @@
+{
+  "title": "Supabase：开源Firebase替代，全栈Postgres开发平台",
+  "summary": "Supabase是一个开源的Firebase替代方案，提供托管Postgres数据库、实时订阅、身份认证、存储和边缘函数等全栈后端服务。它支持pgvector向量嵌入和PostGIS地理空间扩展，适合构建AI、Web和移动应用，拥有10万+星标和活跃社区。",
+  "tags": [
+    "Postgres",
+    "开源",
+    "全栈",
+    "实时数据库",
+    "AI"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "提供托管Postgres数据库及实时API",
+    "内置身份认证、存储和边缘函数",
+    "支持pgvector向量搜索和AI应用"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-025",
+  "source": "github_trending",
+  "source_url": "https://github.com/supabase/supabase",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:30:18.607873+08:00",
+  "published_at": null
+}

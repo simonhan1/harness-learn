@@ -1,0 +1,25 @@
+{
+  "title": "Open WebUI：自托管AI交互界面，支持Ollama与OpenAI",
+  "summary": "Open WebUI是一个用户友好的自托管AI界面，支持Ollama、OpenAI等多种API，集成了RAG、MCP等高级功能。作为开源项目，它提供了灵活的部署方式，适合个人和企业构建私有AI助手，降低了对商业平台的依赖。",
+  "tags": [
+    "AI界面",
+    "自托管",
+    "Ollama",
+    "OpenAI",
+    "RAG"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "支持Ollama和OpenAI API，兼容多种模型",
+    "集成RAG功能，增强知识检索能力",
+    "自托管部署，保护数据隐私"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-015",
+  "source": "github_trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:29:58.139966+08:00",
+  "published_at": null
+}

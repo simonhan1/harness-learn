@@ -1,0 +1,24 @@
+{
+  "title": "JavaGuide：Java面试与后端系统设计指南",
+  "summary": "JavaGuide是一个开源项目，提供Java面试和后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及AI应用开发等核心主题。项目结合了AI Agent、MCP、DeepSeek等前沿技术，帮助开发者系统化准备面试并提升工程能力。",
+  "tags": [
+    "Java面试",
+    "后端开发",
+    "系统设计",
+    "AI应用"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "覆盖计算机基础、数据库、分布式等广泛技术栈",
+    "整合AI Agent、MCP、DeepSeek等前沿技术",
+    "提供系统设计和高并发实践指导"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-010",
+  "source": "github_trending",
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:29:48.955390+08:00",
+  "published_at": null
+}

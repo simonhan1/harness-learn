@@ -1,0 +1,25 @@
+{
+  "title": "微软生成式AI入门课程：21课实战指南",
+  "summary": "微软推出的21节生成式AI入门课程，涵盖GPT、DALL-E、Prompt工程等核心概念，结合Azure和OpenAI实践，适合初学者快速上手构建生成式AI应用。星数超过11万，是学习生成式AI的明星资源。",
+  "tags": [
+    "生成式AI",
+    "入门课程",
+    "微软",
+    "LLMs",
+    "Prompt工程"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "21节系统课程覆盖生成式AI基础",
+    "基于Azure和OpenAI的实践项目",
+    "高星数社区验证的入门资源"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-022",
+  "source": "github_trending",
+  "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:30:12.562890+08:00",
+  "published_at": null
+}

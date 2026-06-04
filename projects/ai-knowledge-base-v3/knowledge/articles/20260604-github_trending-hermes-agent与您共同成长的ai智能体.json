@@ -1,0 +1,25 @@
+{
+  "title": "Hermes-Agent：与您共同成长的AI智能体",
+  "summary": "Hermes-Agent是一个Python构建的AI智能体框架，旨在提供持续进化的智能体体验。它整合了OpenAI、Anthropic等多家大模型能力，支持Claude、ChatGPT等主流AI服务，为开发者打造灵活、可扩展的智能体应用基础。",
+  "tags": [
+    "AI Agent",
+    "Python",
+    "智能体框架",
+    "多模型支持",
+    "Nous Research"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 8,
+  "key_points": [
+    "整合多家主流大模型（OpenAI、Anthropic等）",
+    "Python编写，易于集成和扩展",
+    "定位为与用户共同成长的智能体"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-005",
+  "source": "github_trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:29:39.064955+08:00",
+  "published_at": null
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Transformers：Hugging Face的通用机器学习框架",
+  "summary": "Hugging Face的Transformers库是当前最流行的预训练模型框架，支持文本、视觉、音频和多模态模型的推理与训练。它集成了数千个预训练模型（如BERT、GPT、LLaMA等），并提供统一的API，极大简化了深度学习模型的开发和应用。其核心创新在于模型中心（Model Hub）和易用的接口，推动了自然语言处理和AI领域的民主化。",
+  "tags": [
+    "深度学习",
+    "自然语言处理",
+    "预训练模型",
+    "Python",
+    "PyTorch"
+  ],
+  "category": "tool",
+  "relevance_score": 9,
+  "key_points": [
+    "支持文本、视觉、音频和多模态模型",
+    "提供统一的API和模型中心",
+    "集成数千个预训练模型"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-009",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:29:47.164935+08:00",
+  "published_at": null
+}

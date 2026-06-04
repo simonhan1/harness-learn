@@ -1,0 +1,25 @@
+{
+  "title": "f/prompts.chat：社区驱动的ChatGPT提示词开源宝库",
+  "summary": "该项目是一个开源的ChatGPT提示词集合平台，允许用户分享、发现和收集来自社区的提示词。它支持自托管以保护隐私，涵盖多种LLM（如GPT-4、Claude、Gemini），并提供Next.js和TypeScript构建的现代界面，是提示工程领域的必备资源。",
+  "tags": [
+    "ChatGPT",
+    "Prompt Engineering",
+    "开源",
+    "AI",
+    "提示词"
+  ],
+  "category": "tool",
+  "relevance_score": 8,
+  "key_points": [
+    "社区驱动的提示词共享与发现平台",
+    "支持自托管，保障组织隐私",
+    "涵盖多种大语言模型，如GPT-4、Claude、Gemini"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260604-008",
+  "source": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "status": "draft",
+  "collected_at": "2026-06-04T08:29:45.051345+08:00",
+  "published_at": null
+}
