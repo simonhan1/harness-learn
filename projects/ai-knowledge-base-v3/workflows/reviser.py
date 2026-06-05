@@ -230,6 +230,7 @@ def revise_node(state: KBState) -> dict:
     )
 
     # 调用 LLM（temperature=0.4，允许创造性改写）
+    response = None
     try:
         messages = [
             {"role": "system", "content": REVISE_SYSTEM_PROMPT},
@@ -245,7 +246,8 @@ def revise_node(state: KBState) -> dict:
         logger.info("[ReviseNode] LLM returned %d revised items", len(revised_items))
 
     except Exception as e:
-        logger.error("[ReviseNode] LLM call failed: %s", e)
+        preview = response.content[:200] if response else "(no response)"
+        logger.error("[ReviseNode] LLM call failed: %s | raw preview: %s", e, preview)
         return {}
 
     # 累加 token 用量

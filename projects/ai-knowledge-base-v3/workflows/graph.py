@@ -158,6 +158,8 @@ if __name__ == "__main__":
 
     for step in app.stream(initial_state):
         for node_name, output in step.items():
+            if output is None:
+                output = {}
             logger.info("─── 节点完成: %-10s ───────────────────────────", node_name)
 
             if node_name == "planner":

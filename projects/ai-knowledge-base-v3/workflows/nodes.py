@@ -113,7 +113,8 @@ def _slugify(text: str, max_len: int = 60) -> str:
 def _parse_json_response(raw: str) -> dict[str, Any]:
     """Extract the first JSON object or array from a raw LLM response.
 
-    Handles ```json … ``` fences and leading/trailing noise.
+    Handles ```json … ``` fences and leading/trailing noise.  Searches
+    anywhere in the string, not anchored to start/end.
 
     Args:
         raw: Raw LLM response string.
@@ -125,15 +126,20 @@ def _parse_json_response(raw: str) -> dict[str, Any]:
         json.JSONDecodeError: If no valid JSON is found.
     """
     text = raw.strip()
-    # Try fenced code block
+    # Try fenced code block (```json ... ``` or ``` ... ```)
     m = re.search(r"```(?:json)?\s*([\[\{].*?[\]\}])\s*```", text, re.DOTALL)
     if m:
         return json.loads(m.group(1))
-    # Try bare JSON object or array
-    m = re.search(r"^[\[\{].*[\]\}]$", text, re.DOTALL)
+    # Try to find a JSON object or array anywhere in the text
+    m = re.search(r"[\[\{].*[\]\}]", text, re.DOTALL)
     if m:
         return json.loads(m.group(0))
-    raise json.JSONDecodeError("No JSON object/array found in LLM response", raw, 0)
+    # Log a snippet of the raw response for debugging
+    preview = raw[:200] if raw else "(empty)"
+    raise json.JSONDecodeError(
+        f"No JSON object/array found in LLM response (preview: {preview})",
+        raw, 0,
+    )
 
 
 def accumulate_usage(tracker: dict, usage: Usage) -> None:
