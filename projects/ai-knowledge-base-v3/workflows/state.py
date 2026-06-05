@@ -81,6 +81,19 @@ class KBState(TypedDict):
               - iteration=2：最后一次审核，仅发布 score >= 7 的条目
               - iteration>2：退出循环，发布现有合格条目
 
+        plan (dict): 采集策略配置，由 planner_node 生成
+            - 内容：目标采集量、每源采集上限、相关性阈值、最大迭代次数
+            - 格式示例：
+              {
+                "tier": "standard",
+                "target_count": 10,
+                "per_source_limit": 10,
+                "relevance_threshold": 0.5,
+                "max_iterations": 2,
+                "rationale": "标准模式：平衡采集深度与效率"
+              }
+            - 用途：为下游节点（采集、分析、审核）提供动态参数
+
         cost_tracker (dict): Token 用量和成本追踪
 
         needs_human_review (bool): 是否需要人工复盘
@@ -96,6 +109,7 @@ class KBState(TypedDict):
           knowledge/pending_review/，设置 needs_human_review=True
     """
 
+    plan: dict
     sources: list[dict]
     analyses: list[dict]
     articles: list[dict]

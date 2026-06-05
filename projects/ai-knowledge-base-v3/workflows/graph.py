@@ -1,12 +1,12 @@
-"""LangGraph 工作流组装：采集 → 分析 → 整理 → 审核 → 保存。
+"""LangGraph 工作流组装：规划 → 采集 → 分析 → 整理 → 审核 → 保存。
 
 build_graph() 返回编译后的 LangGraph app，可直接调用 .invoke() 或 .stream()。
 
 工作流拓扑：
                           ┌────(通过)──→ save → END
-    collect → analyze → organize → review ──(未通过, iteration<MAX)──→ organize
-                                      │
-                                      └──(未通过, iteration>=MAX)──→ human_flag → END
+    planner → collect → analyze → organize → review ──(未通过, iteration<MAX)──→ organize
+                                          │
+                                          └──(未通过, iteration>=MAX)──→ human_flag → END
 """
 
 from __future__ import annotations
@@ -25,6 +25,7 @@ from nodes import (
 )
 from reviewer import review_node
 from human_flag import human_flag_node
+from planner import planner_node
 
 logger = logging.getLogger(__name__)
 
@@ -85,6 +86,7 @@ def build_graph():
     graph: StateGraph = StateGraph(KBState)
 
     # --- 注册节点 ---
+    graph.add_node("planner", planner_node)
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
     graph.add_node("organize", organize_node)
@@ -93,6 +95,7 @@ def build_graph():
     graph.add_node("human_flag", human_flag_node)
 
     # --- 线性边 ---
+    graph.add_edge("planner", "collect")
     graph.add_edge("collect", "analyze")
     graph.add_edge("analyze", "organize")
     graph.add_edge("organize", "review")
@@ -113,7 +116,7 @@ def build_graph():
     graph.add_edge("human_flag", END)
 
     # --- 入口点 ---
-    graph.set_entry_point("collect")
+    graph.set_entry_point("planner")
 
     return graph.compile()
 
@@ -133,6 +136,7 @@ if __name__ == "__main__":
     logger.info("LangGraph 工作流已编译，开始流式执行...")
 
     initial_state: KBState = {
+        "plan": {},
         "sources": [],
         "analyses": [],
         "articles": [],
