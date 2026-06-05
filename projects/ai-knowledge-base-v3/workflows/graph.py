@@ -3,9 +3,10 @@
 build_graph() 返回编译后的 LangGraph app，可直接调用 .invoke() 或 .stream()。
 
 工作流拓扑：
-    collect → analyze → organize → review ──(通过)──→ save → END
-                                      ↑                       |
-                                      └──────(未通过)──────────┘
+                          ┌────(通过)──→ save → END
+    collect → analyze → organize → review ──(未通过, iteration<MAX)──→ organize
+                                      │
+                                      └──(未通过, iteration>=MAX)──→ human_flag → END
 """
 
 from __future__ import annotations
@@ -23,8 +24,12 @@ from nodes import (
     save_node,
 )
 from reviewer import review_node
+from human_flag import human_flag_node
 
 logger = logging.getLogger(__name__)
+
+# 最大审核迭代次数：超过此值仍未通过则路由到 human_flag 节点
+MAX_ITERATIONS = 3
 
 
 # ---------------------------------------------------------------------------
@@ -32,21 +37,35 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 
 
-def _review_router(state: KBState) -> Literal["save", "organize"]:
+def _review_router(state: KBState) -> Literal["save", "organize", "human_flag"]:
     """根据审核结果决定下一个节点。
+
+    三路分支：
+    - 审核通过 → 保存节点
+    - 审核未通过但未超迭代上限 → 回到整理节点修正
+    - 审核未通过且已达迭代上限 → 人工标记节点（避免继续浪费 token）
 
     Args:
         state: 当前工作流状态。
 
     Returns:
-        "save" 如果审核通过，否则 "organize"（回到整理节点修正）。
+        "save" / "organize" / "human_flag" 三选一。
     """
     if state.get("review_passed", False):
         logger.info("审核通过，进入保存节点")
         return "save"
+
+    iteration = state.get("iteration", 0)
+    if iteration >= MAX_ITERATIONS:
+        logger.warning(
+            "审核未通过且已达迭代上限（iteration=%d >= max=%d），进入人工标记节点",
+            iteration, MAX_ITERATIONS,
+        )
+        return "human_flag"
+
     logger.info(
-        "审核未通过（iteration=%d），回到整理节点修正",
-        state.get("iteration", 0),
+        "审核未通过（iteration=%d < max=%d），回到整理节点修正",
+        iteration, MAX_ITERATIONS,
     )
     return "organize"
 
@@ -71,24 +90,27 @@ def build_graph():
     graph.add_node("organize", organize_node)
     graph.add_node("review", review_node)
     graph.add_node("save", save_node)
+    graph.add_node("human_flag", human_flag_node)
 
     # --- 线性边 ---
     graph.add_edge("collect", "analyze")
     graph.add_edge("analyze", "organize")
     graph.add_edge("organize", "review")
 
-    # --- 条件边：review → save（通过）或 review → organize（未通过，回修正）---
+    # --- 条件边：review → save / organize / human_flag ---
     graph.add_conditional_edges(
         "review",
         _review_router,
         {
             "save": "save",
             "organize": "organize",
+            "human_flag": "human_flag",
         },
     )
 
     # --- 终止边 ---
     graph.add_edge("save", END)
+    graph.add_edge("human_flag", END)
 
     # --- 入口点 ---
     graph.set_entry_point("collect")
@@ -176,6 +198,13 @@ if __name__ == "__main__":
                 )
                 if feedback:
                     logger.info("审核意见: %s", feedback[:300])
+
+            elif node_name == "human_flag":
+                needs = output.get("needs_human_review", False)
+                logger.warning(
+                    "⚠ 人工标记: needs_human_review=%s  (数据已写入 knowledge/pending_review/)",
+                    needs,
+                )
 
             elif node_name == "save":
                 logger.info("全部文章已写入 knowledge/articles/，index.json 已更新")

@@ -82,27 +82,18 @@ class KBState(TypedDict):
               - iteration>2：退出循环，发布现有合格条目
 
         cost_tracker (dict): Token 用量和成本追踪
-            - 内容：AI API 调用的计费数据汇总
-            - 格式示例：
-              {
-                "total_input_tokens": 50000,
-                "total_output_tokens": 25000,
-                "total_api_calls": 42,
-                "model_used": "deepseek-chat",
-                "estimated_cost_usd": 0.75,
-                "calls_by_node": {
-                  "analyzer": {"input": 40000, "output": 20000, "calls": 30},
-                  "reviewer": {"input": 10000, "output": 5000, "calls": 12}
-                }
-              }
-            - 用途：监控成本，避免异常调用
+
+        needs_human_review (bool): 是否需要人工复盘
+            - 内容：True 表示超出迭代上限仍未通过审核，需人工介入
+            - 用途：由 human_flag_node 设置，供下游或外部系统读取判定
 
     Notes:
         - 所有字段使用结构化数据（dict/list），避免存储原始文本内容
         - 文件路径字段（如 `analysis_file`）用于后续读取完整数据
         - 状态演化流程：
           sources → analyses → articles → review → (修正循环) → 分发
-        - 审核循环最多 3 次，超出后按现有规则发布（过滤 score < 5 的条目）
+        - 审核循环达到上限仍未通过时，由 human_flag 节点归档到
+          knowledge/pending_review/，设置 needs_human_review=True
     """
 
     sources: list[dict]
@@ -112,3 +103,4 @@ class KBState(TypedDict):
     review_passed: bool
     iteration: int
     cost_tracker: dict
+    needs_human_review: bool
