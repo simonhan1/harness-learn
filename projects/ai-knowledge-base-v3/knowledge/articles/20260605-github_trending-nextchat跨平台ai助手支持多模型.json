@@ -1,0 +1,25 @@
+{
+  "title": "NextChat：跨平台AI助手，支持多模型",
+  "summary": "NextChat是一个轻量且快速的跨平台AI聊天应用，支持Web、iOS、macOS、Android、Linux和Windows。它集成了ChatGPT、Claude、Gemini、Groq等多种大语言模型，基于Next.js和Tauri构建，可一键部署至Vercel。项目以简洁的界面和广泛的模型支持，为用户提供便捷的AI交互体验。",
+  "tags": [
+    "AI助手",
+    "跨平台",
+    "ChatGPT",
+    "Next.js",
+    "Tauri"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "支持多种主流AI模型（GPT-4o, Claude, Gemini等）",
+    "覆盖Web及所有桌面和移动平台",
+    "基于Next.js和Tauri，可快速部署"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-025",
+  "source": "github_trending",
+  "source_url": "https://github.com/ChatGPTNextWeb/NextChat",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:06:01.652872+08:00",
+  "published_at": null
+}

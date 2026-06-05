@@ -1,0 +1,25 @@
+{
+  "title": "AutoGPT：人人可用的自主AI代理框架",
+  "summary": "AutoGPT是一个基于LLM的自主AI代理框架，旨在让每个人都能轻松构建和使用AI代理。它通过将大语言模型（如GPT-4）与工具和记忆系统结合，实现任务的自主规划与执行，是AI代理领域最具影响力的开源项目之一。",
+  "tags": [
+    "自主AI代理",
+    "LLM应用",
+    "开源框架",
+    "任务自动化",
+    "Python"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 8,
+  "key_points": [
+    "提供自主AI代理的完整实现，支持任务分解与执行",
+    "集成多种LLM（GPT、Claude、Llama等），灵活可扩展",
+    "开源社区活跃，星数超18万，推动AI民主化"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-003",
+  "source": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:08.869072+08:00",
+  "published_at": null
+}

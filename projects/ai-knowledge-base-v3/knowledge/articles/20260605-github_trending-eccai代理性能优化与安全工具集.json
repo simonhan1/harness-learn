@@ -1,0 +1,25 @@
+{
+  "title": "ECC：AI代理性能优化与安全工具集",
+  "summary": "ECC是一个面向AI代理的性能优化系统，集成了技能、本能、记忆和安全机制，专为Claude Code、Codex、Opencode、Cursor等开发工具设计，提升开发效率和LLM驱动的开发体验。",
+  "tags": [
+    "AI代理",
+    "性能优化",
+    "开发者工具",
+    "安全",
+    "LLM"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "提供技能、本能、记忆和安全等功能模块",
+    "支持Claude Code、Codex、Opencode、Cursor等主流工具",
+    "强调研究优先的开发理念"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-001",
+  "source": "github_trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:03.489109+08:00",
+  "published_at": null
+}

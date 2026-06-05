@@ -1,0 +1,25 @@
+{
+  "title": "Spec-Kit：高效规范驱动开发工具包",
+  "summary": "这是一个帮助开发者快速上手规范驱动开发（Spec-Driven Development）的工具包，提供PRD、规格说明等模板和最佳实践，提升工程效率。项目由GitHub官方维护，结合AI和Copilot理念，强调规范先行，降低开发沟通成本。",
+  "tags": [
+    "规范驱动开发",
+    "AI辅助",
+    "工程效率",
+    "PRD",
+    "开发工具"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "提供规范驱动开发的模板和工具",
+    "结合AI与Copilot理念，提升开发效率",
+    "由GitHub官方维护，社区关注度高"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-019",
+  "source": "github_trending",
+  "source_url": "https://github.com/github/spec-kit",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:48.685147+08:00",
+  "published_at": null
+}

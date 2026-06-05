@@ -1,0 +1,25 @@
+{
+  "title": "punkpeye/awesome-mcp-servers：MCP服务器资源大全",
+  "summary": "该项目汇集了多种MCP（Model Context Protocol）服务器的资源列表，为AI开发者提供了丰富的工具和服务集成选项。其核心价值在于整合分散的MCP服务器信息，降低开发者查找和选择成本，推动AI生态的扩展与标准化。",
+  "tags": [
+    "MCP",
+    "AI工具",
+    "资源集合",
+    "协议",
+    "开发者生态"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "收录大量MCP服务器资源",
+    "降低AI工具集成门槛",
+    "促进MCP生态发展"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-024",
+  "source": "github_trending",
+  "source_url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:59.557350+08:00",
+  "published_at": null
+}

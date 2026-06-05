@@ -1,0 +1,25 @@
+{
+  "title": "Ollama：本地运行多种大模型的开源工具",
+  "summary": "Ollama 是一个用 Go 语言开发的开源工具，使用户能够在本地轻松运行和管理 Kimi-K2.6、GLM-5.1、DeepSeek、Qwen、Gemma 等多种大语言模型。它简化了模型下载、部署和交互流程，支持 GPU 加速和 API 调用，是 AI 开发者和爱好者的实用本地推理平台。",
+  "tags": [
+    "Ollama",
+    "大模型",
+    "本地部署",
+    "开源工具",
+    "Go"
+  ],
+  "category": "tool",
+  "relevance_score": 8,
+  "key_points": [
+    "支持多种主流大模型如 DeepSeek、Qwen、Gemma 等",
+    "本地运行，保护数据隐私",
+    "提供简单命令行和 API 接口"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-004",
+  "source": "github_trending",
+  "source_url": "https://github.com/ollama/ollama",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:11.848633+08:00",
+  "published_at": null
+}

@@ -1,0 +1,25 @@
+{
+  "title": "f/prompts.chat：社区驱动的ChatGPT提示词共享平台",
+  "summary": "该项目是Awesome ChatGPT Prompts的继任者，提供免费开源平台，让社区分享、发现和收集AI提示词。支持自托管，保障组织隐私，覆盖ChatGPT、Claude、Gemini等主流LLM，拥有16万+星标，是提示工程领域的标杆资源。",
+  "tags": [
+    "ChatGPT",
+    "提示工程",
+    "开源",
+    "AI工具",
+    "社区资源"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "社区驱动，共享和发现AI提示词",
+    "免费开源，支持自托管与隐私保护",
+    "覆盖多种主流LLM，如ChatGPT、Claude、Gemini"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-006",
+  "source": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:16.758205+08:00",
+  "published_at": null
+}

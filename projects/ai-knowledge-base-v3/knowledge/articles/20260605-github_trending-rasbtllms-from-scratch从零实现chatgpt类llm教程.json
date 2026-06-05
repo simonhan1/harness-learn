@@ -1,0 +1,25 @@
+{
+  "title": "rasbt/LLMs-from-scratch：从零实现ChatGPT类LLM教程",
+  "summary": "该项目提供从零开始逐步实现ChatGPT类大语言模型的完整教程，涵盖预训练、微调、指令微调等核心环节，使用PyTorch并基于原始Transformer架构，适合深度学习与自然语言处理学习者和研究者。",
+  "tags": [
+    "大语言模型",
+    "PyTorch",
+    "深度学习",
+    "自然语言处理",
+    "教程"
+  ],
+  "category": "tool",
+  "relevance_score": 6,
+  "key_points": [
+    "从零实现类ChatGPT LLM的完整步骤教程",
+    "覆盖预训练、微调、指令微调等关键技术",
+    "基于PyTorch和原始Transformer架构"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-021",
+  "source": "github_trending",
+  "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:53.184006+08:00",
+  "published_at": null
+}

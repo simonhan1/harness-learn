@@ -1,0 +1,25 @@
+{
+  "title": "cc-switch：跨平台AI助手聚合桌面应用",
+  "summary": "cc-switch是一个基于Rust和Tauri构建的跨平台桌面助手，集合了Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI及Hermes Agent等多种AI工具，支持技能管理与MCP协议，提供统一的AI助手管理界面。",
+  "tags": [
+    "AI工具聚合",
+    "桌面应用",
+    "Rust",
+    "Tauri",
+    "开源"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "跨平台桌面AI助手聚合器",
+    "支持多种主流AI CLI工具",
+    "基于Rust和Tauri开发，性能优秀"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-023",
+  "source": "github_trending",
+  "source_url": "https://github.com/farion1231/cc-switch",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:57.290852+08:00",
+  "published_at": null
+}

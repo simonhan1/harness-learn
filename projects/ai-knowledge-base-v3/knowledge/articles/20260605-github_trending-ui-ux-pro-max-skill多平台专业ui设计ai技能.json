@@ -1,0 +1,27 @@
+{
+  "title": "UI-UX Pro Max Skill：多平台专业UI设计AI技能",
+  "summary": "这是一个AI技能（Skill），为构建专业UI/UX提供设计智能，支持React、Tailwind CSS、HTML5等多平台，可集成Claude、Copilot等AI助手，显著提升界面设计效率与质量。",
+  "tags": [
+    "AI技能",
+    "UI/UX设计",
+    "多平台",
+    "设计智能",
+    "AI集成"
+  ],
+  "category": "tool",
+  "relevance_score": 7,
+  "key_points": [
+    "提供专业UI/UX设计智能，降低设计门槛",
+    "支持React、Tailwind CSS、HTML5等多平台输出",
+    "可集成Claude、Copilot、Cursor等主流AI工具",
+    "87k+星数，社区关注度高",
+    "面向命令行与AI编码环境，提升开发效率"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-026",
+  "source": "github_trending",
+  "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:06:03.877696+08:00",
+  "published_at": null
+}

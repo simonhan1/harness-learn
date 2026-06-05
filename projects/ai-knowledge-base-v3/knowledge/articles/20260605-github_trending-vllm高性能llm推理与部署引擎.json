@@ -1,0 +1,25 @@
+{
+  "title": "vLLM：高性能LLM推理与部署引擎",
+  "summary": "vLLM是一个高吞吐量、内存高效的LLM推理和服务引擎，支持多种主流模型（如Llama、DeepSeek、Qwen等）和硬件（CUDA、AMD、TPU）。其核心创新包括PagedAttention等优化技术，显著提升推理效率，是当前最流行的开源LLM部署方案之一。",
+  "tags": [
+    "LLM推理",
+    "模型部署",
+    "高性能",
+    "开源引擎",
+    "PyTorch"
+  ],
+  "category": "tool",
+  "relevance_score": 9,
+  "key_points": [
+    "高吞吐量、内存高效的LLM推理引擎",
+    "支持CUDA、AMD、TPU等多种硬件",
+    "兼容DeepSeek、Llama、Qwen等主流模型"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-028",
+  "source": "github_trending",
+  "source_url": "https://github.com/vllm-project/vllm",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:06:08.399484+08:00",
+  "published_at": null
+}

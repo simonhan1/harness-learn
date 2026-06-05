@@ -78,7 +78,7 @@ DIMENSION_WEIGHTS: dict[str, float] = {
 }
 
 MAX_REVIEW_ITEMS = 5
-PASS_THRESHOLD = 7.0
+PASS_THRESHOLD = 9.0
 
 REVIEW_SYSTEM_PROMPT = (
     "你是一个AI知识库内容审核专家。请严格按JSON格式输出审核结果，"

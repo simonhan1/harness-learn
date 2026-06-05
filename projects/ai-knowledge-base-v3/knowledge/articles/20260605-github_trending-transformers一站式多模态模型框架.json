@@ -1,0 +1,25 @@
+{
+  "title": "Transformers：一站式多模态模型框架",
+  "summary": "Hugging Face Transformers是一个定义多模态（文本、图像、音频）SOTA模型的框架，支持推理与训练。它集成了DeepSeek、Gemma、GLM、Qwen等主流LLM及VLM，以Python/PyTorch生态为核心，通过Model Hub提供预训练模型，是NLP、语音、视觉领域的核心工具。",
+  "tags": [
+    "多模态模型",
+    "深度学习",
+    "自然语言处理",
+    "预训练模型",
+    "机器学习"
+  ],
+  "category": "agent_framework",
+  "relevance_score": 9,
+  "key_points": [
+    "支持文本、视觉、音频多模态模型",
+    "集成DeepSeek、Gemma、Qwen等最新LLM",
+    "提供推理与训练的统一接口"
+  ],
+  "sentiment": "positive",
+  "id": "github-20260605-007",
+  "source": "github_trending",
+  "source_url": "https://github.com/huggingface/transformers",
+  "status": "draft",
+  "collected_at": "2026-06-05T08:05:19.622940+08:00",
+  "published_at": null
+}
