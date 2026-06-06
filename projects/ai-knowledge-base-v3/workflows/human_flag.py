@@ -85,13 +85,18 @@ def human_flag_node(
     knowledge/pending_review/pending-{today}.json，返回
     needs_human_review=True。否则跳过，返回 needs_human_review=False。
 
+    max_iterations 优先级：state["plan"]["max_iterations"] > 参数 > DEFAULT（3）。
+
     Args:
         state: 当前工作流状态，包含 iteration / review_passed / articles 等。
-        max_iterations: 允许的最大审核迭代次数，默认 3。
+        max_iterations: 允许的最大审核迭代次数（fallback），默认 3。
 
     Returns:
         Partial state update: {"needs_human_review": bool}。
     """
+    plan: dict = state.get("plan") or {}
+    effective_max = plan.get("max_iterations") or max_iterations
+
     iteration: int = state.get("iteration", 0)
     review_passed: bool = state.get("review_passed", False)
     articles: list[dict] = state.get("articles", [])
@@ -100,7 +105,7 @@ def human_flag_node(
 
     logger.info(
         "[HumanFlagNode] Checking: iteration=%d/%d, passed=%s, articles=%d",
-        iteration, max_iterations, review_passed, len(articles),
+        iteration, effective_max, review_passed, len(articles),
     )
 
     # 审核已通过或未超迭代次数，无需人工介入
@@ -108,10 +113,10 @@ def human_flag_node(
         logger.info("[HumanFlagNode] Review already passed, no human review needed")
         return {"needs_human_review": False}
 
-    if iteration < max_iterations:
+    if iteration < effective_max:
         logger.info(
             "[HumanFlagNode] iteration=%d < max=%d, still within retry budget",
-            iteration, max_iterations,
+            iteration, effective_max,
         )
         return {"needs_human_review": False}
 
@@ -119,7 +124,7 @@ def human_flag_node(
     logger.warning(
         "[HumanFlagNode] Max iterations (%d) exceeded without passing review. "
         "Flagging %d articles + %d analyses for human review.",
-        max_iterations, len(articles), len(analyses),
+        effective_max, len(articles), len(analyses),
     )
 
     _PENDING_DIR.mkdir(parents=True, exist_ok=True)
@@ -127,7 +132,7 @@ def human_flag_node(
     pending_data: dict[str, Any] = {
         "timestamp": _now_iso(),
         "iterations_used": iteration,
-        "max_iterations": max_iterations,
+        "max_iterations": effective_max,
         "last_feedback": review_feedback,
         "analyses": analyses,
         "articles": articles,

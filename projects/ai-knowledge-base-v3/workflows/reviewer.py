@@ -205,8 +205,10 @@ def review_node(state: KBState) -> dict:
     iteration = state.get("iteration", 0)
     analyses: list[dict] = state.get("analyses", [])
     cost_tracker: dict = state.get("cost_tracker") or {}
+    plan: dict = state.get("plan") or {}
+    max_iter = plan.get("max_iterations") or 2
 
-    logger.info("[Reviewer] Starting review (iteration=%d)", iteration)
+    logger.info("[Reviewer] Starting review (iteration=%d, max=%d)", iteration, max_iter)
 
     # 无 analyses → 自动通过
     if not analyses:
@@ -218,9 +220,9 @@ def review_node(state: KBState) -> dict:
             "cost_tracker": cost_tracker,
         }
 
-    # iteration >= 2 → 强制通过，避免无限循环
-    if iteration >= 2:
-        logger.info("[Reviewer] iteration >= 2: forcing pass")
+    # iteration >= max_iter → 强制通过，避免无限循环
+    if iteration >= max_iter:
+        logger.info("[Reviewer] iteration=%d >= max=%d: forcing pass", iteration, max_iter)
         return {
             "review_passed": True,
             "review_feedback": "Force-passed after reaching max iterations.",
