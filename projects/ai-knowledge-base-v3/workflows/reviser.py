@@ -251,7 +251,7 @@ def revise_node(state: KBState) -> dict:
                 {"role": "system", "content": REVISE_SYSTEM_PROMPT},
                 {"role": "user", "content": prompt},
             ]
-            response = client.chat_with_retry(messages, temperature=0.4, max_tokens=4096)
+            response = client.chat_with_retry(messages, temperature=0.4, max_tokens=4096, node_name="reviser")
             batch_result = _parse_json_response(response.content)
 
             if not isinstance(batch_result, list):

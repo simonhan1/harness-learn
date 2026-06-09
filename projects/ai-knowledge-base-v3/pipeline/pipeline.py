@@ -527,7 +527,7 @@ def _analyze_single(
 
     try:
         response = client.chat_with_retry(
-            messages, temperature=0.3, max_tokens=2048
+            messages, temperature=0.3, max_tokens=2048, node_name="pipeline_analyze"
         )
         parsed = _parse_json_response(response.content)
 

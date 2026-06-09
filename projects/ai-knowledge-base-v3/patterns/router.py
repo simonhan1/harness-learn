@@ -130,6 +130,7 @@ Return ONLY the intent name, nothing else."""
             messages,
             temperature=0.3,
             max_tokens=10,
+            node_name="router",
         )
         intent = response.content.strip().lower()
 
@@ -338,6 +339,7 @@ def handle_general_chat(query: str) -> str:
             messages,
             temperature=0.7,
             max_tokens=2048,
+            node_name="router_chat",
         )
         return response.content
 

@@ -157,7 +157,7 @@ def analyze_node(state: KBState) -> dict:
                     {"role": "system", "content": ANALYSIS_SYSTEM_PROMPT},
                     {"role": "user", "content": prompt},
                 ]
-                response = client.chat_with_retry(messages, max_tokens=1000)
+                response = client.chat_with_retry(messages, max_tokens=1000, node_name="analyzer")
                 parsed = _parse_json_response(response.content)
 
                 parsed["id"] = f"github-{_today_str()}-{len(analysis_results) + 1:03d}"

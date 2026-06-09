@@ -12,6 +12,8 @@ build_graph() 返回编译后的 LangGraph app，可直接调用 .invoke() 或 .
 from __future__ import annotations
 
 import logging
+import sys
+from pathlib import Path
 from typing import Literal
 
 from langgraph.graph import StateGraph, END
@@ -224,3 +226,20 @@ if __name__ == "__main__":
                 )
 
     logger.info("═══════════════ 工作流执行完毕 ═══════════════")
+
+    # ---- Cost report ----
+    try:
+        from pipeline.model_client import get_cost_guard  # noqa: E402
+
+        cg = get_cost_guard()
+        report = cg.get_report()
+        logger.info("═══ 成本报告 ═══")
+        logger.info("  总调用次数: %d", report["total_calls"])
+        logger.info("  总成本: ¥%.6f / ¥%.2f", report["total_cost_yuan"], report["budget_yuan"])
+        for node, stats in sorted(report["nodes"].items()):
+            logger.info(
+                "  · %s: %d 次调用, ¥%.6f",
+                node, stats["call_count"], stats["cost_yuan"],
+            )
+    except Exception:
+        logger.warning("无法获取成本报告（CostGuard 尚未初始化）")

@@ -17,6 +17,7 @@ Usage:
 import logging
 import math
 import os
+import sys
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
@@ -27,6 +28,56 @@ from dotenv import load_dotenv
 load_dotenv()
 
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# CostGuard — lazy singleton
+# ---------------------------------------------------------------------------
+
+_cost_guard_instance: "CostGuard | None" = None
+
+
+def _find_project_root() -> "Path":
+    """Locate the project root by walking up for AGENTS.md."""
+    from pathlib import Path
+
+    candidates: list[Path] = []
+    try:
+        candidates.append(Path(__file__).resolve().parent.parent)
+    except (NameError, OSError):
+        pass
+    candidates.append(Path.cwd().resolve())
+
+    for start in candidates:
+        probe = start
+        for _ in range(6):
+            if (probe / "AGENTS.md").is_file():
+                return probe
+            parent = probe.parent
+            if parent == probe:
+                break
+            probe = parent
+    return candidates[0]
+
+
+_PROJECT_ROOT = _find_project_root()
+_TESTS_DIR = str(_PROJECT_ROOT / "tests")
+if _TESTS_DIR not in sys.path:
+    sys.path.insert(0, _TESTS_DIR)
+
+from tests.cost_guard import BudgetExceededError, CostGuard  # noqa: E402
+
+
+def get_cost_guard() -> CostGuard:
+    """Return the global CostGuard singleton (lazy-init).
+
+    Budget is read from the ``BUDGET_YUAN`` environment variable (default 1.0).
+    """
+    global _cost_guard_instance
+    if _cost_guard_instance is None:
+        budget = float(os.getenv("BUDGET_YUAN", "1.0"))
+        _cost_guard_instance = CostGuard(budget_yuan=budget)
+        logger.info("CostGuard initialized: budget_yuan=%.2f", budget)
+    return _cost_guard_instance
 
 # ---------------------------------------------------------------------------
 # Dataclasses
@@ -253,6 +304,7 @@ class OpenAICompatibleProvider(LLMProvider):
         model: str | None = None,
         temperature: float = 0.7,
         max_tokens: int = 4096,
+        node_name: str = "unknown",
     ) -> LLMResponse:
         """Send a single chat completion request.
 
@@ -261,12 +313,14 @@ class OpenAICompatibleProvider(LLMProvider):
             model: Model name override.
             temperature: Sampling temperature.
             max_tokens: Maximum completion tokens.
+            node_name: Node name for cost tracking.
 
         Returns:
             LLMResponse with the model reply and usage statistics.
 
         Raises:
             httpx.HTTPStatusError: On non-2xx HTTP responses.
+            BudgetExceededError: If total cost exceeds the budget.
         """
         model_name = model or self._default_model
         payload: dict = {
@@ -290,6 +344,20 @@ class OpenAICompatibleProvider(LLMProvider):
             total_tokens=usage_raw.get("total_tokens", 0),
         )
 
+        logger.info(
+            "LLM call done: provider=%s model=%s node=%s usage=%s",
+            self._provider, model_name, node_name, usage,
+        )
+
+        # Cost tracking
+        cost_guard = get_cost_guard()
+        cost_guard.record(
+            node_name,
+            {"prompt_tokens": usage.prompt_tokens, "completion_tokens": usage.completion_tokens},
+            model_name,
+        )
+        cost_guard.check()
+
         return LLMResponse(
             content=choice["message"]["content"],
             model=data.get("model", model_name),
@@ -305,6 +373,7 @@ class OpenAICompatibleProvider(LLMProvider):
         temperature: float = 0.7,
         max_tokens: int = 4096,
         retries: int = RETRY_MAX,
+        node_name: str = "unknown",
     ) -> LLMResponse:
         """Send a chat request with exponential-backoff retry.
 
@@ -316,12 +385,14 @@ class OpenAICompatibleProvider(LLMProvider):
             temperature: Sampling temperature.
             max_tokens: Maximum completion tokens.
             retries: Maximum retry attempts.
+            node_name: Node name for cost tracking.
 
         Returns:
             LLMResponse on success.
 
         Raises:
             RuntimeError: If all retries are exhausted.
+            BudgetExceededError: If total cost exceeds the budget.
         """
         last_error: Exception | None = None
 
@@ -332,6 +403,7 @@ class OpenAICompatibleProvider(LLMProvider):
                     model=model,
                     temperature=temperature,
                     max_tokens=max_tokens,
+                    node_name=node_name,
                 )
             except (httpx.HTTPStatusError, httpx.RequestError) as e:
                 last_error = e
@@ -433,6 +505,7 @@ def quick_chat(
     system_prompt: str = "You are a helpful assistant.",
     temperature: float = 0.7,
     max_tokens: int = 4096,
+    node_name: str = "unknown",
 ) -> str:
     """Send a single prompt and return the response text.
 
@@ -446,9 +519,13 @@ def quick_chat(
         system_prompt: System-level instruction for the model.
         temperature: Sampling temperature.
         max_tokens: Maximum completion tokens.
+        node_name: Node name for cost tracking.
 
     Returns:
         The model's text response.
+
+    Raises:
+        BudgetExceededError: If total cost exceeds the budget.
     """
     client = create_client(provider=provider, model=model)
     messages: list[dict[str, str]] = [
@@ -459,6 +536,7 @@ def quick_chat(
         messages,
         temperature=temperature,
         max_tokens=max_tokens,
+        node_name=node_name,
     )
     return response.content
 

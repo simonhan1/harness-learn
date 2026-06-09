@@ -279,7 +279,7 @@ def review_node(state: KBState) -> dict:
             {"role": "system", "content": REVIEW_SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
         ]
-        response = client.chat_with_retry(messages, temperature=0.1, max_tokens=1000)
+        response = client.chat_with_retry(messages, temperature=0.1, max_tokens=1000, node_name="reviewer")
         review_result = _parse_json_response(response.content)
 
         feedback: str = str(review_result.get("feedback", ""))

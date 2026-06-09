@@ -89,6 +89,7 @@ Ensure your output is valid JSON and covers the topic thoroughly."""
         messages,
         temperature=0.7,
         max_tokens=2048,
+        node_name="supervisor_worker",
     )
 
     # Parse the JSON response
@@ -204,6 +205,7 @@ Evaluate the output and provide quality scores + feedback."""
         messages,
         temperature=0.5,
         max_tokens=1024,
+        node_name="supervisor_review",
     )
 
     # Parse the JSON response
