@@ -60,6 +60,7 @@ def _find_project_root() -> "Path":
 
 
 _PROJECT_ROOT = _find_project_root()
+sys.path.insert(0, str(_PROJECT_ROOT))
 _TESTS_DIR = str(_PROJECT_ROOT / "tests")
 if _TESTS_DIR not in sys.path:
     sys.path.insert(0, _TESTS_DIR)
