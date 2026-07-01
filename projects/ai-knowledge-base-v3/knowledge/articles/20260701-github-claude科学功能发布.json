@@ -1,0 +1,29 @@
+{
+  "title": "Claude科学功能发布",
+  "source_url": "https://claude.com/product/claude-science",
+  "summary": "Anthropic发布了Claude Science，这是一个针对科学研究场景优化的AI工具，旨在帮助研究人员加速文献分析、实验设计和数据解读。该产品在Hacker News上获得479分和144条评论，引发广泛讨论。",
+  "tags": [
+    "AI",
+    "科学研究",
+    "Claude",
+    "Anthropic",
+    "工具发布"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "Claude Science是专为科学研究设计的AI工具",
+      "支持文献分析、实验设计和数据解读",
+      "在Hacker News上获得高关注度",
+      "可能改变科研工作流程",
+      "由Anthropic公司发布"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-026",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

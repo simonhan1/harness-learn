@@ -1,0 +1,29 @@
+{
+  "title": "Mistral发布高效轻量级模型Leanstral 1.5",
+  "source_url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+  "summary": "Mistral AI发布了Leanstral 1.5模型，这是一款高效、轻量级的语言模型，旨在以较低的计算成本提供高性能。该模型在多个基准测试中表现出色，特别适合资源受限的环境和实时应用。",
+  "tags": [
+    "Mistral",
+    "Leanstral 1.5",
+    "轻量级模型",
+    "高效AI",
+    "模型发布"
+  ],
+  "category": "model_release",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "Leanstral 1.5是Mistral AI发布的新模型",
+      "该模型强调高效和轻量级设计",
+      "在多个基准测试中表现优异",
+      "适合资源受限和实时应用场景",
+      "旨在降低计算成本同时保持高性能"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-024",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "AI模型发现实验研究：数据格式、嵌入与检索策略",
+  "source_url": "https://arxiv.org/abs/2606.30846",
+  "summary": "本文针对仿真模型复用中的发现难题，实验研究了数据表示、基于Transformer的嵌入模型和检索策略对自然语言查询发现模型的影响。结果显示数据表示至关重要，开源嵌入模型性能优异，且重排序方法在查询复杂时尤为重要，为AI驱动的模型发现提供了基线。",
+  "tags": [
+    "模型发现",
+    "仿真模型",
+    "嵌入模型",
+    "检索策略",
+    "自然语言查询"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "数据表示对模型发现性能有显著影响",
+      "开源嵌入模型可实现高性能",
+      "重排序方法随查询复杂度增加而重要性提升",
+      "研究使用recall@5和nDCG@5等标准指标评估",
+      "为AI驱动的模型可组合性和互操作性奠定基础"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-031",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

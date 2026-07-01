@@ -1,0 +1,29 @@
+{
+  "title": "AI应帮助用户构建偏好，而非仅挖掘偏好",
+  "source_url": "https://arxiv.org/abs/2606.30863",
+  "summary": "本文批评了当前AI系统假设用户具有明确偏好的做法，提出用户常缺乏领域知识，需要AI帮助构建偏好。作者引入CoPref模型和CoShop基准测试，评估五个前沿模型发现其准确率不足56%，失败原因在于未能有效扩展用户对自身需求的理解。",
+  "tags": [
+    "偏好构建",
+    "AI交互",
+    "推荐系统",
+    "用户模型",
+    "信息经济学"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "传统AI假设用户有明确偏好，但实际用户常缺乏领域知识",
+      "提出CoPref模型，基于信息经济学描述用户偏好构建过程",
+      "创建CoShop基准测试，评估AI在交互中帮助用户构建偏好的能力",
+      "五个前沿模型在CoShop上准确率均低于56%",
+      "失败主因是交互未能有效扩展用户对自身需求的理解"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260701-034",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

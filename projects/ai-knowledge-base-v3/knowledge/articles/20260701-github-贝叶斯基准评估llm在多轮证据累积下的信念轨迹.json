@@ -1,0 +1,29 @@
+{
+  "title": "贝叶斯基准：评估LLM在多轮证据累积下的信念轨迹",
+  "source_url": "https://arxiv.org/abs/2606.30850",
+  "summary": "本文提出BayesBench，一套模拟环境，用于评估大语言模型在多轮对话中的信念更新是否匹配理性贝叶斯推理。实验发现，模型规模提升改善了潜在推理和证据累积，但下游预测能力并未同步提升，揭示了推理与使用之间的差距。",
+  "tags": [
+    "大语言模型",
+    "贝叶斯推理",
+    "多轮对话",
+    "信念更新",
+    "评估基准"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出BayesBench评估LLM多轮信念更新",
+      "包含贝叶斯估计、预测和潜在框架预测三个任务",
+      "规模提升改善潜在推理但下游预测未同步",
+      "揭示推理与理性信念更新之间的差距",
+      "评估了7个模型（3B-70B）"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260701-032",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "基于Transformer的UTM安全关键场景发现",
+  "source_url": "https://arxiv.org/abs/2606.31114",
+  "summary": "本文提出将无人机交通管理(UTM)系统漏洞发现建模为序列建模问题，采用基于Transformer的强化学习架构。通过注意力机制直接建模系统状态关系并预测最优动作，结合风险奖励函数引导探索，在700小时仿真中实现了比专家引导测试高8倍的漏洞发现效率，并发现了传统方法遗漏的关键边缘案例。",
+  "tags": [
+    "UTM",
+    "Transformer",
+    "强化学习",
+    "安全关键场景",
+    "漏洞发现"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "将UTM漏洞发现建模为序列建模问题",
+      "采用Transformer架构的强化学习",
+      "引入风险奖励函数引导探索",
+      "700小时仿真中8倍效率提升",
+      "发现传统方法遗漏的关键边缘案例"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-047",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

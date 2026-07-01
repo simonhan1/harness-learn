@@ -1,0 +1,29 @@
+{
+  "title": "Anthropic Agent Skills：AI代理技能开源库",
+  "source_url": "https://github.com/anthropics/skills",
+  "summary": "Anthropic发布的公共仓库，提供Agent Skills（代理技能）的参考实现和最佳实践，旨在帮助开发者构建更强大的AI代理应用。该项目基于Python，聚焦于代理框架的标准化与可复用性。",
+  "tags": [
+    "agent-skills",
+    "AI代理",
+    "Anthropic",
+    "开源",
+    "Python"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "提供Agent Skills的参考实现",
+      "基于Python的开源项目",
+      "由Anthropic维护",
+      "聚焦代理技能标准化",
+      "高星数反映社区关注度"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-011",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

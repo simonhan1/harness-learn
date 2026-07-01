@@ -1,0 +1,29 @@
+{
+  "title": "HASTE：分层技能积累实现高效ML工程迁移",
+  "source_url": "https://arxiv.org/abs/2606.30911",
+  "summary": "本文提出HASTE，一种分层多智能体系统，通过全局、领域和竞赛特定三级范围组织跨竞赛知识，并由协调器管理领域专家和促进层级间学习。实验表明，分层加载技能在8个竞赛中达到100%奖牌率，而平面加载仅62.5%，且消耗2倍输出令牌。在MLE-Bench Lite基准上，HASTE使用Claude Sonnet 4.6达到77.3%奖牌率，热启动减少52%的细化迭代，表明更好的知识组织可部分替代模型强度和计算预算。",
+  "tags": [
+    "ML工程",
+    "分层技能",
+    "迁移学习",
+    "多智能体系统",
+    "知识组织"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "HASTE系统通过三级范围（全局、领域、竞赛特定）组织知识，提升迁移效率",
+      "分层加载技能在8个竞赛中实现100%奖牌率，优于平面加载的62.5%",
+      "热启动使用52%更少的细化迭代，技能库存超50时提案保留率从42%升至85%",
+      "在MLE-Bench Lite基准上达到77.3%奖牌率，使用Claude Sonnet 4.6",
+      "表明知识组织可部分替代模型强度和计算预算"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-036",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

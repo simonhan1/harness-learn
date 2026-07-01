@@ -1,0 +1,29 @@
+{
+  "title": "DDIAgents：基于机制条件上下文流的药物相互作用预测",
+  "source_url": "https://arxiv.org/abs/2606.31085",
+  "summary": "DDIAgents是一个机制条件驱动的多智能体框架，通过动态知识编排进行药物相互作用预测。它利用规划智能体实例化专家智能体，路由机制相关知识源，并通过结论智能体聚合分析，减少无关信息，支持互补推理，产生可解释的理性分析。实验表明，DDIAgents在多个基准上优于现有方法，展示了多智能体系统组织异构科学知识进行自适应和可解释AI4Science推理的能力。",
+  "tags": [
+    "药物相互作用预测",
+    "多智能体框架",
+    "机制条件",
+    "知识编排",
+    "AI4Science"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出机制条件驱动的多智能体框架DDIAgents",
+      "通过规划智能体实例化专家智能体并路由知识源",
+      "减少无关信息并支持互补专家推理",
+      "在DDI预测基准上优于现有方法",
+      "展示多智能体系统在AI4Science中的自适应和可解释推理能力"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-046",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

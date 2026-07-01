@@ -1,0 +1,29 @@
+{
+  "title": "无创脑机接口：从脑电波到文字的新路径",
+  "source_url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+  "summary": "Meta AI 发布 Brain2Qwerty 技术，通过非侵入式脑电图（EEG）和 MEG 记录，将大脑活动解码为键盘输入，实现无需手术的脑机通信。该系统在受试者打字任务中达到约 80% 的字符准确率，为瘫痪患者等群体提供了新的交流可能。",
+  "tags": [
+    "脑机接口",
+    "非侵入式",
+    "脑电图",
+    "AI解码",
+    "Meta"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "使用非侵入式 EEG 和 MEG 记录大脑信号",
+      "将脑活动解码为键盘字符序列",
+      "字符准确率约 80%，接近手术植入式设备",
+      "无需手术，降低使用门槛和风险",
+      "为运动障碍患者提供新的通信方式"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-023",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

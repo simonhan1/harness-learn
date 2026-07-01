@@ -1,0 +1,29 @@
+{
+  "title": "面向多无人机协同任务规划的LLM平台与基准",
+  "source_url": "https://arxiv.org/abs/2606.31073",
+  "summary": "本文提出MultiUAV-Plat，一个轻量级、面向LLM智能体的多无人机协同任务规划仿真平台，提供RESTful API、角色信息访问和隐藏验证逻辑。基于该平台构建的基准包含75个任务会话、1500个自然语言任务和9396个验证检查。作者进一步提出Agent4Drone框架，在任务通过率（57.9%）和全局检查通过率（72.0%）上显著优于ReAct基线，为研究LLM驱动的多无人机自主性提供了可复现基础。",
+  "tags": [
+    "多无人机",
+    "LLM智能体",
+    "任务规划",
+    "仿真平台",
+    "基准测试"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出MultiUAV-Plat仿真平台，支持多无人机协同任务规划",
+      "构建包含75个任务会话和1500个自然语言任务的基准",
+      "设计Agent4Drone框架，实现记忆、观察、任务理解等模块",
+      "Agent4Drone在任务通过率上达57.9%，优于ReAct基线30.6%",
+      "平台提供RESTful API和隐藏验证逻辑，模拟真实约束"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-045",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

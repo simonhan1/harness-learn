@@ -1,0 +1,27 @@
+{
+  "title": "Nano Banana 2 Lite模型发布",
+  "source_url": "https://deepmind.google/models/gemini-image/flash-lite/",
+  "summary": "Google DeepMind发布了Nano Banana 2 Lite模型，该模型在Hacker News上获得371分和149条评论，引发社区广泛讨论。文章提供了模型页面和评论区的链接。",
+  "tags": [
+    "模型发布",
+    "Google DeepMind",
+    "Nano Banana 2 Lite",
+    "Hacker News",
+    "AI"
+  ],
+  "category": "model_release",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "Google DeepMind发布Nano Banana 2 Lite模型",
+      "Hacker News上获得371分和149条评论",
+      "提供模型页面和评论区链接"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260701-027",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

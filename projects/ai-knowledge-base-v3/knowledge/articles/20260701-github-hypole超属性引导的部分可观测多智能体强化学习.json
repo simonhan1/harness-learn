@@ -1,0 +1,29 @@
+{
+  "title": "HyPOLE：超属性引导的部分可观测多智能体强化学习",
+  "source_url": "https://arxiv.org/abs/2606.30966",
+  "summary": "本文提出HyPOLE框架，利用超属性（HyperLTL逻辑）在部分可观测环境下引导多智能体强化学习，结合集中训练分散执行（CTDE）技术合成分散策略。在SMAC、MessySMAC和WildFire基准测试中，该方法优于基线，展示了形式化规范在MARL中的优势。",
+  "tags": [
+    "多智能体强化学习",
+    "超属性",
+    "HyperLTL",
+    "部分可观测",
+    "CTDE"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "形式化规范（超属性）引导MARL学习",
+      "结合CTDE实现分散策略合成",
+      "在SMAC等基准上超越基线",
+      "利用HyperLTL表达复杂目标与约束",
+      "部分可观测环境下的框架设计"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-040",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

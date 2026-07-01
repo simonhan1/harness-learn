@@ -1,0 +1,29 @@
+{
+  "title": "鲁棒LLM评委面板：RoPoLL",
+  "source_url": "https://arxiv.org/abs/2606.30931",
+  "summary": "本文形式化分析了LLM评委面板（PoLL）在Huber污染模型下的统计行为，发现即使只有一个评委出现典型LLM偏差，PoLL也会产生无界偏差。为此提出RoPoLL，用几何中位数替代均值聚合，达到最优有限样本崩溃点1/2，在13个开源评委和多种偏差场景下显著优于PoLL。",
+  "tags": [
+    "LLM评估",
+    "鲁棒统计",
+    "几何中位数",
+    "评委面板",
+    "偏差污染"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "PoLL在任意正污染下存在无界偏差",
+      "RoPoLL使用几何中位数实现鲁棒聚合",
+      "有限样本误差界与信息论下界匹配",
+      "在13个开源评委上验证有效性",
+      "3评委RoPoLL以38B参数超越675B模型"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260701-037",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

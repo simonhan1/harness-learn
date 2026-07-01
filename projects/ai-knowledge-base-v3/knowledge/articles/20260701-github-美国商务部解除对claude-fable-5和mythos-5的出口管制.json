@@ -1,0 +1,29 @@
+{
+  "title": "美国商务部解除对Claude Fable 5和Mythos 5的出口管制",
+  "source_url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+  "summary": "美国商务部已解除对Anthropic公司两款AI模型Claude Fable 5和Mythos 5的出口管制。该消息在Hacker News上引发热议，获得658个点赞和370条评论，表明社区对此高度关注。",
+  "tags": [
+    "出口管制",
+    "AI模型",
+    "Anthropic",
+    "Claude",
+    "政策"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-07-01T17:03:35.746115+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "美国商务部解除对Claude Fable 5和Mythos 5的出口管制",
+      "消息源自Anthropic的Twitter公告",
+      "Hacker News上获得658个点赞和370条评论",
+      "涉及AI模型出口政策调整",
+      "社区反应热烈，讨论活跃"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260701-022",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
