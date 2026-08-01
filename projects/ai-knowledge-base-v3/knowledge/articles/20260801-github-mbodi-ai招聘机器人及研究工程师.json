@@ -1,0 +1,29 @@
+{
+  "title": "Mbodi AI招聘机器人及研究工程师",
+  "source_url": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
+  "summary": "Mbodi AI是一家获得Y Combinator支持的初创公司，正在招聘机器人及研究工程师。该职位涉及机器人技术、人工智能研究等领域，旨在推动智能机器人系统的发展。文章为招聘信息，展示了该公司在机器人技术领域的投入和发展方向。",
+  "tags": [
+    "机器人",
+    "人工智能",
+    "招聘",
+    "YC",
+    "工程师"
+  ],
+  "category": "opinion",
+  "status": "archived",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 3,
+    "key_points": [
+      "Mbodi AI获得YC支持，正在招聘机器人及研究工程师",
+      "职位涉及机器人技术和人工智能研究",
+      "公司专注于智能机器人系统开发",
+      "招聘信息发布于Hacker News",
+      "目前没有评论和点赞"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260801-027",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "n8n：可视化AI工作流自动化平台，400+集成",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "summary": "n8n是一个fair-code许可的工作流自动化平台，原生支持AI能力，结合可视化构建与自定义代码，支持自托管或云服务，提供400多种集成。其核心创新在于将低代码工作流编排与AI代理、MCP协议支持相结合，使开发者能快速构建复杂的自动化流程。",
+  "tags": [
+    "工作流自动化",
+    "AI集成",
+    "低代码",
+    "自托管",
+    "MCP"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "原生AI能力，支持AI代理和MCP客户端/服务器",
+      "400+集成，覆盖主流API和服务",
+      "可视化构建与自定义代码结合",
+      "支持自托管，保障数据隐私",
+      "fair-code许可，社区活跃"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260801-005",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "qm：多人协作的AI智能体工作框架",
+  "source_url": "https://github.com/yc-software/qm",
+  "summary": "qm是一个面向多智能体协作的工作框架，旨在为AI代理提供类似多人游戏的环境，使多个代理能够协同完成任务。该项目在Hacker News上获得555分和113条评论，受到开发者社区的广泛关注。",
+  "tags": [
+    "多智能体",
+    "AI框架",
+    "协作",
+    "开源",
+    "工作流"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "qm是一个多人协作的AI代理工作框架",
+      "支持多个智能体在共享环境中协同工作",
+      "项目在Hacker News上获得高关注度",
+      "旨在提升AI代理处理复杂任务的效率",
+      "开源项目，代码托管在GitHub上"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260801-023",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

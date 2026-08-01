@@ -1,0 +1,28 @@
+{
+  "title": "Tasklet招聘客户成功工程师",
+  "source_url": "https://tasklet.ai/careers/customer-success-engineer",
+  "summary": "Tasklet（YC P26）正在招聘客户成功工程师，该职位旨在帮助客户成功使用Tasklet的AI自动化产品，并确保客户满意度。文章来自Hacker News的招聘信息，目前没有评论和点赞。",
+  "tags": [
+    "招聘",
+    "客户成功",
+    "AI自动化",
+    "YC创业公司",
+    "工程师"
+  ],
+  "category": "opinion",
+  "status": "archived",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 3,
+    "key_points": [
+      "Tasklet是YC孵化的公司",
+      "招聘客户成功工程师",
+      "职位涉及客户支持和产品使用",
+      "目前无社区讨论"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260801-025",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

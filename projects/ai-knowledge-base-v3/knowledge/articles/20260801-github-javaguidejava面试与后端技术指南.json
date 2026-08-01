@@ -1,0 +1,29 @@
+{
+  "title": "JavaGuide：Java面试与后端技术指南",
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "summary": "JavaGuide 是一个广受欢迎的 Java 面试与后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发等核心主题。项目持续更新，为开发者提供系统化的知识梳理和面试准备资源，是 Java 学习者的必备参考。",
+  "tags": [
+    "Java",
+    "面试",
+    "后端",
+    "系统设计",
+    "AI应用开发"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "覆盖全面的后端技术栈，包括数据库、分布式、高并发等",
+      "包含系统设计与 AI 应用开发等前沿内容",
+      "持续维护更新，社区活跃度高",
+      "提供面试准备和知识梳理的实用资源",
+      "支持多种技术标签，如 MySQL、Redis、Spring AI 等"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260801-014",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

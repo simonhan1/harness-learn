@@ -1,0 +1,29 @@
+{
+  "title": "谷歌借助AI修复Chrome漏洞数量创纪录",
+  "source_url": "https://blog.google/security/chrome-stronger-with-every-update/",
+  "summary": "谷歌宣布，2025年6月通过AI辅助修复的Chrome浏览器漏洞数量超过了过去两年的总和，显著提升了浏览器安全性。这一成果得益于AI在漏洞检测和修复流程中的深度应用，标志着AI在网络安全领域的重要突破。",
+  "tags": [
+    "Chrome",
+    "AI安全",
+    "漏洞修复",
+    "谷歌",
+    "网络安全"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "6月修复漏洞数超过去两年总和",
+      "AI辅助漏洞检测和修复效率大幅提升",
+      "谷歌强调AI在安全领域的潜力",
+      "Chrome安全性得到显著增强",
+      "AI技术成为网络安全关键工具"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260801-026",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

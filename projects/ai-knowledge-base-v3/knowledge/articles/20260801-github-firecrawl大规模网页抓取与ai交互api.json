@@ -1,0 +1,29 @@
+{
+  "title": "Firecrawl：大规模网页抓取与AI交互API",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "summary": "Firecrawl是一个强大的网页抓取与搜索API，专为AI应用设计，支持将网页转换为干净的Markdown格式，便于LLM处理。它提供爬虫、搜索、数据提取等功能，可高效处理大规模网络数据，是构建AI代理和数据分析工具的关键基础设施。",
+  "tags": [
+    "web-scraping",
+    "AI",
+    "crawler",
+    "data-extraction",
+    "API"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "提供网页抓取、搜索和交互的API，支持大规模数据处理",
+      "将HTML转换为干净的Markdown，优化LLM输入",
+      "支持AI代理、爬虫、数据提取等多种应用场景",
+      "基于TypeScript开发，拥有活跃的开源社区",
+      "高星数（15.8万+）表明其广泛认可和实用性"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260801-013",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

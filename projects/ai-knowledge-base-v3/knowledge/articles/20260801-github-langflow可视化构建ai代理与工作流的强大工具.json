@@ -1,0 +1,29 @@
+{
+  "title": "Langflow：可视化构建AI代理与工作流的强大工具",
+  "source_url": "https://github.com/langflow-ai/langflow",
+  "summary": "Langflow是一个开源平台，用于构建和部署AI驱动的代理与工作流，提供拖拽式可视化界面，支持多智能体协作和大型语言模型集成，极大简化了生成式AI应用的开发流程。",
+  "tags": [
+    "AI代理",
+    "工作流",
+    "可视化",
+    "多智能体",
+    "大语言模型"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-08-01T16:43:02.667450+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "可视化拖拽界面，无需代码即可构建复杂AI工作流",
+      "支持多智能体协作，集成主流大语言模型",
+      "提供部署功能，可快速将工作流转为API或应用",
+      "基于React Flow，交互流畅且可扩展",
+      "社区活跃，星数超15万，生态成熟"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260801-015",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
