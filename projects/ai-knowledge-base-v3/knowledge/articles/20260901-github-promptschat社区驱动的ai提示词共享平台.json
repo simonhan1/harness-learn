@@ -1,0 +1,29 @@
+{
+  "title": "prompts.chat：社区驱动的AI提示词共享平台",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "prompts.chat（前身为Awesome ChatGPT Prompts）是一个开源、免费的AI提示词收集与分享平台，支持自托管以保护隐私。它汇集了社区贡献的海量高质量提示词，覆盖ChatGPT、Claude、Gemini等多种LLM，是提示词工程领域的重要资源库。",
+  "tags": [
+    "提示词工程",
+    "开源工具",
+    "社区驱动",
+    "LLM应用",
+    "自托管"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "拥有超过16.8万星标，是提示词领域最受欢迎的项目之一",
+      "提供丰富的社区提示词集合，支持搜索和发现",
+      "支持自托管部署，保障组织内部数据隐私",
+      "覆盖多种主流大模型（ChatGPT、Claude、Gemini等）",
+      "基于Next.js和TypeScript构建，易于扩展和定制"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-011",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

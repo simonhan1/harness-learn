@@ -1,0 +1,29 @@
+{
+  "title": "物联网与深度学习在茶园白蚁检测与严重度评估中的应用",
+  "source_url": "https://arxiv.org/abs/2608.27480",
+  "summary": "本研究提出一种结合物联网声学监测与深度学习的框架，用于茶园中Upcountry Live Wood Termite（ULWT）的早期检测与严重度评估。通过Raspberry Pi设备采集音频，利用CNN对频谱图分类，并结合概率、声幅和邻近感染植株构建加权严重度模型，现场测试显示81.5%的准确率，支持精准害虫管理。",
+  "tags": [
+    "物联网",
+    "深度学习",
+    "害虫检测",
+    "声学监测",
+    "茶园"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出IoT声学监测框架，非侵入式采集茶树干音频",
+      "CNN模型在测试集上达到81.5%准确率，F1分数81.8%",
+      "创新性引入严重度评估，结合概率、声幅和邻近感染植株",
+      "地理空间映射可视化害虫分布，支持管理决策",
+      "数据集公开于Kaggle，促进后续研究"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-033",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Anthropic Skills：Agent技能公开仓库，赋能智能体扩展能力",
+  "source_url": "https://github.com/anthropics/skills",
+  "summary": "Anthropics/skills是Anthropic官方发布的Agent Skills公开仓库，旨在为Claude等AI智能体提供可复用的技能模块。该项目通过标准化技能定义和实现，使智能体能够灵活调用外部工具和知识，显著提升Agent在复杂任务中的表现，是Agent生态发展的重要基础设施。",
+  "tags": [
+    "Agent Skills",
+    "Anthropic",
+    "智能体",
+    "技能库",
+    "Claude"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "官方发布：由Anthropic团队维护，权威性高",
+      "技能模块化：支持将特定能力封装为可复用技能",
+      "生态扩展：为Claude等Agent提供丰富的扩展能力",
+      "开源协作：公开仓库鼓励社区贡献和分享技能",
+      "高关注度：17万+星标，反映社区强烈兴趣"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-010",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

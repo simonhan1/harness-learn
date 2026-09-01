@@ -1,0 +1,29 @@
+{
+  "title": "面向分布式社区的Agentic AI能力建设框架",
+  "source_url": "https://arxiv.org/abs/2608.27675",
+  "summary": "本文介绍了基因本体联盟为分布式策展社区构建Agentic AI能力的云环境和培训工作坊。通过JupyterHub和Claude Code提供统一访问，设计了四个渐进式培训模块，37名参与者完成了四小时工作坊。作者认为关键在于访问、工作流设计和培训，而非技术本身。",
+  "tags": [
+    "Agentic AI",
+    "生物数据库",
+    "培训工作坊",
+    "JupyterHub",
+    "Claude Code"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "使用JupyterHub和Claude Code构建云环境，通过浏览器终端交互，集中API网关降低访问门槛",
+      "设计四个渐进式培训模块，从基础工具使用到GO-CAM生物通路策展",
+      "37名参与者完成四小时工作坊，验证了培训方法的可行性",
+      "核心挑战是访问、工作流设计和培训，而非技术本身",
+      "通过熟悉任务和直接评估Agent输出，建立社区Agentic AI能力"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-039",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

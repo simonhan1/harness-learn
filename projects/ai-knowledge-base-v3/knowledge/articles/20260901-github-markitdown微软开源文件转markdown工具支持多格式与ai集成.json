@@ -1,0 +1,29 @@
+{
+  "title": "MarkItDown：微软开源文件转Markdown工具，支持多格式与AI集成",
+  "source_url": "https://github.com/microsoft/markitdown",
+  "summary": "MarkItDown是微软开源的Python工具，可将PDF、Word、Excel、PPT、图片、音频等多种文件格式转换为Markdown，便于AI模型和LLM处理。它支持OCR、语音转文字，并集成LangChain、OpenAI等生态，提升文档预处理效率。",
+  "tags": [
+    "文件转换",
+    "Markdown",
+    "AI集成",
+    "微软开源",
+    "文档处理"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "支持PDF、Office文档、图片、音频等10+格式转Markdown",
+      "集成OCR和语音识别，处理扫描件和多媒体内容",
+      "提供Python API和命令行接口，易于自动化",
+      "与LangChain、OpenAI等AI框架无缝对接",
+      "微软官方维护，社区活跃，星数超17万"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-008",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

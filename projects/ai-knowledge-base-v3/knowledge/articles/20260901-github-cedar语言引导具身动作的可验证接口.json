@@ -1,0 +1,29 @@
+{
+  "title": "CEDAR：语言引导具身动作的可验证接口",
+  "source_url": "https://arxiv.org/abs/2608.27797",
+  "summary": "CEDAR是一个反例引导框架，将自然语言指令和技能表示为确定性有限自动机，通过交集操作实现约束的强制执行，而非依赖重复提示。在Minecraft实验中，CEDAR能维持基线方法无法保持的时空约束，并减少LLM查询次数，表明正则语言可作为自然语言指令与具身智能体策略之间的实用验证层。",
+  "tags": [
+    "具身智能",
+    "有限自动机",
+    "自然语言指令",
+    "验证接口",
+    "Minecraft"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "将指令和技能表示为正则语言，实现可验证的接口",
+      "通过自动机交集强制执行约束，避免重复提示",
+      "反例引导框架利用执行轨迹进行修正",
+      "在Minecraft中验证了时空约束的维持能力",
+      "减少LLM查询次数，提高技能复用效率"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-043",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

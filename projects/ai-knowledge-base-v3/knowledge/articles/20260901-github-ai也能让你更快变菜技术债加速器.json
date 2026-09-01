@@ -1,0 +1,29 @@
+{
+  "title": "AI也能让你更快变菜：技术债加速器",
+  "source_url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+  "summary": "文章指出AI编程工具虽能提升开发速度，但也可能加速技术债务的积累，让开发者更快地写出糟糕代码。作者认为AI放大了开发者的坏习惯，需要更强的工程纪律来约束。",
+  "tags": [
+    "AI编程",
+    "技术债务",
+    "开发效率",
+    "代码质量",
+    "工程实践"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "AI工具让开发者更快写出代码，但也更快积累技术债",
+      "糟糕的架构和设计决策被AI加速放大",
+      "AI无法替代代码审查和工程纪律",
+      "开发者需要更谨慎地使用AI生成代码",
+      "团队应加强自动化测试和重构以应对风险"
+    ],
+    "sentiment": "negative"
+  },
+  "id": "github-20260901-021",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

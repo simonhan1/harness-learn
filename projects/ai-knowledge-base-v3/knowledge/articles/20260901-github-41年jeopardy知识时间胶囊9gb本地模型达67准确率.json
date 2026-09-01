@@ -1,0 +1,29 @@
+{
+  "title": "41年Jeopardy!知识时间胶囊：9GB本地模型达67%准确率",
+  "source_url": "https://arxiv.org/abs/2608.27459",
+  "summary": "本文评估了单个9GB开源模型（Qwen2.5-14B 4-bit）在完整Jeopardy!题库（529,939条线索，覆盖1984-2025年）上的表现，严格强制回答协议下准确率达67%，事实类类别超85%。与IBM Watson相比，该模型可移植且免费，在训练截止后的新线索上仍保持65%准确率，而Watson无法回答。",
+  "tags": [
+    "知识问答",
+    "开源模型",
+    "Jeopardy",
+    "模型评估",
+    "时间胶囊"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "首次在完整Jeopardy!语料上运行模型，覆盖41季529,939条线索",
+      "Qwen2.5-14B 4-bit模型严格协议下准确率67%，事实类超85%",
+      "模型在训练截止后的新线索上保持65%准确率，Claude Opus 4.8达95%",
+      "IBM Watson知识被冻结在构建时，无法回答新问题，而本地模型可迁移",
+      "知识快照从服务器集群变为便携文件，可封装于时间胶囊"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-025",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

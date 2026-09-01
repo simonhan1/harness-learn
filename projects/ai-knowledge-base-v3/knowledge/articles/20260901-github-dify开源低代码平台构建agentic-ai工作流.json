@@ -1,0 +1,29 @@
+{
+  "title": "Dify：开源低代码平台，构建Agentic AI工作流",
+  "source_url": "https://github.com/langgenius/dify",
+  "summary": "Dify是一个开源的AI应用开发平台，支持通过可视化界面构建Agentic工作流和RAG流水线，集成丰富的AI模型和工具。它提供云部署、VPC或自托管选项，帮助团队从原型快速过渡到生产环境，无需重建技术栈。",
+  "tags": [
+    "Agent框架",
+    "低代码",
+    "RAG",
+    "AI工作流",
+    "开源"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 9,
+    "key_points": [
+      "支持构建Agentic工作流和RAG流水线",
+      "集成多种AI模型（如GPT、Claude、DeepSeek）和工具",
+      "提供云、VPC、自托管多种部署方式",
+      "低代码/无代码界面，降低开发门槛",
+      "支持MCP协议，增强扩展性"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-015",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

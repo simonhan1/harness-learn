@@ -1,0 +1,29 @@
+{
+  "title": "AI技术用手机LED灯检测隐藏摄像头",
+  "source_url": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/",
+  "summary": "研究人员开发了一种利用智能手机LED灯和AI算法检测隐藏摄像头的新技术。该技术通过LED灯照射可疑区域，利用AI分析反射光模式来识别镜头，为个人隐私保护提供了便捷有效的解决方案。",
+  "tags": [
+    "AI安全",
+    "隐私保护",
+    "摄像头检测",
+    "智能手机",
+    "计算机视觉"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "利用手机LED灯作为光源，无需额外硬件",
+      "AI算法分析反射光特征以识别隐藏摄像头",
+      "提供低成本、易操作的隐私保护方案",
+      "在酒店、更衣室等场景具有实用价值",
+      "技术仍处于早期阶段，需进一步优化准确性"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-024",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

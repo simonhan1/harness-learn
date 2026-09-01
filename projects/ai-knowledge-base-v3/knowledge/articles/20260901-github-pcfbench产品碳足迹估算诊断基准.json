@@ -1,0 +1,29 @@
+{
+  "title": "PCFBench：产品碳足迹估算诊断基准",
+  "source_url": "https://arxiv.org/abs/2608.27716",
+  "summary": "PCFBench是首个将产品碳足迹（PCF）建模分解为六个独立可评估任务的基准，涵盖分解、检索、本体匹配和数值提取，包含614个专家标注项。测试八个前沿大语言模型发现，逐步生成PCF时准确率从77%降至37-58%，且仅45-75%遵守质量守恒，揭示了现有模型在中间步骤推理上的不足。",
+  "tags": [
+    "碳足迹",
+    "基准测试",
+    "大语言模型",
+    "AI评估",
+    "可持续性"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "首个将PCF建模分解为独立可评估任务的基准",
+      "包含614个专家标注项，覆盖六个任务",
+      "测试八个前沿LLM，无单一模型占优",
+      "逐步生成PCF时准确率显著下降",
+      "模型在质量守恒约束上表现不佳"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260901-040",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

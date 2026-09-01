@@ -1,0 +1,29 @@
+{
+  "title": "DoltLite：带Git版本控制的SQLite分支，由2000个AI代理PR构建",
+  "source_url": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta/",
+  "summary": "DoltLite是DoltHub推出的SQLite分支，集成了Git风格的版本控制功能，支持分支、合并和回滚等操作。该项目通过2000个AI代理生成的PR完成开发，展示了AI辅助大规模开源开发的潜力。文章介绍了其技术架构、功能特点以及AI代理协作的开发流程。",
+  "tags": [
+    "SQLite",
+    "版本控制",
+    "AI代理",
+    "开源开发",
+    "数据库"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "DoltLite是SQLite的分支，添加了Git风格的版本控制能力",
+      "项目由2000个AI代理生成的PR构建，展示AI协作开发模式",
+      "支持分支、合并、回滚等版本控制操作，适用于数据管理",
+      "基于DoltHub已有的Dolt技术，但针对SQLite进行了优化",
+      "文章讨论了AI代理在大型开源项目中的实际应用效果"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-022",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

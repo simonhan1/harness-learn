@@ -1,0 +1,29 @@
+{
+  "title": "思考消耗Token：结构化推理何时值得",
+  "source_url": "https://arxiv.org/abs/2608.27506",
+  "summary": "本文研究语言模型推理中是否存在token预算阈值，低于该阈值时规划与验证的开销损害性能，高于则有益。在FinQA和TAT-QA金融任务上，使用GPT-5.4 mini对比单体模型与验证搜索架构，发现交叉点在1000-1500输出等价token之间，之后验证搜索持续优于单体模型。",
+  "tags": [
+    "推理结构",
+    "Token预算",
+    "验证搜索",
+    "金融推理",
+    "LLM"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "存在token预算阈值，低于1000-1500时规划开销有害，高于则有益",
+      "验证搜索架构在1500 token后持续优于单体模型，最高达44% vs 40%",
+      "在极低预算下，两种系统均无法完成完整提示，得分为0%",
+      "交叉点通过严格交集-并集检验确认（p≤0.001）",
+      "实验覆盖14个预算层级，共28,000个完成单元"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260901-035",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "awesome-llm-apps：百款开源AI应用与智能体合集",
+  "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "summary": "该项目汇集了100多个基于大语言模型的AI智能体、Agent技能和RAG应用，全部免费开源。涵盖从基础RAG到复杂多智能体系统的丰富示例，为开发者提供实用参考和灵感，是学习构建LLM应用的宝贵资源。",
+  "tags": [
+    "AI Agents",
+    "RAG",
+    "LLM",
+    "Python",
+    "开源"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "包含100多个AI智能体、Agent技能和RAG应用示例",
+      "全部免费开源，代码可直接复用",
+      "覆盖多种应用场景，从简单到复杂",
+      "基于Python，易于上手和扩展",
+      "社区活跃，持续更新"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-020",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

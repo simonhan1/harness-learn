@@ -1,0 +1,29 @@
+{
+  "title": "LLM增强因果发现：概率融合边存在性与方向",
+  "source_url": "https://arxiv.org/abs/2608.27472",
+  "summary": "本文提出概率依赖图（PDG）表示，将贝叶斯网络结构学习（BNSL）与大型语言模型（LLM）的因果知识通过加权平均融合，以提升因果图准确性。在26个基准网络上，50/50融合在22个网络中优于单一来源，平均F1提升0.056，且BNSL提供高召回骨架，LLM提供高精度方向。",
+  "tags": [
+    "因果发现",
+    "大语言模型",
+    "贝叶斯网络",
+    "概率图模型",
+    "结构学习"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出概率依赖图（PDG）表示，将边存在性与方向建模为概率分布",
+      "融合三种BNSL算法（FGES、Tabu、PC）与三种LLM（Gemini、Claude、GPT）",
+      "50/50融合在22/26网络中优于最佳单一来源，平均F1提升0.056（p<0.001）",
+      "BNSL贡献高召回骨架（80% vs LLM 60%），LLM贡献高精度方向（96% vs BNSL 77%）",
+      "概率不确定性融合是提升因果图准确性的实用有效方法"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-029",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

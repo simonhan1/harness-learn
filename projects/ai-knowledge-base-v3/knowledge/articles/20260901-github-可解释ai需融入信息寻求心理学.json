@@ -1,0 +1,29 @@
+{
+  "title": "可解释AI需融入信息寻求心理学",
+  "source_url": "https://arxiv.org/abs/2608.27464",
+  "summary": "本文主张以人为本的可解释AI应借鉴信息寻求心理学，基于Sharot和Sunstein的动机框架，认为人们根据工具性、享乐性和认知性三种预期效用来决定是否寻求解释，并受多种认知偏差影响，导致过度或不足的信息寻求。文章倡导从提供解释转向设计用户主动寻求解释的系统。",
+  "tags": [
+    "可解释AI",
+    "信息寻求",
+    "认知偏差",
+    "人机交互",
+    "智能体"
+  ],
+  "category": "opinion",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出信息寻求动机框架：工具性、享乐性、认知性效用",
+      "识别认知偏差导致的两类失败模式：过度与不足信息寻求",
+      "强调智能体AI中解释需支持级联行动和风险预测",
+      "倡导从解释可用性转向解释被寻求的设计理念",
+      "整合心理学视角提升HCXAI的用户中心性"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260901-027",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

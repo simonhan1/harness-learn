@@ -1,0 +1,29 @@
+{
+  "title": "AI工具系统提示词与模型大合集：x1xhlol/system-prompts-and-models-of-ai-tools",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "summary": "该项目收集了众多主流AI工具（如Cursor、Devin、Claude Code等）的系统提示词、内部工具及AI模型信息，为开发者提供深入了解AI产品内部机制的宝贵资源，是学习AI提示词工程和产品设计的开源宝库。",
+  "tags": [
+    "system-prompts",
+    "AI工具",
+    "开源",
+    "提示词工程",
+    "模型"
+  ],
+  "category": "tool",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 7,
+    "key_points": [
+      "涵盖超过25种主流AI工具的系统提示词",
+      "包括内部工具和AI模型信息",
+      "为开发者提供逆向工程和学习的资源",
+      "高星数（143k）表明社区高度关注",
+      "适合AI产品设计和提示词工程研究"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-019",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

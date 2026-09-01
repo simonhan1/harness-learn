@@ -1,0 +1,29 @@
+{
+  "title": "Superpowers：智能体技能框架与软件开发方法论",
+  "source_url": "https://github.com/obra/superpowers",
+  "summary": "Superpowers 是一个面向 AI 智能体的技能框架和软件开发方法论，通过子智能体驱动开发（subagent-driven development）提升编码效率与协作能力。该项目由 obra 创建，提供结构化技能集，帮助 AI 在软件开发全生命周期中发挥更大作用。",
+  "tags": [
+    "AI技能框架",
+    "软件开发方法论",
+    "子智能体",
+    "SDLC",
+    "Shell"
+  ],
+  "category": "agent_framework",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "提出子智能体驱动开发方法论，革新 AI 协作编码方式",
+      "提供可复用的技能框架，覆盖头脑风暴、编码等环节",
+      "基于 Shell 实现，轻量且易于集成到现有工作流",
+      "高星数（280k）表明社区高度认可与广泛采用",
+      "由知名开发者 obra 维护，具备实战验证背景"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-002",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

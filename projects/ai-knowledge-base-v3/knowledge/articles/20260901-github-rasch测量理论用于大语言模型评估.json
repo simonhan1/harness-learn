@@ -1,0 +1,29 @@
+{
+  "title": "Rasch测量理论用于大语言模型评估",
+  "source_url": "https://arxiv.org/abs/2608.27463",
+  "summary": "本文提出将Rasch测量理论（RMT）应用于大语言模型（LLM）评估，将LLM作为考生、裁判和评分者的范式统一视为测量问题。通过案例研究，作者发现LLM与人类评分者在严重性、项目校准、问题顺序鲁棒性、目标身份敏感性和评分量表使用上存在系统性差异，而这些差异在标准评估实践中被掩盖。作者主张RMT应纳入LLM评估工具包。",
+  "tags": [
+    "LLM评估",
+    "Rasch测量理论",
+    "评分者偏差",
+    "测量模型",
+    "AI评测"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "RMT将序数评分分解为可分离的方面，并提供诊断工具识别校准错误和评分者偏差",
+      "案例研究使用Measuring Hate Speech语料库，对9个LLM的注释进行多面Rasch建模",
+      "LLM与人类评分者在严重性、项目校准、问题顺序鲁棒性、目标身份敏感性和评分量表使用上存在系统性差异",
+      "标准评估实践会掩盖这些差异，RMT能提供更细致的评估视角",
+      "RMT适用于LLM作为考生、裁判和评分者的三种评估范式"
+    ],
+    "sentiment": "neutral"
+  },
+  "id": "github-20260901-026",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

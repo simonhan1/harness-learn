@@ -1,0 +1,29 @@
+{
+  "title": "CURA：计算机使用代理的认证运行时警报",
+  "source_url": "https://arxiv.org/abs/2608.27808",
+  "summary": "本文提出CURA，一种外部监控器，仅利用可观测遥测数据，将运行轨迹转化为顺序测试，实现认证的误报控制。在OSWorld任务中，CURA在α=0.10时检测到42.3%的失败，中位提前31步，误报率0.066，并通过警报门控的监督级联，将平均分提升至86.8，全解率84.5%。",
+  "tags": [
+    "计算机使用代理",
+    "运行时监控",
+    "认证警报",
+    "误报控制",
+    "OSWorld"
+  ],
+  "category": "paper",
+  "status": "draft",
+  "collected_at": "2026-09-01T16:03:05.881772+08:00",
+  "published_at": null,
+  "ai_analysis": {
+    "relevance_score": 8,
+    "key_points": [
+      "自报告在CUA失败中90%以成功声明结束，显式失败机制几乎未被使用",
+      "CURA仅使用harness可见遥测，无模型内部或额外LLM调用",
+      "CUSUM警报在α=0.10时检测42.3%失败，中位提前31步，误报率0.066",
+      "警报门控的监督级联恢复23/70失败，平均分86.8，全解率84.5%",
+      "复合AUROC 0.828，但离线优势不显著，在线分离明显"
+    ],
+    "sentiment": "positive"
+  },
+  "id": "github-20260901-044",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
