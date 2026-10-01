@@ -1,0 +1,13 @@
+{
+  "title": "langgenius/dify",
+  "source_url": "https://github.com/langgenius/dify",
+  "summary": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "tags": [],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-10-01T16:03:22.447656+08:00",
+  "published_at": null,
+  "ai_analysis": null,
+  "id": "github-20261001-015",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

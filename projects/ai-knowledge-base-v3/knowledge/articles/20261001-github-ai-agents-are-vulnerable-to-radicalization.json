@@ -1,0 +1,13 @@
+{
+  "title": "AI Agents are Vulnerable to Radicalization",
+  "source_url": "https://arxiv.org/abs/2609.38296",
+  "summary": "arXiv:2609.38296v1 Announce Type: new \nAbstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align with their existing beliefs, raising concerns about the vulnerability of personalized AI agents and multi-agent AI ecosystems.",
+  "tags": [],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-10-01T16:03:22.447656+08:00",
+  "published_at": null,
+  "ai_analysis": null,
+  "id": "github-20261001-026",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

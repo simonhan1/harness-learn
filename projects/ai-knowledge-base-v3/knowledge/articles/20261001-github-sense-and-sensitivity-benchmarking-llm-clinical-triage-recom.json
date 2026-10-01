@@ -1,0 +1,13 @@
+{
+  "title": "Sense and Sensitivity: Benchmarking LLM Clinical Triage Recommendations with Physician Experts",
+  "source_url": "https://arxiv.org/abs/2609.38600",
+  "summary": "arXiv:2609.38600v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly used in clinical settings, it is critical to evaluate their reliability under realistic variation in clinical text. We study this question in clinical triage, comparing LLMs to practicing physicians under text perturbations that preserve the underlying clinical setting. We introduce a benchmark of over 6,000 clinical scenarios, 7,000 physician annotations, and 225,000 model responses. Using this benchmark, we make two key observations. First, LLMs are more likely than physicians to recommend unnecessary care at baseline, and this tendency increases under perturbed inputs. Further, we find that LLM recommendations are more sensitive to gender and tone perturbations than human recommendations. Together, these results demonstrate that LLMs can vary under clinically irrelevant textual changes, highlighting the need for deployment-oriented evaluations grounded in expert physician behavior.",
+  "tags": [],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-10-01T16:03:22.447656+08:00",
+  "published_at": null,
+  "ai_analysis": null,
+  "id": "github-20261001-044",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

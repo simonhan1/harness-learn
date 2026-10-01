@@ -1,0 +1,13 @@
+{
+  "title": "Defining and Categorising Human-AI Interactions in Clinical Trials: A Multidimensional Human-AI Classification Approach",
+  "source_url": "https://arxiv.org/abs/2609.38559",
+  "summary": "arXiv:2609.38559v1 Announce Type: new \nAbstract: This paper examines human-AI interactions (HAIIs) in clinical trials and presents a multidimensional categorisation framework that classifies interactions according to AI tasks, human-AI relationships, interaction configurations and interacting human groups. We define HAII, examine existing taxonomies and extend existing categorisation approaches through this novel multidimensional framework. We purposively sampled 15 clinical trials from a previously reported dataset. Each trial was independently categorised by two human reviewers and six large language model (LLM) classifiers. The proposed categorisation provides a structured method for the consistent identification, comparison and synthesis of human-AI interactions across clinical-trial records. The framework is intended to support more consistent comparison and synthesis of AI-related clinical trials and to make explicit the different forms of human involvement associated with AI interventions. The results demonstrate the potential for LLM-assisted categorisation while indicating the continuing importance of human judgement where trial records are incomplete or ambiguous. The principal contribution is a proposed multidimensional framework that brings together AI tasks, human-AI relationships, interaction configurations and interacting human groups within a single approach designed for clinical-trial records. Its significance lies in its potential to support more systematic identification, comparison and synthesis of how humans and AI interact in clinical trials.",
+  "tags": [],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-10-01T16:03:22.447656+08:00",
+  "published_at": null,
+  "ai_analysis": null,
+  "id": "github-20261001-041",
+  "source": "github_hackernews_arxiv_cs_ai"
+}

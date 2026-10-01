@@ -1,0 +1,13 @@
+{
+  "title": "huggingface/transformers",
+  "source_url": "https://github.com/huggingface/transformers",
+  "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+  "tags": [],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-10-01T16:03:22.447656+08:00",
+  "published_at": null,
+  "ai_analysis": null,
+  "id": "github-20261001-012",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
