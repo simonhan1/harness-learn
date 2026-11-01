@@ -1,0 +1,13 @@
+{
+  "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+  "source_url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+  "summary": "<p>Hi HN,<p>I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor.<p>Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Arduino IDE and connect to your AI with MCP, let Claude & co build it or help you troubleshoot.<p>The link is the SAP-1 running. You can orbit it, probe a hole with the scope, slow the clock down, play with the virtual displays for debugging, then you can actually build it following the step-by-step instructions.<p>A side-goal is to create a community, there are quite a lot of simulators out there but mostly offline / too abstract to realistically use it for a real build. I also never found one that had a decent UI/UX and worked well on mobile or with a trackpad.<p>Happy to answer anything, and tell me what breaks.<p>p.s. Maker plan is $7/month; code HACKERNEWS makes the first month free and then $5/month for as long as you keep it.</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321522\">https://news.ycombinator.com/item?id=50321522</a></p>\n<p>Points: 23</p>\n<p># Comments: 8</p>",
+  "tags": [],
+  "category": "tool",
+  "status": "archived",
+  "collected_at": "2026-11-01T16:01:13.297216+08:00",
+  "published_at": null,
+  "ai_analysis": null,
+  "id": "github-20261101-023",
+  "source": "github_hackernews_arxiv_cs_ai"
+}
